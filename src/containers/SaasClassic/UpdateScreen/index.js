@@ -19,18 +19,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
     <SectionWrapper id="hotel_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="Event Venue and Accommodation" />
+          <Heading {...secHeading} content="HOTEL & TRANSFER" />
         </Box>
-        <div className="prime-cta">
-          <Link href="#">
-            <a>
-              <Button
-                title="Download Tournament Structure"
-                className="primary-cta"
-              />
-            </a>
-          </Link>
-        </div>
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
@@ -117,6 +107,19 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             </ul>
           </TabPane>
         </Tabs>
+        <p
+          style={{
+            textAlign: "center",
+            paddingTop: "20px",
+            color: "#fff",
+            fontSize: "14px",
+          }}
+        >
+          Management reserves the right to impose payout option restrictions All
+          tournaments may have their structures adjusted (including, but not
+          limited to) levels, level length and days added or subtracted at the
+          sole discretion of the Tournament Director
+        </p>
       </Container>
     </SectionWrapper>
   );
