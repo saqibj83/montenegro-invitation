@@ -36,7 +36,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Accommodation" key="2">
             <ul>
               <li>Arrival: 4th of September 2022</li>
-              <li>Departure: 18th of September 2022</li>
+              <li>Departure: 20th of September 2022</li>
               <li>
                 During Triton Series CYPRUS complimentary accommodation is
                 offered to players who will qualify for the USD 250K combined
@@ -115,10 +115,19 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             fontSize: "14px",
           }}
         >
-          Management reserves the right to impose payout option restrictions All
-          tournaments may have their structures adjusted (including, but not
+          Management reserves the right to impose payout option restrictions.
+          All tournaments may have their structures adjusted (including, but not
           limited to) levels, level length and days added or subtracted at the
-          sole discretion of the Tournament Director
+          sole discretion of the Tournament Director.
+          <Link href="https://cyprus.triton-series.com/">
+            <a>
+              <Button
+                title="Triton Cyprus 2022 Main Page"
+                className="primary-cta"
+                style={{ marginTop: "20px" }}
+              />
+            </a>
+          </Link>
         </p>
       </Container>
     </SectionWrapper>

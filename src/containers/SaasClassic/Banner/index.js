@@ -73,14 +73,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
-              SEPT 9-10, 2022
+              September 10-12, 2022
             </p>
             <Link href="#">
               <a>
                 <Button
-                  title="LEARN MORE"
+                  title="VIEW FULL STRUCTURE"
                   className="primary-cta"
-                  style={{ width: "200px", marginTop: "20px" }}
+                  style={{ marginTop: "20px" }}
                 />
               </a>
             </Link>
