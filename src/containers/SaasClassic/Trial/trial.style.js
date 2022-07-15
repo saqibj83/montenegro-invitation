@@ -15,6 +15,7 @@ const SectionWrapper = styled.section`
   .justify-cen {
   }
   @media (max-width: 550px) {
+    padding: 20px 0 0 0;
     .vender-logos {
       width: 50%;
       float: left;

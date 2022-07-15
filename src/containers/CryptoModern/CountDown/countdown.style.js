@@ -18,10 +18,10 @@ const SectionWrapper = styled.div`
     }
 
   @media only screen and (max-width: 1440px) {
-    padding: 100px 0 50px;
+    padding: 60px 0 50px;
   }
   @media only screen and (max-width: 480px) {
-    padding: 60px 0 5px;
+    padding: 0px 0 5px;
   }
 `;
 

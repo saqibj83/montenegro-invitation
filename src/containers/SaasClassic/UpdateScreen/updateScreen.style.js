@@ -227,17 +227,17 @@ const SectionWrapper = styled.section`
       padding: 10px;
     }
     .primary-cta {
-      margin: 0 20px 20px !important;
+      margin: 20px 20px 20px !important;
       font-size: 14px !important;
       padding: 10px 15px !important;
     }
     .rc-tabs-tab-btn {
       font-weight: bold;
-      font-size: 12px;
+      font-size: 11px;
     }
     .update-screen-tab .rc-tabs-nav-wrap .rc-tabs-tab {
       min-width: auto;
-      padding: 0 10px 0 10px;
+      padding: 0 7px;
     }
   }
   .rc-tabs-nav-operations {

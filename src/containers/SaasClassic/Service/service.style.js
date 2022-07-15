@@ -44,9 +44,6 @@ const SectionWrapper = styled.section`
     .non-mobile {
       display: block;
     }
-    .container {
-      padding: 0 !important;
-    }
     h5 {
       color: #000;
       font-size: 12px;
