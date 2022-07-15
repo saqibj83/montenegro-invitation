@@ -46,6 +46,13 @@ export const GlobalStyle = createGlobalStyle`
   .btn-bg {
     background: linear-gradient( 90deg,rgba(190,123,14,1) 0%,rgba(213,149,42,1) 17%,rgba(203,158,71,1) 35%,rgba(235,194,113,1) 50%,rgba(199,133,28,1) 90%,rgba(215,131,0,1) 100% ) !important
   }
+  li {
+    list-style-type: decimal !important;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
   @media (max-width: 550px) {
     h3, h4 {
       font-size: 14px;

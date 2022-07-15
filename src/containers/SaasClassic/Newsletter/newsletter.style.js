@@ -8,6 +8,9 @@ const NewsletterWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  li {
+    color: #000 !important;
+  }
   form {
     display: flex;
   }

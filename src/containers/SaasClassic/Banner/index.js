@@ -1,21 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Icon from "react-icons-kit";
+import Link from "next/link";
 import Fade from "react-reveal/Fade";
 import { openModal, closeModal } from "@redq/reuse-modal";
 import Box from "common/components/Box";
-import Heading from "common/components/Heading";
 import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
-import {
-  BannerWrapper,
-  VideoModal,
-  PlayButton,
-  VideoWrapper,
-} from "./banner.style";
-import BannerImage from "common/assets/image/saasClassic/video-banner.png";
-import Cyprus from "common/assets/image/saasClassic/cyprus-logo.png";
+import { BannerWrapper, VideoWrapper } from "./banner.style";
+import Coin from "common/assets/image/saasClassic/coing-rivet.png";
 import { play } from "react-icons-kit/entypo/play";
 
 // close button for modal
@@ -63,32 +56,34 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
     <BannerWrapper id="banner_section">
       <Container>
         <Box {...row}>
-          <Box {...contentWrapper}>
-            <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
-          </Box>
-          <Box {...imageWrapper}>
+          <Box {...imageWrapper} style={{ width: "100%", textAlign: "center" }}>
             <Fade bottom>
-              <NextImage src={BannerImage} alt="banner image" />
-              {/* <VideoModal>
-                <NextImage src={BannerImage} alt="banner image" />
-                <PlayButton tabIndex="1000" onClick={handleVideoModal}>
-                  <Icon icon={play} size={40} />
-                </PlayButton>
-              </VideoModal> */}
+              <NextImage className="cyprus-img" src={Coin} alt="Coin Rivet" />
             </Fade>
           </Box>
-          <Box {...contentWrapper}>
+          <Box
+            {...contentWrapper}
+            style={{ width: "100%", textAlign: "center" }}
+          >
             <p
               style={{
                 textAlign: "center",
                 color: "#fff",
-                fontSize: "18px",
+                fontSize: "26px",
                 lineHeight: "30px",
               }}
             >
-              At the Merit Royal Diamond Hotel <br />
-              Monday 5th to Saturday 17th September
+              SEPT 9-10, 2022
             </p>
+            <Link href="#">
+              <a>
+                <Button
+                  title="LEARN MORE"
+                  className="primary-cta"
+                  style={{ width: "200px", marginTop: "20px" }}
+                />
+              </a>
+            </Link>
           </Box>
         </Box>
       </Container>

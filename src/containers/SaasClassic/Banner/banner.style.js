@@ -20,6 +20,10 @@ export const BannerWrapper = styled.section`
   background-size: cover;
   background-position: top center;
   overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
   }

@@ -1,65 +1,45 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import Button from "common/components/Button";
-import NextImage from "common/components/NextImage";
+import Fade from "react-reveal/Fade";
 import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
-import VendorLogos from "common/assets/image/saasClassic/gg-h.png";
-import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
-import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
-import VendorLogos4 from "common/assets/image/saasClassic/inventional.png";
-import VendorLogos5 from "common/assets/image/saasClassic/luxon.png";
 
-const TrialSection = ({
-  row,
-  title,
-  description,
-  textArea,
-  imageArea,
-  ImageOne,
-  btnStyle,
-  outlineBtnStyle,
-  buttonWrapper,
-}) => {
+const TrialSection = ({ row, title, textArea }) => {
   return (
-    <SectionWrapper className="trial-section" id="sponsor_section">
+    <SectionWrapper className="trial-section" id="seat_section">
       <Container>
         <Box {...row}>
           <Box {...textArea}>
-            <Heading {...title} content="Our Sponsors and Partners" />
+            <Heading {...title} content="SEAT DRAW" />
 
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos} alt="GG Poker" />
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                TITLE SPONSOR
-              </h3>
-            </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos1} alt="Marit Poker" />
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL Venue
-              </h3>
-            </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos2} alt="J&Co." />
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL TIMEKEEPER
-              </h3>
-            </Box>
-            <Box className="vender-logos ">
-              <NextImage src={VendorLogos3} alt="secretlab" />
-            </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos4} alt="inventional" />
-            </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos5} alt="Luxon" />
-            </Box>
+            <Fade up>
+              <ul>
+                <li>
+                  Businessmen and Pros will play separately for the first 8
+                  levels
+                </li>
+                <li>
+                  At the end of level 8 there will be a complete random redraw
+                  with the rules explained in point (3)
+                </li>
+                <li>
+                  During levels 9, 10, 11 and 12 players will play on tables
+                  with a balanced numbers of pros and businessmen as much as
+                  possible (i.e. 4 Businessmen and 4 Pros)
+                </li>
+                <li>
+                  At the end of level 12 there will be a complete random redraw
+                </li>
+
+                <li>
+                  Businessman/Pro pair will play at different tables from Level
+                  9 up until the last two tables remaining (16 players)
+                </li>
+              </ul>
+            </Fade>
           </Box>
         </Box>
       </Container>

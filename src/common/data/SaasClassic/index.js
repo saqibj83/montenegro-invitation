@@ -9,28 +9,28 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "EVENT SCHEDULE",
-    path: "#event_section",
+    label: "GENERAL",
+    path: "#general_section",
     offset: "0",
   },
   {
-    label: "LIVE CHANNEL",
-    path: "#channel_section",
+    label: "TIME",
+    path: "#time_section",
     offset: "0",
   },
   {
-    label: "VENUE",
-    path: "#venue",
+    label: "SEAT DRAW",
+    path: "#seat_section",
     offset: "0",
   },
   {
-    label: "SPONSORS",
-    path: "#sponsor_section",
+    label: "MEDIA COVERAGE",
+    path: "#media_section",
     offset: "0",
   },
   {
-    label: "JOIN",
-    path: "#join_section",
+    label: "HOTEL",
+    path: "#hotel_section",
     offset: "0",
   },
 ];

@@ -4,6 +4,18 @@ import { themeGet } from "@styled-system/theme-get";
 const SectionWrapper = styled.div`
   padding: 75px 0;
   overflow: hidden;
+  h2 {
+    color: ${themeGet("colors.white", "#fff")};
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    text-align:center;
+    @media only screen and (max-width: 1366px) {
+      font-size: 30px;
+      line-height: 42px;
+      margin-bottom: 20px;
+    }
 
   @media only screen and (max-width: 1440px) {
     padding: 100px 0 50px;
@@ -23,17 +35,7 @@ export const ContentWrapper = styled.div`
     align-items: center;
   }
 
-  h2 {
-    color: ${themeGet("colors.white", "#fff")};
-    font-size: 36px;
-    line-height: 44px;
-    font-weight: 700;
-    margin-bottom: 27px;
-    @media only screen and (max-width: 1366px) {
-      font-size: 30px;
-      line-height: 42px;
-      margin-bottom: 20px;
-    }
+ 
     @media only screen and (max-width: 991px) {
       font-size: 20px;
       line-height: 38px;

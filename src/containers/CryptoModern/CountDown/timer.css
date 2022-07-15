@@ -91,4 +91,5 @@ body {
 }
 .bg-event {
   background:url(../../../common/assets/image/saasClassic/bg-event.jpg);
+  background-attachment: fixed;
 }

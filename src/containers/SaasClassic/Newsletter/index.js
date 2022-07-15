@@ -1,178 +1,40 @@
-import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
-import DatePicker from "react-datepicker";
+import React from "react";
+import Fade from "react-reveal/Fade";
 import PropTypes from "prop-types";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import Button from "common/components/Button";
-import Input from "common/components/Input";
-import Select from "common/components/Select";
+
 import Container from "common/components/UI/Container";
 import "react-datepicker/dist/react-datepicker.css";
 
 import NewsletterWrapper, { ContactFormWrapper } from "./newsletter.style";
-import { DOMAIN_NAMES } from "common/data/Hosting/data";
 
 const Newsletter = ({
   sectionWrapper,
-  textArea,
-  buttonArea,
-  buttonStyle,
+
   title,
-  description,
 }) => {
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
-  const [message, setmessage] = useState();
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_jm13zdw",
-        "template_snk0woo",
-        form.current,
-        "FgtB5FqTc25g3XcAt"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setmessage("Request Submited Successfully");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    form.current.reset();
-  };
-
   return (
-    <Box {...sectionWrapper} as="section" id="join_section">
+    <Box {...sectionWrapper} as="section" id="media_section">
       <Container>
         <Box style={{ paddingTop: "100px" }}>
           <Heading
             style={{ marginBottom: "50px" }}
             {...title}
-            content="WANT TO JOIN THE ACTION? 
-"
+            content="TV & Media Coverage"
           />
         </Box>
         <NewsletterWrapper>
-          <form ref={form} onSubmit={sendEmail}>
-            <Box {...textArea}>
-              <ContactFormWrapper>
-                <Container>
-                  <Input
-                    inputType="text"
-                    label="NAME"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input"
-                    required
-                  />
-                  <Input
-                    inputType="text"
-                    label="AGE"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input"
-                    required
-                  />
-                  <Box>
-                    {" "}
-                    <label htmlFor="">MESSAGE</label>
-                  </Box>
-                  <textarea
-                    name="textarea-804"
-                    cols="40"
-                    rows="5"
-                    class="email_input"
-                    style={{
-                      marginTop: "20px",
-                      width: "100%",
-                      background: "transparent",
-                      border: "1px solid #514f50",
-                    }}
-                  ></textarea>
-                </Container>
-              </ContactFormWrapper>
-            </Box>
-            <Box {...buttonArea}>
-              <ContactFormWrapper>
-                <Container>
-                  <Input
-                    inputType="email"
-                    label="EMAIL"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input emil"
-                    required
-                  />
-                  <Select
-                    options={DOMAIN_NAMES}
-                    placeholder="Event To Join"
-                    className="domain_search_select"
-                    aria-label="select options"
-                    name="event"
-                  />
-                  <Input
-                    inputType="text"
-                    label="REFERRAL"
-                    iconPosition="right"
-                    isMaterial={true}
-                    className="email_input"
-                    style={{ marginTop: "40px" }}
-                  />
-                  <Box>
-                    {" "}
-                    <label htmlFor="">LENGTH OF STAY*</label>
-                  </Box>
-                  <DatePicker
-                    selected={startDate}
-                    name="start_date"
-                    className="date_input"
-                    dateFormat="dd/MM/yyyy"
-                    onChange={(date) => setStartDate(date)}
-                    selectsStart
-                    startDate={startDate}
-                    endDate={endDate}
-                  />
-                  To
-                  <DatePicker
-                    selected={endDate}
-                    name="end_date"
-                    className="date_input"
-                    dateFormat="dd/MM/yyyy"
-                    onChange={(date) => setEndDate(date)}
-                    selectsEnd
-                    startDate={startDate}
-                    endDate={endDate}
-                    minDate={startDate}
-                  />
-                  <Box>
-                    <p
-                      style={{
-                        color: "#EBA800",
-                        color: "rgb(235, 168, 0)",
-                        marginBottom: "0px",
-                        fontWeight: "700",
-                      }}
-                    >
-                      {message}
-                    </p>
-                    <Button
-                      {...buttonStyle}
-                      title="Send    "
-                      style={{ marginTop: "30px", background: "#000" }}
-                    />
-                  </Box>
-                </Container>
-              </ContactFormWrapper>
-            </Box>
-          </form>
+          <Fade up>
+            <ul>
+              <li>This event will be televised.</li>
+              <li>Players may be asked for professional photoshoot</li>
+              <li>
+                All Coin Rivet Invitational players will be required to provide
+                their availability for interviews.
+              </li>
+            </ul>
+          </Fade>
         </NewsletterWrapper>
       </Container>
     </Box>
