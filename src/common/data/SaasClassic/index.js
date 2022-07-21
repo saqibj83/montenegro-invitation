@@ -29,6 +29,11 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
+    label: "PARTICIPANTS",
+    path: "#participants_section",
+    offset: "0",
+  },
+  {
     label: "HOTEL",
     path: "#hotel_section",
     offset: "0",

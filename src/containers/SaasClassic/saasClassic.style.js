@@ -241,7 +241,7 @@ export const ContentWrapper = styled.div`
       li {
         display: inline-block;
         padding-left: 5px;
-        padding-right: 13px;
+        padding-right: 8px;
         &:first-child {
           padding-left: 0;
         }
@@ -255,7 +255,7 @@ export const ContentWrapper = styled.div`
         }
         a {
           padding: 5px;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 400;
           color: #fff;
           transition: 0.15s ease-in-out;

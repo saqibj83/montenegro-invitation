@@ -9,44 +9,240 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import PartnerSectionWrapper from "./partner.style";
-import Partner from "common/assets/image/saasClassic/partner.png";
 
-const PartnerSection = ({
-  row,
-  col,
-  title,
-  description,
-  button,
-  textArea,
-  imageArea,
-}) => {
+const PartnerSection = ({ row, col, title, button, textArea }) => {
   return (
-    <PartnerSectionWrapper id="join_section">
-      <Container>
-        <Box {...row}>
-          <Box {...col} {...imageArea}>
-            <NextImage src={Partner} alt="Domain Image" />
-          </Box>
-          <Box {...col} {...textArea}>
-            <Heading
-              {...title}
-              content=" TOURNAMENT STRUCTURE
+    <PartnerSectionWrapper id="participants_section">
+      <Box {...row}>
+        <Box {...col} {...textArea}>
+          <Heading
+            {...title}
+            content=" Participants
               "
-            />
-            <Text
-              {...description}
-              content="You can trust us for any kind of services and some of the world class companies have also trusted us.So have faith and keep in touch with us ."
-            />
-            <Box>
-              <Link href="#" className="btn_download">
-                <a>
-                  <Button {...button} title="Download Tournament Structure" />
-                </a>
-              </Link>
-            </Box>
-          </Box>
+          />
         </Box>
-      </Container>
+        <Box>
+          <div className="marquee-block">
+            <div className="marquee-inner to-left">
+              <span>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+              </span>
+
+              <span>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="main_card cell auto">
+                  <div className="grid-x">
+                    <div className="cell small gold-card-header">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+
+                    <div className=" cell small main_card__invites">
+                      INVITES
+                    </div>
+
+                    <div className="cell small main__card__bottom">
+                      <div className="main_card__image">
+                        <span>?</span>
+                      </div>
+                      <h4 className="main_card__name">Not announced</h4>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </Box>
+      </Box>
     </PartnerSectionWrapper>
   );
 };
@@ -77,7 +273,7 @@ PartnerSection.defaultProps = {
     pl: "15px",
   },
   textArea: {
-    width: ["100%", "100%", "55%", "50%", "42%"],
+    width: ["100%", "100%", "100%", "100%", "100%"],
   },
   imageArea: {
     width: ["100%", "100%", "45%", "50%", "58%"],
@@ -90,6 +286,7 @@ PartnerSection.defaultProps = {
     letterSpacing: "-0.025em",
     mb: "15px",
     lineHeight: "1.25",
+    textAlign: "center",
   },
   description: {
     fontSize: "16px",

@@ -2,9 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
-import Heading from "common/components/Heading";
-import Logo from "common/components/UIElements/Logo";
 import Container from "common/components/UI/Container";
 import FooterWrapper, { List, ListItem } from "./footer.style";
 import NextImage from "common/components/NextImage";
@@ -98,6 +95,7 @@ const Footer = ({
                 iconPosition="right"
                 isMaterial={true}
                 className="email_input"
+                style={{ width: "78%" }}
               />
               <Button
                 {...buttonStyle}
