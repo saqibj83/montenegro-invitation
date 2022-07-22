@@ -116,7 +116,7 @@ const PartnerSectionWrapper = styled.section`
 
   @media (max-width: 1440px) {
     .main_card {
-      max-width: 345px;
+      max-width: 274px;
     }
     .marquee-block {
       width: calc(290px * (var(--total-marquee-items)));
