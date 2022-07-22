@@ -52,8 +52,8 @@ Newsletter.propTypes = {
 
 Newsletter.defaultProps = {
   sectionWrapper: {
-    backgroundColor: "#000",
-    pb: "50px",
+    backgroundColor: "#011933",
+    pb: "0",
   },
   textArea: {
     mb: ["40px", "40px", "40px", "50px", "50px"],

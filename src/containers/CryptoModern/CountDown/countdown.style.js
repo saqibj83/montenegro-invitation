@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 
 const SectionWrapper = styled.div`
-  padding: 75px 0;
+  padding: 20px 0 0;
   overflow: hidden;
   h2 {
     color: ${themeGet("colors.white", "#fff")};

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background: #000;
+  background: #011933;
   .rc-tabs-content-holder {
     background: #ffff;
     border-radius: 0px 0px 10px 10px;

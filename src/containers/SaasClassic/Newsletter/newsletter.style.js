@@ -2,15 +2,10 @@ import styled from "styled-components";
 
 const NewsletterWrapper = styled.div`
   position: relative;
-  background: #fff !important;
-  padding: 60px 80px 30px;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  li {
-    color: #000 !important;
-  }
+
   form {
     display: flex;
   }
@@ -18,7 +13,7 @@ const NewsletterWrapper = styled.div`
     padding: 35px 40px;
   }
   section#join_section {
-    background: #000 !important;
+    background: #011933 !important;
   }
   .react-datepicker-wrapper {
     position: relative;
@@ -99,7 +94,7 @@ export const ContactFormWrapper = styled.div`
           color: #000;
         }
         .highlight {
-          background: #000;
+          background: #011933;
           height: 1px;
         }
       }

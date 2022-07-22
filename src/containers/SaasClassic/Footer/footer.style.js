@@ -3,7 +3,7 @@ import FooterImage from "common/assets/image/hosting/footer-bg.png";
 
 const FooterWrapper = styled.footer`
   position: relative;
-  background: #000;
+  background: #011933;
   overflow: hidden;
   padding: 15px 0 40px 0;
   margin-top: 0;
@@ -64,7 +64,7 @@ a.link-fon {
           color: #000;
         }
         .highlight {
-          background: #000;
+          background: #011933;
           height: 1px;
         }
       }

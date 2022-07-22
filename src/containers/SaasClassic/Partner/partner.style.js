@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const PartnerSectionWrapper = styled.section`
   padding: 100px 0 50px;
-  background-color: #000;
+  background: #011933;
 
   .marquee-inner span {
     float: left;
@@ -30,7 +30,7 @@ const PartnerSectionWrapper = styled.section`
   .main_card {
     border-radius: 0.5rem;
     min-width: 275px;
-    max-width: 470px;
+    max-width: 374px;
     overflow: hidden;
     margin-left: 1rem !important;
     opacity: 1;

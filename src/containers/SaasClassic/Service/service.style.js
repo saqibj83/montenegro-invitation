@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 75px 0 75px 0;
-  background: #000;
+  padding: 75px 0 20px 0;
+  background: #011933;
+  p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: none;
+    margin: 60px 0 100px;
+  }
 
   .service_item {
     position: relative;

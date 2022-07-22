@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  background: #000;
+  background: #011933;
   padding: 100px 0 0 0;
   .vender-logos {
     width: 33%;

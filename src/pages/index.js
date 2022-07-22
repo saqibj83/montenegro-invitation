@@ -44,7 +44,6 @@ const SaasClassic = () => {
           <BannerSection />
           <ServiceSection />
           <CountDown />
-
           <TrialSection />
           <Newsletter />
           <PartnerSection />

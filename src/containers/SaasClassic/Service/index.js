@@ -22,6 +22,25 @@ const ServiceSection = ({
         <Box {...secTitleWrapper}>
           <Heading
             {...secHeading}
+            content=" The inaugural Coin Rivet Invitational powered by Triton Poker will be held at the Merit Royal Diamond, North Cyprus from 10-12th September 2022.
+            "
+          />
+          <p>
+            The Coin Rivet Invitational powered by Triton Poker, at the Luxon
+            Pay Mediterranean Poker Party is a special new event at Merit Royal
+            Diamond, North Cyprus. The event is a $200,000 NLH single re-entry
+            tournament. Taking inspiration from the unique format of the record
+            breaking Triton Million that took place in London in 2019 the event
+            sees the pairing of professional players with wealthy recreational
+            players. On day one the professional players and recreational
+            players are separated before the fields are merged on day two.
+            Players are encouraged to find themselves a pairing just like they
+            did at the historic Triton event in London.
+          </p>
+        </Box>
+        <Box {...secTitleWrapper}>
+          <Heading
+            {...secHeading}
             content=" GENERAL
             "
           />
@@ -90,8 +109,9 @@ ServiceSection.defaultProps = {
     ml: "auto",
     mr: "auto",
     lineHeight: "1.12",
-    width: "540px",
+    width: "70%",
     maxWidth: "100%",
+    lineHeight: "50px",
   },
   Row: {
     flexBox: true,
