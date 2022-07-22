@@ -33,7 +33,7 @@ a.link-fon {
     font-size: 16px;
     font-weight: 400;
     color: #000;
-    padding: 13px 15px !important;
+    padding:10px !important;
     border-color: #514f50;
     width: 70%;
     float: left;
@@ -43,7 +43,7 @@ a.link-fon {
   }
 .btn-footer{
   position: relative;
-  top: -21px;
+  top: -40px;
   background: linear-gradient(to right, #EBA8000%, #ffe8b9 34%, #f7a500 94%, #d89127 100%);
   color: #000;
 }

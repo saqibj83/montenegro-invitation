@@ -47,11 +47,10 @@ export const GlobalStyle = createGlobalStyle`
     background: linear-gradient( 90deg,rgba(190,123,14,1) 0%,rgba(213,149,42,1) 17%,rgba(203,158,71,1) 35%,rgba(235,194,113,1) 50%,rgba(199,133,28,1) 90%,rgba(215,131,0,1) 100% ) !important
   }
   li {
-    list-style-type: decimal !important;
-    color: #fff;
-    font-size: 20px;
-    padding-bottom: 10px;
-    text-transform: none;
+    list-style-type: disc;
+    color: #000;
+    font-size: 16px;
+    padding-bottom: 3px;
 }
   @media (max-width: 550px) {
     h3, h4 {
@@ -161,6 +160,7 @@ export const GlobalStyle = createGlobalStyle`
     background: rgba(0,0,0,0.6) !important;
     border: 0 !important;
     animation: ${Fade} .5s ease-out forwards !important;
+    overflow-y: auto;
 
     .innerRndComponent{
       display: flex !important;
@@ -178,6 +178,7 @@ export const GlobalStyle = createGlobalStyle`
   .video-modal{
     background: transparent !important;
     border: 0!important;
+    overflow-y: auto;
     .innerRndComponent{
       display: flex !important;
       align-items: center !important;

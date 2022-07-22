@@ -9,32 +9,23 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "GENERAL",
+    label: "ABOUT",
     path: "#general_section",
     offset: "0",
   },
-  {
-    label: "TIME",
-    path: "#time_section",
-    offset: "0",
-  },
-  {
-    label: "SEAT DRAW",
-    path: "#seat_section",
-    offset: "0",
-  },
-  {
-    label: "MEDIA COVERAGE",
-    path: "#media_section",
-    offset: "0",
-  },
+
   {
     label: "PARTICIPANTS",
     path: "#participants_section",
     offset: "0",
   },
   {
-    label: "HOTEL",
+    label: "TOURNAMENT INFO",
+    path: "#time_section",
+    offset: "0",
+  },
+  {
+    label: "HOTEL & TRANSFER",
     path: "#hotel_section",
     offset: "0",
   },

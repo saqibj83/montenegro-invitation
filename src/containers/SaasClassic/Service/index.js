@@ -38,38 +38,6 @@ const ServiceSection = ({
             did at the historic Triton event in London.
           </p>
         </Box>
-        <Box {...secTitleWrapper}>
-          <Heading
-            {...secHeading}
-            content=" GENERAL
-            "
-          />
-        </Box>
-        <Box>
-          <Fade up>
-            <ul>
-              <li>
-                Players are required to play from the very beginning of the
-                tournament
-              </li>
-              <li>
-                Tournament will play 8-handed – the final table will be 9-handed
-              </li>
-              <li>
-                Single (1) Re-Entry available during the Registration Period
-              </li>
-              <li>
-                If a player wishes to Re-Enter he/she will have 30 Mins to do so
-                after getting eliminated{" "}
-              </li>
-              <li>
-                Registration will end at the start of Level 11 (Day 2 - 02:55
-                PM)
-              </li>
-              <li>Day 2 will play down to the Final Table</li>
-            </ul>
-          </Fade>
-        </Box>
       </Container>
     </SectionWrapper>
   );
@@ -86,9 +54,7 @@ ServiceSection.propTypes = {
 };
 
 ServiceSection.defaultProps = {
-  secTitleWrapper: {
-    mb: ["60px", "80px"],
-  },
+  secTitleWrapper: {},
   secText: {
     as: "span",
     display: "block",

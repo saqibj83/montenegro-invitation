@@ -2,8 +2,24 @@ import styled from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 
 const SectionWrapper = styled.div`
-  padding: 20px 0 0;
+  padding: 100px 0 0;
   overflow: hidden;
+  h1 {
+    color: ${themeGet("colors.white", "#fff")};
+    font-size: 1.5rem;
+    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  h3 {
+    color: #000;
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+    & span {
+      font-size: 16px;
+    }
+  }
   h2 {
     color: ${themeGet("colors.white", "#fff")};
     font-size: 36px;
