@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const PartnerSectionWrapper = styled.section`
-  padding: 100px 0 50px;
+  padding: 100px 0 0;
   background: #011933;
 
   .marquee-inner span {
@@ -10,13 +10,13 @@ const PartnerSectionWrapper = styled.section`
   }
   .marquee-block {
     --total-marquee-items: 5;
-    height: 665px;
+    height: 640px;
     width: calc(390px * (var(--total-marquee-items)));
     overflow: hidden;
     box-sizing: border-box;
     position: relative;
-    margin: 20px auto;
-    padding: 30px 0;
+    margin: 20px auto 0;
+    padding: 30px 0 0;
   }
   .marquee-inner {
     display: block;
