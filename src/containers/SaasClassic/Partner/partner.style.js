@@ -27,6 +27,15 @@ const PartnerSectionWrapper = styled.section`
   .marquee-inner.to-left {
     animation: marqueeLeft 25s linear infinite;
   }
+
+  @keyframes marqueeLeft {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
   .main_card {
     border-radius: 0.5rem;
     min-width: 270px;
@@ -35,14 +44,6 @@ const PartnerSectionWrapper = styled.section`
     margin-left: 1rem !important;
     opacity: 1;
     float: left;
-  }
-  @keyframes marqueeLeft {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -100%;
-    }
   }
   .grid-x {
     display: -webkit-box;

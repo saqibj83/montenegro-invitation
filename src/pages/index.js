@@ -12,12 +12,11 @@ import {
 
 import BannerSection from "containers/SaasClassic/Banner";
 import CountDown from "containers/CryptoModern/CountDown";
+import Testimonials from "containers/SaasAppDark/Testimonials";
 import Navbar from "containers/SaasClassic/Navbar";
 import ServiceSection from "containers/SaasClassic/Service";
-import TrialSection from "containers/SaasClassic/Trial";
 import UpdateScreen from "containers/SaasClassic/UpdateScreen";
 import PartnerSection from "containers/SaasClassic/Partner";
-import Newsletter from "containers/SaasClassic/Newsletter";
 import Footer from "containers/SaasClassic/Footer";
 
 const SaasClassic = () => {
@@ -43,10 +42,13 @@ const SaasClassic = () => {
           </Sticky>
           <BannerSection />
           <ServiceSection />
-          <PartnerSection />
+          <div className="block md:hidden">
+            <Testimonials />
+          </div>
+          <div className="hidden md:block">
+            <PartnerSection />
+          </div>
           <CountDown />
-          {/* <TrialSection />
-          <Newsletter /> */}
           <UpdateScreen />
           <Footer />
         </ContentWrapper>

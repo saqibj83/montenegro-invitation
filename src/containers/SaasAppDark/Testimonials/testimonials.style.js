@@ -1,10 +1,12 @@
-import { themeGet } from '@styled-system/theme-get';
-import { rgba } from 'polished';
-import Slider from 'react-slick';
-import styled from 'styled-components';
+import { themeGet } from "@styled-system/theme-get";
+import { rgba } from "polished";
+import Slider from "react-slick";
+import styled from "styled-components";
 
 const Section = styled.section`
   padding-top: 160px;
+  background: #011933;
+
   @media only screen and (max-width: 1536px) {
     padding-top: 130px;
   }
@@ -34,11 +36,11 @@ export const SectionHeading = styled.div`
     margin-bottom: 30px;
   }
   span {
-    color: ${themeGet('colors.secondary')};
-    font-family: 'Caveat', cursive;
+    color: ${themeGet("colors.secondary")};
+    font-family: "Caveat", cursive;
     font-weight: 700;
     font-size: 28px;
-    color: ${themeGet('colors.secondary')};
+    color: ${themeGet("colors.secondary")};
     line-height: 35px;
     letter-spacing: 0.5px;
     margin-bottom: 15px;
@@ -49,9 +51,10 @@ export const SectionHeading = styled.div`
     }
   }
   h2 {
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 36px;
     line-height: 43px;
+    color: #fff;
     margin-bottom: 22px;
     @media only screen and (max-width: 820px) {
       font-size: 28px;
@@ -67,16 +70,97 @@ export const ReactSlick = styled(Slider)`
   .slick-slide > div {
     margin: 0 12px;
   }
+
+  .main_card {
+    border-radius: 0.5rem;
+    min-width: 270px;
+    max-width: 374px;
+    overflow: hidden;
+    opacity: 1;
+    float: left;
+  }
+  .grid-x {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .cell.auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0px;
+    flex: 1 1 0px;
+  }
+  .grid-x > .small {
+    width: 100%;
+  }
+  .grid-x > .auto,
+  .grid-x > .shrink {
+    width: auto;
+  }
+  .main_card__image {
+    background: #fff;
+    width: 176px;
+    height: 176px;
+    border-radius: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    font-size: 7rem;
+    font-weight: 700;
+    text-align: center;
+    & span {
+      background-image: -webkit-linear-gradient(left, #e1c895, #c9a761);
+      background-image: -o-linear-gradient(left, #e1c895 0, #c9a761 100%);
+      background-image: linear-gradient(90deg, #e1c895, #c9a761);
+      background-clip: text;
+      -webkit-background-clip: text;
+      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
+      float: inherit;
+    }
+  }
+  .main_card__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 0;
+  }
+  .main_card__invites {
+    background-image: linear-gradient(93deg, #d3a952 7%, #c0994a 92%);
+    font-size: 0.8125rem;
+    letter-spacing: 4px;
+    font-weight: 600;
+    padding: 0.15rem;
+    text-align: center;
+    color: #fff;
+  }
+  .gold-card-header {
+    background: linear-gradient(90deg, #e1c895, #c9a761);
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+  .main__card__bottom {
+    background: #262626;
+    padding: 2.5rem 1.5rem 1.5rem;
+    & h4 {
+      color: #fff;
+    }
+  }
+
   .slick-dots {
     display: flex !important;
     justify-content: center;
     margin-top: 40px;
     li {
+      color: #011933;
       + li {
         margin-left: 7px;
+        list-style-type: none;
       }
       button {
-        background-color: ${rgba('#fff', 0.3)};
+        background-color: ${rgba("#fff", 0.3)};
         border: 0;
         border-radius: 50px;
         cursor: pointer;
@@ -89,7 +173,7 @@ export const ReactSlick = styled(Slider)`
     }
     .slick-active {
       button {
-        background-color: ${themeGet('colors.white')};
+        background-color: ${themeGet("colors.white")};
         width: 18px;
       }
     }

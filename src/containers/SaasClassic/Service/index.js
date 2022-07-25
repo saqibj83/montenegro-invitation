@@ -1,21 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Box from "common/components/Box";
-import Fade from "react-reveal/Fade";
 import Heading from "common/components/Heading";
 import Container from "common/components/UI/Container";
 import SectionWrapper from "./service.style";
-import { SERVICE_ITEMS } from "common/data/SaasClassic";
 
-const ServiceSection = ({
-  secTitleWrapper,
-  secText,
-  secHeading,
-  Row,
-  Col,
-  serviceTitleStyle,
-  secDes,
-}) => {
+const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="general_section">
       <Container>

@@ -12,7 +12,6 @@ import SectionWrapper, {
 } from "./countdown.style";
 import Schedule from "common/assets/image/saasClassic/poker-events-schedule.svg";
 import Rules from "common/assets/image/saasClassic/poker-events-rules.svg";
-
 const CloseModalButton = () => (
   <Button
     className="modalCloseBtn"
