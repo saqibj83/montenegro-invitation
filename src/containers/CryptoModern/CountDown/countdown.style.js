@@ -43,6 +43,9 @@ const SectionWrapper = styled.div`
 `;
 export const ContentTable = styled.div`
   @media only screen and (max-width: 550px) {
+    table {
+      margin-top: 10px !important;
+    }
     .main-box {
       width: 360px;
       & th,

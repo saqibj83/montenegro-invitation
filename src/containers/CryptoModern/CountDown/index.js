@@ -129,27 +129,27 @@ const ModalContent1 = () => (
         </Link>
       </div>
 
-      <div className=" p-1 mb-3  space-y-6 rounded sm:p-6 sm:mb-0">
-        <h4 className="text-black">Saturday 10th Sep</h4>
-        <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
+      <div className=" p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0">
+        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">Saturday 10th Sep</h4>
+        <table class="border-collapse table-auto w-full text-sm bg-black border mt-0 shadow">
           <thead>
             <tr>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Start Time
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Late Reg
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Event
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Buy-in
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Reg Fee
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Chips
               </th>
               <th class="border-b dark:border-slate-600 text-lg font-medium  text-white text-left">
@@ -159,25 +159,25 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white dark:bg-slate-800">
             <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 2 PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 2 PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 Coin Rivet Invitational Day 1
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $200K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $10K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 300K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 50
               </td>
             </tr>
@@ -185,27 +185,27 @@ const ModalContent1 = () => (
         </table>
       </div>
 
-      <div className="p-1 mb-3 space-y-6 rounded sm:p-6 sm:mb-0 ">
-        <h4 className="text-black pb-4">Sunday 11th Sep</h4>
-        <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
+      <div className="p-0 mb-3 space-y-6 rounded sm:p-3 sm:mb-0 ">
+        <h4 className="text-black pl-3 ">Sunday 11th Sep</h4>
+        <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Start Time
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Late Reg
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Event
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Buy-in
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Reg Fee
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Chips
               </th>
               <th class="border-b dark:border-slate-600 text-lg font-medium  text-white text-left">
@@ -215,52 +215,52 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white dark:bg-slate-800">
             <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 1 PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 -
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 Coin Rivet Invitational Day 2
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $200K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $10K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 300K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 50
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div className="p-1 mb-3  space-y-6 rounded sm:p-6 sm:mb-0 ">
-        <h4 className="text-black pb-4">Monday 12th Sep</h4>
-        <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
+      <div className="p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0 ">
+        <h4 className="text-black pl-3">Monday 12th Sep</h4>
+        <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Start Time
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Late Reg
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Event
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Buy-in
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Reg Fee
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-2 sm:p-4 font-medium text-white text-left">
+              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Chips
               </th>
               <th class="border-b dark:border-slate-600 text-lg font-medium  text-white text-left">
@@ -270,25 +270,25 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white dark:bg-slate-800">
             <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 1PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 -
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 Coin Rivet Invitational Day 3
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $200K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $10K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 300K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-2 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
                 50
               </td>
             </tr>
