@@ -1,12 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Link from "next/link";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import Button from "common/components/Button";
-import NextImage from "common/components/NextImage";
-import Container from "common/components/UI/Container";
 
 import PartnerSectionWrapper from "./partner.style";
 

@@ -29,91 +29,79 @@ const ModalContent = () => (
       </div>
 
       <div className="p-6 space-y-6">
-        <p className="text-xl">
-          General Rules for Coin Rivet Invitational $200,000 Buy-In
-        </p>
-        <ol className="px-6">
+        <h2 className="text-xl font-bold">GENERAL</h2>
+        <ul className="px-3">
           <li>
-            This $200,000 buy in event starts at 2pm on the 10th September and
-            is a 3 day event.
+            Players are required to play from the very beginning of the
+            tournament
           </li>
           <li>
-            3% rake + 2% service charge will be applied on all entries in the
-            Coin Rivet Invitational.
+            Tournament will play 8-handed – the final table will be 9-handed
           </li>
-          <li>The Buy-In including fees is $210,000.</li>
+          <li>Single (1) Re-Entry available during the Registration Period</li>
           <li>
-            Players must pay a deposit of $20,000 to confirm their seat in the
-            Coin Rivet Invitational.
-          </li>
-          <li>The Coin Rivet Invitational allows 1 re-entry per player.</li>
-          <li>
-            If a player wishes to Re – enter he/she will have 30 mins after
-            getting eliminated.
-          </li>
-          <li>Registration will end at the start of level 11.</li>
-          <li>
-            There is a cap of 64 players made up of 32 professional poker
-            players and 32 VIPs.
+            If a player wishes to Re-Enter he/she will have 30 Mins to do so
+            after getting eliminated
           </li>
           <li>
-            The decision of who is classed as a VIP will be determined by a
-            panel of 3; Rob Yong, Paul Phua &amp; Jason Koon
+            Registration will end at the start of Level 11 (Day 2 - 02:55 PM)
           </li>
-          <li>
-            Players are required to play from the beginning of the tournament.
-          </li>
-          <li>Levels are 50 mins with a 15 min break every 2 levels.</li>
-          <li>There is a 60 min Dinner Break end of level 6.</li>
-          <li>On Day 1, VIPs and poker pros will play in separate fields.</li>
-          <li>Days 2 and 3 start 1pm.</li>
-          <li>
-            On day 2, the remaining players will randomly combine into tables
-            that will keep as much as possible a balanced number of players
-            between VIPs and Pros (i.e.: 4 VIPs + 4 Pros), maintaining the pairs
-            separated.
-          </li>
-          <li>
-            At completion of Level 12 there will be a random redraw that will
-            combine all players without the above rules, with the only exception
-            of maintaining the pairs separated until there will be 2 tables
-            remaining in the field.
-          </li>
-          <li>Tables are seated 8-handed.</li>
-          <li>The unofficial final table will be played 9 handed.</li>
-          <li>Day 1 will play 8 levels.</li>
-          <li>Day 2 will play to final 6</li>
-          <li>Day 3 play to a winner.</li>
+          <li>Day 2 will play down to the Final Table</li>
+        </ul>
+        <h2 className="text-xl font-bold">TIME</h2>
+        <ul className="px-3">
           <li>
             Each player will have the following seconds to act on the Shot
             Clock: 20 seconds pre-flop, 25 on the flop and 30 on the turn and
-            river.
+            river
           </li>
           <li>
             Each player will receive 12 Time Bank cards upon registering before
-            the tournament starts.
+            the tournament starts
+          </li>
+          <li>
+            A regressive time bank system will apply, please see "Poker Rules"
           </li>
           <li>
             Upon closing registration each player will receive 5 extra Time Bank
-            Cards.
+            Cards
           </li>
           <li>
             Upon reaching the Final Table all players will receive 5 extra Time
-            Bank Cards.
+            Bank Cards
+          </li>
+          <li>All Shot Clock rules listed in the "Poker Rules" will apply</li>
+        </ul>
+        <h2 className="text-xl font-bold">SEAT DRAW</h2>
+        <ul className="px-3">
+          <li>
+            Businessmen and Pros will play separately for the first 8 levels
           </li>
           <li>
-            Players at the featured table are required to place their hole cards
-            in the RFID box at the start of each hand. Featured tables will have
-            at least 30-minute broadcast delay.
+            At the end of level 8 there will be a complete random redraw with
+            the rules explained in point (3)
           </li>
           <li>
-            The Tournament Director will draw the number of hands to play in the
-            final 10 minutes of the day.
+            During levels 9, 10, 11 and 12 players will play on tables with a
+            balanced numbers of pros and businessmen as much as possible (i.e. 4
+            Businessmen and 4 Pros)
           </li>
+          <li>At the end of level 12 there will be a complete random redraw</li>
+
           <li>
-            Management reserves the right to change or cancel tournaments.
+            Businessman/Pro pair will play at different tables from Level 9 up
+            until the last two tables remaining (16 players)
           </li>
-        </ol>
+        </ul>
+        <h2 className="text-xl font-bold">TV & Media Coverage</h2>
+        <ul className="px-3">
+          <li>This event will be televised.</li>
+          <li>Players may be asked for professional photoshoot</li>
+          <li>
+            All Coin Rivet Invitational players will be required to provide
+            their availability for interviews.
+          </li>
+        </ul>
       </div>
     </div>
   </>

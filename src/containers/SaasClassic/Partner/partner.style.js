@@ -29,7 +29,7 @@ const PartnerSectionWrapper = styled.section`
   }
   .main_card {
     border-radius: 0.5rem;
-    min-width: 275px;
+    min-width: 270px;
     max-width: 374px;
     overflow: hidden;
     margin-left: 1rem !important;
