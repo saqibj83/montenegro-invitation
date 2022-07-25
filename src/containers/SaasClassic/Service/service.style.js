@@ -47,6 +47,13 @@ const SectionWrapper = styled.section`
     .non-desktop {
       display: none;
     }
+    h2 {
+      font-size: 20px;
+      width: 100%;
+      line-height: 30px;
+
+  }
+    }
     .non-mobile {
       display: block;
     }

@@ -4,6 +4,13 @@ import { themeGet } from "@styled-system/theme-get";
 const SectionWrapper = styled.div`
   padding: 100px 0 0;
   overflow: hidden;
+  @media only screen and (max-width: 550px) {
+    padding: 60px 0 0;
+    .video-modal {
+      max-width: 360px !important;
+    }
+   
+  }
   h1 {
     color: ${themeGet("colors.white", "#fff")};
     font-size: 1.5rem;
@@ -33,14 +40,19 @@ const SectionWrapper = styled.div`
       margin-bottom: 20px;
     }
 
-  @media only screen and (max-width: 1440px) {
-    padding: 0 0 50px;
-  }
-  @media only screen and (max-width: 480px) {
-    padding: 0px 0 5px;
+`;
+export const ContentTable = styled.div`
+  @media only screen and (max-width: 550px) {
+    .main-box {
+      width: 360px;
+      & th,
+      td {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
   }
 `;
-
 export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;

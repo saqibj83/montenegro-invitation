@@ -39,7 +39,11 @@ export const GlobalStyle = createGlobalStyle`
     text-transform: uppercase !important;
   }
 
-
+  @media only screen and (max-width: 550px) {
+    .video-modal {
+      max-width: 360px !important;
+    }
+  }
   h3, h4, h5 {
     font-size: 18px;
   }
@@ -57,10 +61,15 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 14px;
     }
     p {
-      font-size: 12px !important;
+      font-size: 16px !important;
     }
     p span {
       font-size: 14px !important;
+    }
+    h2 
+    {
+      font-size:20px !important;
+      font-weight: 700 !important
     }
   li {
 
