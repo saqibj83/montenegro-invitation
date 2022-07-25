@@ -108,192 +108,190 @@ const ModalContent = () => (
 );
 
 const ModalContent1 = () => (
-  <SectionWrapper>
-    <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-      <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
-        <h3 className=" dark:text-white">
-          Schedule <br /> <span>10th - 12th September</span>
-        </h3>
+  <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+    <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
+      <h3 className=" dark:text-white">
+        Schedule <br /> <span>10th - 12th September</span>
+      </h3>
 
-        <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/20113927/coin-rivatv3.pdf">
-          <a>
-            <Button
-              title="Download Schedule"
-              className="primary-cta"
-              style={{ minHeight: "20px", marginTop: "15px" }}
-            />
-          </a>
-        </Link>
-      </div>
-
-      <div className="p-6 space-y-6 rounded">
-        <h4 className="text-black">Saturday 10th Sep</h4>
-        <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
-          <thead>
-            <tr>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
-                Start Time
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
-                Late Reg
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Event
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
-                Buy-in
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
-                Reg Fee
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Chips
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Clock
-              </th>
-            </tr>
-          </thead>
-          <tbody class="bg-white dark:bg-slate-800">
-            <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                2 PM
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
-                2 PM
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                Coin Rivet Invitational Day 1
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                $200K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
-                $10K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                300K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                50
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div className="px-6 pb-6 ">
-        <h4 className="text-black pb-4">Sunday 11th Sep</h4>
-        <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
-          <thead>
-            <tr>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
-                Start Time
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
-                Late Reg
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Event
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
-                Buy-in
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
-                Reg Fee
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Chips
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Clock
-              </th>
-            </tr>
-          </thead>
-          <tbody class="bg-white dark:bg-slate-800">
-            <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                1 PM
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
-                -
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                Coin Rivet Invitational Day 2
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                $200K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
-                $10K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                300K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                50
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div className="px-6 pb-6  ">
-        <h4 className="text-black pb-4">Monday 12th Sep</h4>
-        <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
-          <thead>
-            <tr>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
-                Start Time
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
-                Late Reg
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Event
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
-                Buy-in
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
-                Reg Fee
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Chips
-              </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
-                Clock
-              </th>
-            </tr>
-          </thead>
-          <tbody class="bg-white dark:bg-slate-800">
-            <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                1PM
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
-                -
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                Coin Rivet Invitational Day 3
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                $200K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
-                $10K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                300K
-              </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
-                50
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/20113927/coin-rivatv3.pdf">
+        <a>
+          <Button
+            title="Download Schedule"
+            className="primary-cta"
+            style={{ minHeight: "20px", marginTop: "15px" }}
+          />
+        </a>
+      </Link>
     </div>
-  </SectionWrapper>
+
+    <div className="p-6 space-y-6 rounded">
+      <h4 className="text-black">Saturday 10th Sep</h4>
+      <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
+        <thead>
+          <tr>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
+              Start Time
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
+              Late Reg
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Event
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
+              Buy-in
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
+              Reg Fee
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Chips
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Clock
+            </th>
+          </tr>
+        </thead>
+        <tbody class="bg-white dark:bg-slate-800">
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
+              2 PM
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
+              2 PM
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              Coin Rivet Invitational Day 1
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
+              $200K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
+              $10K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              300K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              50
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div className="px-6 pb-6 ">
+      <h4 className="text-black pb-4">Sunday 11th Sep</h4>
+      <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
+        <thead>
+          <tr>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
+              Start Time
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
+              Late Reg
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Event
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
+              Buy-in
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
+              Reg Fee
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Chips
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Clock
+            </th>
+          </tr>
+        </thead>
+        <tbody class="bg-white dark:bg-slate-800">
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
+              1 PM
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
+              -
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              Coin Rivet Invitational Day 2
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
+              $200K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
+              $10K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              300K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              50
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div className="px-6 pb-6  ">
+      <h4 className="text-black pb-4">Monday 12th Sep</h4>
+      <table class="border-collapse table-auto w-full text-sm bg-black border mb-5  shadow">
+        <thead>
+          <tr>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
+              Start Time
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
+              Late Reg
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Event
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pl-8 pb-3 text-white text-left">
+              Buy-in
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pb-3 text-white text-left">
+              Reg Fee
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Chips
+            </th>
+            <th class="border-b dark:border-slate-600 text-lg font-medium p-4 pr-8 pb-3 text-white text-left">
+              Clock
+            </th>
+          </tr>
+        </thead>
+        <tbody class="bg-white dark:bg-slate-800">
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
+              1PM
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
+              -
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              Coin Rivet Invitational Day 3
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
+              $200K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">
+              $10K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              300K
+            </td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pr-8 text-slate-500 dark:text-slate-400">
+              50
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 );
 
 const CountDownSection = () => {
