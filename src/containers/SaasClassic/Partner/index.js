@@ -276,7 +276,7 @@ PartnerSection.defaultProps = {
   },
   title: {
     fontSize: ["26px", "30px", "30px", "36px", "36px"],
-    fontWeight: "400",
+    fontWeight: "700",
     color: "#fff",
     letterSpacing: "-0.025em",
     mb: "15px",

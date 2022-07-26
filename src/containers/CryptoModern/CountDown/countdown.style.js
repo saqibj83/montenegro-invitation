@@ -15,14 +15,14 @@ const SectionWrapper = styled.div`
     color: ${themeGet("colors.white", "#fff")};
     font-size: 1.5rem;
     line-height: 44px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 10px;
   }
   h3 {
     color: #000;
     font-size: 36px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 700;
     & span {
       font-size: 16px;
     }
@@ -31,7 +31,7 @@ const SectionWrapper = styled.div`
     color: ${themeGet("colors.white", "#fff")};
     font-size: 36px;
     line-height: 44px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 27px;
     text-align:center;
     @media only screen and (max-width: 1366px) {

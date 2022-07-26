@@ -51,7 +51,7 @@ export const SectionHeading = styled.div`
     }
   }
   h2 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 36px;
     line-height: 43px;
     color: #fff;

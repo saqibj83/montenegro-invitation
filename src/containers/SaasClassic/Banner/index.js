@@ -166,7 +166,7 @@ BannerSection.defaultProps = {
   button: {
     type: "button",
     fontSize: ["13px", "14px"],
-    fontWeight: "600",
+    fontWeight: "700",
     borderRadius: "4px",
     p: ["0px 15px", "8px 22px"],
     color: "#fff",

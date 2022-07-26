@@ -155,7 +155,7 @@ UpdateScreen.defaultProps = {
   secHeading: {
     textAlign: "center",
     fontSize: ["20px", "24px", "36px", "36px"],
-    fontWeight: "400",
+    fontWeight: "700",
     color: "#fff",
     letterSpacing: "-0.025em",
     mb: "0",
