@@ -75,7 +75,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             >
               September 10-12, 2022
             </p>
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/20113927/coin-rivatv3.pdf">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/15192309/coin-rivet-structure.pdf">
               <a>
                 <Button
                   title="VIEW FULL STRUCTURE"

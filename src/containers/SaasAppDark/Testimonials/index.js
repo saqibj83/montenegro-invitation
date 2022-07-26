@@ -37,7 +37,7 @@ const settings = {
 
 const Testimonials = () => {
   return (
-    <Section id="testimonials">
+    <Section id="participants_section">
       <Container width="1300px">
         <SectionHeading>
           <Heading content="PARTICIPANTS" />
