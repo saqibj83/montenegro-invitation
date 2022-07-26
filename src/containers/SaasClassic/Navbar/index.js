@@ -109,7 +109,7 @@ Navbar.defaultProps = {
   },
   button: {
     type: "button",
-    fontSize: "16px",
+    fontSize: "18px",
     fontWeight: "700",
     borderRadius: "4px",
     pl: "15px",

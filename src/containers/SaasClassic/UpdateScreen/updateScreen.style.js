@@ -29,6 +29,7 @@ const SectionWrapper = styled.section`
     padding: 0 40px;
     line-height: 20px;
     font-size: 18px;
+    text-transform: none;
   }
   .primary-cta {
     text-decoration: none;
@@ -79,6 +80,7 @@ const SectionWrapper = styled.section`
     padding: 10px 0 0 20px;
     color: #212121;
     font-size: 18px;
+    text-transform: none;
   }
   li a {
     color: #eba800 !important;

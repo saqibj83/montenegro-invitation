@@ -53,7 +53,7 @@ export const GlobalStyle = createGlobalStyle`
   li {
     list-style-type: decimal;
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 3px;
 }
   @media (max-width: 550px) {
@@ -69,7 +69,7 @@ export const GlobalStyle = createGlobalStyle`
     h2 
     {
       font-size:20px !important;
-      font-weight: 700 !important
+      font-weight: 400 !important
     }
   li {
 
@@ -265,7 +265,7 @@ export const ContentWrapper = styled.div`
         }
         a {
           padding: 5px;
-          font-size: 16px;
+          font-size: 18px;
           font-weight: 400;
           color: #fff;
           transition: 0.15s ease-in-out;

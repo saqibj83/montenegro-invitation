@@ -1,13 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import Icon from "react-icons-kit";
 import Tabs, { TabPane } from "rc-tabs";
 import "rc-tabs/assets/index.css";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import Button from "common/components/Button";
 
@@ -112,7 +109,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             textAlign: "center",
             paddingTop: "20px",
             color: "#fff",
-            fontSize: "14px",
+            fontSize: "18px",
+            textTransform: "none",
           }}
         >
           Management reserves the right to impose payout option restrictions.
@@ -150,14 +148,14 @@ UpdateScreen.defaultProps = {
     textAlign: "center",
     fontSize: "14px",
     letterSpacing: "0.15em",
-    fontWeight: "700",
+    fontWeight: "400",
     color: "#ff4362",
     mb: "12px",
   },
   secHeading: {
     textAlign: "center",
     fontSize: ["20px", "24px", "36px", "36px"],
-    fontWeight: "700",
+    fontWeight: "400",
     color: "#fff",
     letterSpacing: "-0.025em",
     mb: "0",

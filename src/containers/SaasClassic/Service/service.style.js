@@ -5,7 +5,7 @@ const SectionWrapper = styled.section`
   background: #011933;
   p {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: none;
     margin: 60px 0 0;
   }
