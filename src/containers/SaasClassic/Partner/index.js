@@ -26,7 +26,7 @@ const PartnerSection = ({ row, col, title, button, textArea }) => {
                       <div className="main_card__image">
                         <span>?</span>
                       </div>
-                      <h4 className="main_card__name">Not announced</h4>
+                      <h4 className="main_card__name">Not announced </h4>
                     </div>
 
                     <div className=" cell small main_card__invites">

@@ -1,14 +1,6 @@
 import Heading from "common/components/Heading";
-import Image from "common/components/Image";
-import Text from "common/components/Text";
 import Container from "common/components/UI/Container";
-import { testimonials } from "common/data/SaasAppDark";
-import Section, {
-  AuthorInfo,
-  Item,
-  ReactSlick,
-  SectionHeading,
-} from "./testimonials.style";
+import Section, { ReactSlick, SectionHeading } from "./testimonials.style";
 
 const settings = {
   infinite: true,
@@ -37,7 +29,7 @@ const settings = {
 
 const Testimonials = () => {
   return (
-    <Section id="participants_section">
+    <Section>
       <Container width="1300px">
         <SectionHeading>
           <Heading content="PARTICIPANTS" />
