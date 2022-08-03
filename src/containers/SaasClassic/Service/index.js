@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import PropTypes from "prop-types";
 import Box from "common/components/Box";
 import Heading from "common/components/Heading";
@@ -19,13 +20,20 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             The Coin Rivet Invitational powered by Triton Poker, at the Luxon
             Pay Mediterranean Poker Party is a special new event at Merit Royal
             Diamond, North Cyprus. The event is a $200,000 NLH single re-entry
-            tournament. Taking inspiration from the unique format of the record
-            breaking Triton Million that took place in London in 2019 the event
-            sees the pairing of professional players with wealthy recreational
-            players. On day one the professional players and recreational
-            players are separated before the fields are merged on day two.
-            Players are encouraged to find themselves a pairing just like they
-            did at the historic Triton event in London.
+            tournament. Taking inspiration from the unique format of the&nbsp;
+            <Link href="https://www.youtube.com/playlist?list=PLy4KWtJrf3Uo1oLmh8MgAOJFNRcO-LQPL">
+              <a
+                target="_blank"
+                style={{ color: "#eba800", textDecoration: "underline" }}
+              >
+                record breaking Triton Million that took place in London in 2019
+              </a>
+            </Link>
+            &nbsp;the event sees the pairing of professional players with
+            wealthy recreational players. On day one the professional players
+            and recreational players are separated before the fields are merged
+            on day two. Players are encouraged to find themselves a pairing just
+            like they did at the historic Triton event in London.
           </p>
         </Box>
       </Container>
