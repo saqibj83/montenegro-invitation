@@ -97,14 +97,19 @@ export const ReactSlick = styled(Slider)`
   .grid-x > .shrink {
     width: auto;
   }
+  .flag-PlayerPhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 9999;
+    position: absolute;
+  }
   .main_card__image {
-    background: #fff;
-    width: 176px;
-    height: 176px;
-    border-radius: 40rem;
+    width: 100%;
+    height: 228px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem;
     overflow: hidden;
     font-size: 7rem;
     font-weight: 700;
@@ -126,7 +131,8 @@ export const ReactSlick = styled(Slider)`
     width: 100%;
     text-align: center;
     white-space: nowrap;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .main_card__invites {
     background-image: linear-gradient(93deg, #d3a952 7%, #c0994a 92%);
@@ -139,11 +145,9 @@ export const ReactSlick = styled(Slider)`
   }
   .gold-card-header {
     background: linear-gradient(90deg, #e1c895, #c9a761);
-    padding: 2.5rem 1.5rem 1.5rem;
   }
   .main__card__bottom {
     background: #262626;
-    padding: 2.5rem 1.5rem 1.5rem;
     & h4 {
       color: #fff;
     }

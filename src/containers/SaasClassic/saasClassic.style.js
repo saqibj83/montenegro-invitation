@@ -56,7 +56,33 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 18px;
     padding-bottom: 3px;
 }
+.next-arr
+{
+  position: absolute;
+  top:50%;
+  width: auto;
+  right: -50px;
+  cursor:pointer;
+}
+.prev-arr {
+  position: absolute;
+        top: 50%;
+        width: auto;
+        left: -50px;
+        cursor:pointer;
+}
   @media (max-width: 550px) {
+    .next-arr
+{
+
+  width: 40px;
+  right: -35px;
+}
+.prev-arr {
+
+        width: 40px;
+        left: -35px;
+}
     h3, h4 {
       font-size: 14px;
     }
