@@ -7,7 +7,7 @@ import PartnerSectionWrapper from "./partner.style";
 
 const PartnerSection = ({ row, col, title, button, textArea }) => {
   return (
-    <PartnerSectionWrapper id="participants_section">
+    <PartnerSectionWrapper>
       <Box {...row}>
         <Box {...col} {...textArea}>
           <Heading

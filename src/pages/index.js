@@ -42,12 +42,10 @@ const SaasClassic = () => {
           </Sticky>
           <BannerSection />
           <ServiceSection />
-          <div className="block md:hidden">
-            <Testimonials />
-          </div>
-          <div className="hidden md:block">
+          <Testimonials />
+          {/* <div className="hidden md:block">
             <PartnerSection />
-          </div>
+          </div> */}
           <CountDown />
           <UpdateScreen />
           <Footer />
