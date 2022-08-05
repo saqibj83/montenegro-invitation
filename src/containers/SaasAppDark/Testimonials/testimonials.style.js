@@ -131,8 +131,8 @@ export const ReactSlick = styled(Slider)`
     width: 100%;
     text-align: center;
     white-space: nowrap;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .main_card__invites {
     background-image: linear-gradient(93deg, #d3a952 7%, #c0994a 92%);

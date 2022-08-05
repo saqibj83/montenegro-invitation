@@ -119,7 +119,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage className="cyprus-img" src={image3} alt="player" />
                 </div>
-                <h4 className="main_card__name">Tony Guoga</h4>
+                <h4 className="main_card__name">Tony G</h4>
               </div>
 
               <div className=" cell small main_card__invites">INVITES</div>
