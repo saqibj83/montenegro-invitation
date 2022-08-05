@@ -24,9 +24,18 @@ const SaasClassic = () => {
     <ThemeProvider theme={saasClassicTheme}>
       <Fragment>
         <Head>
-          <title>Triton | Cyprus 2022 </title>
-          <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#ec5555" />
+          <title>Coin Rivet Invitational Powered by Triton Poker </title>
+          <meta
+            name="description"
+            content="THE INAUGURAL COIN RIVET INVITATIONAL POWERED BY TRITON POKER WILL BE HELD AT THE MERIT ROYAL DIAMOND, NORTH CYPRUS FROM 10-12TH SEPTEMBER 2022.
+"
+          />
+          <meta name="keywords" content="coin rivet, Triton Poker, Poker" />
+          <meta name="theme-color" content="#eba800" />
+          <meta
+            name="google-site-verification"
+            content="OUn2prDdnV-MyCWAa56nnZAV-dqzTiN7b3zaOyhPAUA"
+          />
           {/* Load google fonts */}
           <link href="https://use.typekit.net/wtc2zlg.css" rel="stylesheet" />
         </Head>
