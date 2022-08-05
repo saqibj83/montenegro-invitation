@@ -4,17 +4,17 @@ import Slider from "react-slick";
 import styled from "styled-components";
 
 const Section = styled.section`
-  padding-top: 160px;
+  padding-top: 100px;
   background: #011933;
 
   @media only screen and (max-width: 1536px) {
-    padding-top: 130px;
+    padding-top: 100px;
   }
   @media only screen and (max-width: 1440px) {
-    padding-top: 110px;
+    padding-top: 100px;
   }
   @media only screen and (max-width: 1366px) {
-    padding-top: 120px;
+    padding-top: 100px;
   }
   @media only screen and (max-width: 1280px) {
     padding-top: 100px;
