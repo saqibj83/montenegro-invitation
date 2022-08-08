@@ -189,13 +189,13 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage className="cyprus-img" src={image7} alt="player" />
                 </div>
-                <h4 className="main_card__name">Wai Kin</h4>
+                <h4 className="main_card__name">WAI KIN YONG</h4>
               </div>
 
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">Linus</h4>
+                <h4 className="main_card__name">Linus Loeliger</h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
