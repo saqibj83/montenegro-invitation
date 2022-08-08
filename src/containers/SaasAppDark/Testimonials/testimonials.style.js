@@ -128,7 +128,7 @@ export const ReactSlick = styled(Slider)`
     }
   }
   .main_card__name {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     width: 100%;
     text-align: center;
