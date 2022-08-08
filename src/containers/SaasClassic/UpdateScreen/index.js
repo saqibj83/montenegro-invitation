@@ -38,16 +38,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 During Triton Series CYPRUS complimentary accommodation is
                 offered to players who will qualify for the USD 250K combined
                 spend in tournament buy-ins. We are pleased to offer
-                complimentary accommodation at either:
+                complimentary accommodation at:
               </li>
               <li>Merit Royal Diamond Hotel</li>
-              <li>Merit Royal Hotel</li>
-              <li>
-                Please advise your preference at your earliest convenience.
-              </li>
-              <li>
-                The number of rooms available is limited at both locations.
-              </li>
+              <li>Please advise at your earliest convenience.</li>
+              <li>The number of rooms available is limited.</li>
               <li>
                 <Link href="https://triton-series.com/accommodation-terms-conditions/">
                   <a>Click here for accommodation terms and conditions</a>

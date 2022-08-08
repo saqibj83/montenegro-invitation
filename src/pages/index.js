@@ -27,7 +27,7 @@ const SaasClassic = () => {
           <title>Coin Rivet Invitational Powered by Triton Poker </title>
           <meta
             name="description"
-            content="THE INAUGURAL COIN RIVET INVITATIONAL POWERED BY TRITON POKER WILL BE HELD AT THE MERIT ROYAL DIAMOND, NORTH CYPRUS FROM 10-12TH SEPTEMBER 2022.
+            content="TThe event's unique format, which was inspired by the record breaking 2019 Triton Million in London, pairs professional players with recreational players, with a buy-in of $200,000 for each..
 "
           />
           <meta name="keywords" content="coin rivet, Triton Poker, Poker" />
