@@ -22,7 +22,7 @@ import imageDef from "common/assets/image/default.png";
 import image16 from "common/assets/image/player16.jpg";
 import image18 from "common/assets/image/player18.jpg";
 import image20 from "common/assets/image/player20.jpg";
-import image22 from "common/assets/image/player22.png";
+import image22 from "common/assets/image/player22.jpg";
 function NextArrow(props) {
   const { style, onClick } = props;
   return (
