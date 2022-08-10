@@ -20,8 +20,11 @@ import image13 from "common/assets/image/player13.jpeg";
 import image14 from "common/assets/image/player14.jpeg";
 import imageDef from "common/assets/image/default.png";
 import image16 from "common/assets/image/player16.jpg";
+import image17 from "common/assets/image/player17.jpg";
 import image18 from "common/assets/image/player18.jpg";
+import image21 from "common/assets/image/player21.jpg";
 import image20 from "common/assets/image/player20.jpg";
+
 import image22 from "common/assets/image/player22.jpg";
 function NextArrow(props) {
   const { style, onClick } = props;
@@ -384,7 +387,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image17}
                     alt="player"
                   />
                 </div>
@@ -460,7 +463,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image21}
                     alt="player"
                   />
                 </div>
