@@ -24,11 +24,12 @@ import image17 from "common/assets/image/player17.jpg";
 import image18 from "common/assets/image/player18.jpg";
 import image20 from "common/assets/image/player20.jpg";
 import image21 from "common/assets/image/player21.jpg";
+import image22 from "common/assets/image/player22.jpg";
 import image24 from "common/assets/image/player24.jpg";
 import image25 from "common/assets/image/player25.jpg";
 import image26 from "common/assets/image/player26.jpg";
-
-import image22 from "common/assets/image/player22.jpg";
+import image27 from "common/assets/image/player27.jpg";
+import image30 from "common/assets/image/player30.jpg";
 function NextArrow(props) {
   const { style, onClick } = props;
   return (
@@ -570,27 +571,36 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">BUSINESSMAN</div>
+              <div className=" cell small main_card__invites">Businessman</div>
               <div className="cell small gold-card-header">
+                <img
+                  className="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/hk.svg"
+                  alt="player"
+                />
                 <div className="main_card__image">
-                  <span
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(90deg,#ffffff,#efede9) !important",
-                    }}
-                  >
-                    ?
-                  </span>
+                  <NextImage
+                    className="cyprus-img"
+                    src={image27}
+                    alt="player"
+                  />
                 </div>
-                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <h4 className="main_card__name">Elton Tsang</h4>
               </div>
-
               <div className=" cell small main_card__invites">INVITES</div>
-
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <h4 className="main_card__name">Mustapha Kanit</h4>
                 <div className="main_card__image">
-                  <span>?</span>
+                  <img
+                    className="flag-PlayerPhoto"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/it.svg"
+                    alt="player"
+                  />
+                  <NextImage
+                    className="cyprus-img"
+                    src={imageDef}
+                    alt="player"
+                  />
                 </div>
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
@@ -599,27 +609,36 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">BUSINESSMAN</div>
+              <div className=" cell small main_card__invites">Businessman</div>
               <div className="cell small gold-card-header">
+                <img
+                  className="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
+                  alt="player"
+                />
                 <div className="main_card__image">
-                  <span
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(90deg,#ffffff,#efede9) !important",
-                    }}
-                  >
-                    ?
-                  </span>
+                  <NextImage
+                    className="cyprus-img"
+                    src={imageDef}
+                    alt="player"
+                  />
                 </div>
-                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <h4 className="main_card__name">David Einhorn</h4>
               </div>
-
               <div className=" cell small main_card__invites">INVITES</div>
-
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <h4 className="main_card__name">Fedor Holz</h4>
                 <div className="main_card__image">
-                  <span>?</span>
+                  <img
+                    className="flag-PlayerPhoto"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/de.svg"
+                    alt="player"
+                  />
+                  <NextImage
+                    className="cyprus-img"
+                    src={image30}
+                    alt="player"
+                  />
                 </div>
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
