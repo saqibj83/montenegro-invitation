@@ -22,8 +22,10 @@ import imageDef from "common/assets/image/default.png";
 import image16 from "common/assets/image/player16.jpg";
 import image17 from "common/assets/image/player17.jpg";
 import image18 from "common/assets/image/player18.jpg";
-import image21 from "common/assets/image/player21.jpg";
 import image20 from "common/assets/image/player20.jpg";
+import image21 from "common/assets/image/player21.jpg";
+import image24 from "common/assets/image/player24.jpg";
+import image25 from "common/assets/image/player25.jpg";
 import image26 from "common/assets/image/player26.jpg";
 
 import image22 from "common/assets/image/player22.jpg";
@@ -519,7 +521,7 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image24}
                     alt="player"
                   />
                 </div>
@@ -540,7 +542,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image25}
                     alt="player"
                   />
                 </div>
