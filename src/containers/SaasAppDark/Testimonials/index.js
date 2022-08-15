@@ -699,7 +699,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image31}
-                    alt="David Einhorn"
+                    alt="Paul Newey"
                   />
                 </div>
                 <h4 className="main_card__name">Paul Newey</h4>
@@ -716,7 +716,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image32}
-                    alt="Fedor Holz"
+                    alt="Steve O'Dwyer"
                   />
                 </div>
               </div>
@@ -737,7 +737,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image33}
-                    alt="David Einhorn"
+                    alt="Eric Worren"
                   />
                 </div>
                 <h4 className="main_card__name">Eric Worre</h4>
@@ -754,7 +754,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image34}
-                    alt="Fedor Holz"
+                    alt="Seth Davies"
                   />
                 </div>
               </div>
@@ -775,7 +775,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
-                    alt="David Einhorn"
+                    alt="Jean-Noel Thorel"
                   />
                 </div>
                 <h4 className="main_card__name">Jean-Noel Thorel </h4>
@@ -792,7 +792,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image36}
-                    alt="Fedor Holz"
+                    alt="Erik Seidel"
                   />
                 </div>
               </div>
@@ -813,7 +813,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
-                    alt="David Einhorn"
+                    alt="Morten Klein"
                   />
                 </div>
                 <h4 className="main_card__name">Morten Klein </h4>
@@ -830,7 +830,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image38}
-                    alt="Fedor Holz"
+                    alt="Nick Petrangelo"
                   />
                 </div>
               </div>
@@ -851,7 +851,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
-                    alt="David Einhorn"
+                    alt="Rob Yong"
                   />
                 </div>
                 <h4 className="main_card__name">Rob Yong </h4>
@@ -868,7 +868,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image40}
-                    alt="Fedor Holz"
+                    alt="Espen Jorstad"
                   />
                 </div>
               </div>
