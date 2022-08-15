@@ -815,7 +815,7 @@ const Testimonials = () => {
                     alt="David Einhorn"
                   />
                 </div>
-                <h4 className="main_card__name">JMorten Klein </h4>
+                <h4 className="main_card__name">Morten Klein </h4>
               </div>
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
