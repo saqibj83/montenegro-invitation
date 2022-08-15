@@ -36,6 +36,8 @@ import image31 from "common/assets/image/player31.jpg";
 import image32 from "common/assets/image/player32.jpg";
 import image33 from "common/assets/image/player33.jpg";
 import image34 from "common/assets/image/player34.jpg";
+import image35 from "common/assets/image/player35.jpg";
+import image37 from "common/assets/image/player37.jpg";
 import image36 from "common/assets/image/player36.jpg";
 import image38 from "common/assets/image/player38.jpg";
 import image39 from "common/assets/image/player39.jpg";
@@ -661,7 +663,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image29}
                     alt="David Einhorn"
                   />
                 </div>
@@ -775,7 +777,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image35}
                     alt="Jean-Noel Thorel"
                   />
                 </div>
@@ -813,7 +815,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image37}
                     alt="Morten Klein"
                   />
                 </div>
