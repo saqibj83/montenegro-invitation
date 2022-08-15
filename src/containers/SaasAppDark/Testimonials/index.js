@@ -576,7 +576,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image25}
                     alt="David Nicholson"
                   />
                 </div>
