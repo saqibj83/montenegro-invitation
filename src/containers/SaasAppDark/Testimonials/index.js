@@ -29,6 +29,7 @@ import image24 from "common/assets/image/player24.jpg";
 import image25 from "common/assets/image/player25.jpg";
 import image26 from "common/assets/image/player26.jpg";
 import image27 from "common/assets/image/player27.jpg";
+import image28 from "common/assets/image/player28.jpg";
 import image29 from "common/assets/image/player29.jpg";
 import image30 from "common/assets/image/player30.jpg";
 function NextArrow(props) {
@@ -631,7 +632,7 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image28}
                     alt="Mustapha Kanit"
                   />
                 </div>
