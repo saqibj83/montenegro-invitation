@@ -25,6 +25,7 @@ import image18 from "common/assets/image/player18.jpg";
 import image20 from "common/assets/image/player20.jpg";
 import image21 from "common/assets/image/player21.jpg";
 import image22 from "common/assets/image/player22.jpg";
+import image23 from "common/assets/image/player23.jpg";
 import image24 from "common/assets/image/player24.jpg";
 import image25 from "common/assets/image/player25.jpg";
 import image26 from "common/assets/image/player26.jpg";
@@ -554,7 +555,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image23}
                     alt="Ashkan Fattahi"
                   />
                 </div>
