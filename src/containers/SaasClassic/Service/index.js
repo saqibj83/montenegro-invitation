@@ -13,14 +13,21 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <Box {...secTitleWrapper}>
           <Heading
             {...secHeading}
-            content=" The inaugural Coin Rivet Invitational powered by Triton Poker will be held at the Merit Royal Diamond, North Cyprus from 10-12th September 2022.
+            content=" $200,000 COIN RIVET INVITATIONAL
+           
+            "
+          />
+          <Heading
+            {...secHeading}
+            content="  SEPTEMBER 10-12TH 2022
             "
           />
           <p>
-            The Coin Rivet Invitational powered by Triton Poker, at the Luxon
-            Pay Mediterranean Poker Party is a special new event at Merit Royal
-            Diamond, North Cyprus. The event is a $200,000 NLH single re-entry
-            tournament. Taking inspiration from the unique format of the&nbsp;
+            The Coin Rivet Invitational is a unique $200,000 NLH buyin that
+            features high-profiled business professionals and poker
+            professionals battling for prize and the coveted title Coin Rivet
+            trophy. Powered by Triton Poker, the invitational was inspired by
+            the{" "}
             <Link href="https://www.youtube.com/playlist?list=PLy4KWtJrf3Uo1oLmh8MgAOJFNRcO-LQPL">
               <a
                 target="_blank"
@@ -28,12 +35,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               >
                 record breaking Triton Million that took place in London in 2019
               </a>
-            </Link>
-            &nbsp;the event sees the pairing of professional players with
-            wealthy recreational players. On day one the professional players
-            and recreational players are separated before the fields are merged
-            on day two. Players are encouraged to find themselves a pairing just
-            like they did at the historic Triton event in London.
+            </Link>{" "}
+            where professionals and poker pros will play separately on Day 1,
+            then converge to battle against each other to a winner. = Play will
+            start on September 10, 2022 at the Luxon Pay Mediterranean Poker
+            Party in Merit Royal Diamond, North Cyprus and conclude on September
+            12, 2022.
           </p>
         </Box>
       </Container>
