@@ -37,7 +37,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>{" "}
             where professionals and poker pros will play separately on Day 1,
-            then converge to battle against each other to a winner. = Play will
+            then converge to battle against each other to a winner. Play will
             start on September 10, 2022 at the Luxon Pay Mediterranean Poker
             Party in Merit Royal Diamond, North Cyprus and conclude on September
             12, 2022.
