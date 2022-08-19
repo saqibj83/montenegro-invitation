@@ -49,6 +49,8 @@ import image44 from "common/assets/image/player44.jpg";
 import image46 from "common/assets/image/player46.jpg";
 import image48 from "common/assets/image/player48.jpg";
 import image50 from "common/assets/image/player50.jpg";
+import image51 from "common/assets/image/player51.jpg";
+import image52 from "common/assets/image/player52.jpg";
 function NextArrow(props) {
   const { style, onClick } = props;
   return (
@@ -1070,6 +1072,131 @@ const Testimonials = () => {
                     src={image50}
                     alt="Chris brewer "
                   />
+                </div>
+              </div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
+            </div>
+          </div>
+
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">Businessman</div>
+              <div className="cell small gold-card-header">
+                <img
+                  className="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/th.svg"
+                  alt="player"
+                />
+                <div className="main_card__image">
+                  <NextImage
+                    className="cyprus-img"
+                    src={image51}
+                    alt="Kannapong Thanarattrakul"
+                  />
+                </div>
+                <h4 className="main_card__name">Kannapong Thanarattrakul</h4>
+              </div>
+              <div className=" cell small main_card__invites">INVITES</div>
+              <div className="cell small main__card__bottom">
+                <h4 className="main_card__name"> Isaac Haxton </h4>
+                <div className="main_card__image">
+                  <img
+                    className="flag-PlayerPhoto"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
+                    alt="player"
+                  />
+                  <NextImage
+                    className="cyprus-img"
+                    src={image52}
+                    alt=" Isaac Haxton "
+                  />
+                </div>
+              </div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
+            </div>
+          </div>
+
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">BUSINESSMAN</div>
+              <div className="cell small gold-card-header">
+                <div className="main_card__image">
+                  <span
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(90deg,#ffffff,#efede9) !important",
+                    }}
+                  >
+                    ?
+                  </span>
+                </div>
+                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+              </div>
+
+              <div className=" cell small main_card__invites">INVITES</div>
+
+              <div className="cell small main__card__bottom">
+                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <div className="main_card__image">
+                  <span>?</span>
+                </div>
+              </div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
+            </div>
+          </div>
+
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">BUSINESSMAN</div>
+              <div className="cell small gold-card-header">
+                <div className="main_card__image">
+                  <span
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(90deg,#ffffff,#efede9) !important",
+                    }}
+                  >
+                    ?
+                  </span>
+                </div>
+                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+              </div>
+
+              <div className=" cell small main_card__invites">INVITES</div>
+
+              <div className="cell small main__card__bottom">
+                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <div className="main_card__image">
+                  <span>?</span>
+                </div>
+              </div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
+            </div>
+          </div>
+
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">BUSINESSMAN</div>
+              <div className="cell small gold-card-header">
+                <div className="main_card__image">
+                  <span
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(90deg,#ffffff,#efede9) !important",
+                    }}
+                  >
+                    ?
+                  </span>
+                </div>
+                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+              </div>
+
+              <div className=" cell small main_card__invites">INVITES</div>
+
+              <div className="cell small main__card__bottom">
+                <h4 className="main_card__name">NOT ANNOUNCED</h4>
+                <div className="main_card__image">
+                  <span>?</span>
                 </div>
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
