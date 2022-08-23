@@ -1137,7 +1137,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name"> Aleks Ponakovs </h4>
+                <h4 className="main_card__name"> Aleksejs Ponakovs </h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
