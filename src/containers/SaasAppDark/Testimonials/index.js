@@ -1296,7 +1296,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name"> Dan Cates</h4>
+                <h4 className="main_card__name"> Christoph Vogelsang</h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
@@ -1305,8 +1305,8 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={image62}
-                    alt=" Dan Cates"
+                    src={imageDef}
+                    alt=" Christoph Vogelsang"
                   />
                 </div>
               </div>
@@ -1334,7 +1334,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name"> Christoph Vogelsang</h4>
+                <h4 className="main_card__name"> Dan Cates </h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
@@ -1343,8 +1343,8 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt=" Christoph Vogelsang"
+                    src={image62}
+                    alt=" Dan Cates "
                   />
                 </div>
               </div>
