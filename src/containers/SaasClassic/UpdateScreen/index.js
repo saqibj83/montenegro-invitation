@@ -21,7 +21,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.0173481993006!2d33.21082231526947!3d35.35521577694966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de0db5c1e805f1%3A0xbfe6b716218cd783!2sMerit%20Royal%20Hotel%20%26%20Casino!5e0!3m2!1sen!2s!4v1656656197354!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13016.288956205337!2d33.2107858!3d35.3538535!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sMerit%20Royal%20Diamond%20Hotel%20%26%20Spa!5e0!3m2!1sen!2s!4v1661327645450!5m2!1sen!2s"
               width="100%"
               height="450"
               style={{ border: "0" }}
