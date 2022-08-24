@@ -61,13 +61,28 @@ const Footer = ({
               </Link>
             </div>
 
-            <div
-              class="g-ytsubscribe"
-              data-channelid="UCpcv404DxfhGYhXgyB9Aoeg"
-              data-layout="full"
-              data-theme="default"
-              data-count="default"
-            ></div>
+            {/* <Logo
+              href="#"
+              logoSrc={LogoImage}
+              title="Hosting"
+              logoStyle={logoStyle}
+            /> */}
+            {/* <iframe
+              src="https://player.twitch.tv?channel=tritonpoker&amp;height=300&amp;parent=embed.example.com&amp;parent=othersite.example.com&amp;parent=triton-series.com&amp;referrer=https%3A%2F%2Ftriton-series.com%2Ftriton-super-high-roller-series-madrid-2022%2F&amp;width=450"
+              allowfullscreen=""
+              scrolling="no"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              title="Twitch"
+              sandbox="allow-modals allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+              width="100%"
+              height="300"
+            ></iframe> */}
+            <Link href="https://www.twitch.tv/tritonpoker">
+              <a target="_blank">
+                <NextImage src={twitch} alt="twitch" />
+              </a>
+            </Link>
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
