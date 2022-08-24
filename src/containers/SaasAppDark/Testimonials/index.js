@@ -1186,7 +1186,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ca.svg"
                     alt="player"
                   />
                   <NextImage
