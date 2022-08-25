@@ -6,57 +6,90 @@ import prevArr from "common/assets/image/left-arrow.svg";
 import nextArr from "common/assets/image/right-arrow.svg";
 import image1 from "common/assets/image/player1.jpeg";
 import image2 from "common/assets/image/player2.jpeg";
+
 import image3 from "common/assets/image/player3.jpeg";
 import image4 from "common/assets/image/player4.jpeg";
+
 import image5 from "common/assets/image/player5.jpeg";
 import image6 from "common/assets/image/player6.jpeg";
+
 import image7 from "common/assets/image/player7.jpeg";
 import image8 from "common/assets/image/player8.jpeg";
+
 import image9 from "common/assets/image/player9.jpeg";
 import image10 from "common/assets/image/player10.jpeg";
+
 import image11 from "common/assets/image/player11.jpeg";
 import image12 from "common/assets/image/player12.jpeg";
+
 import image13 from "common/assets/image/player13.jpeg";
 import image14 from "common/assets/image/player14.jpeg";
+
 import imageDef from "common/assets/image/default.png";
+
 import image16 from "common/assets/image/player16.jpg";
+
 import image17 from "common/assets/image/player17.jpg";
 import image18 from "common/assets/image/player18.jpg";
+
 import image20 from "common/assets/image/player20.jpg";
+
 import image21 from "common/assets/image/player21.jpg";
 import image22 from "common/assets/image/player22.jpg";
+
 import image23 from "common/assets/image/player23.jpg";
 import image24 from "common/assets/image/player24.jpg";
+
 import image25 from "common/assets/image/player25.jpg";
 import image26 from "common/assets/image/player26.jpg";
+
 import image27 from "common/assets/image/player27.jpg";
 import image28 from "common/assets/image/player28.jpg";
+
 import image29 from "common/assets/image/player29.jpg";
 import image30 from "common/assets/image/player30.jpg";
+
 import image31 from "common/assets/image/player31.jpg";
 import image32 from "common/assets/image/player32.jpg";
+
 import image33 from "common/assets/image/player33.jpg";
 import image34 from "common/assets/image/player34.jpg";
+
 import image35 from "common/assets/image/player35.jpg";
-import image37 from "common/assets/image/player37.jpg";
 import image36 from "common/assets/image/player36.jpg";
+
+import image37 from "common/assets/image/player37.jpg";
 import image38 from "common/assets/image/player38.jpg";
+
 import image39 from "common/assets/image/player39.jpg";
 import image40 from "common/assets/image/player40.jpg";
+
 import image41 from "common/assets/image/player41.jpg";
 import image42 from "common/assets/image/player42.jpg";
+
 import image44 from "common/assets/image/player44.jpg";
+
 import image46 from "common/assets/image/player46.jpg";
+
 import image48 from "common/assets/image/player48.jpg";
+
 import image49 from "common/assets/image/player49.jpg";
 import image50 from "common/assets/image/player50.jpg";
+
 import image51 from "common/assets/image/player51.jpg";
 import image52 from "common/assets/image/player52.jpg";
+
 import image53 from "common/assets/image/player53.jpg";
 import image54 from "common/assets/image/player54.jpg";
+
 import image55 from "common/assets/image/player55.jpg";
 import image56 from "common/assets/image/player56.jpg";
+
+import image57 from "common/assets/image/player57.jpg";
+import image58 from "common/assets/image/player58.jpg";
+
 import image62 from "common/assets/image/player62.jpg";
+
 import image65 from "common/assets/image/player65.jpg";
 import image66 from "common/assets/image/player66.jpg";
 function NextArrow(props) {
@@ -1212,7 +1245,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image57}
                     alt="Phil Nagy"
                   />
                 </div>
@@ -1229,7 +1262,7 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image58}
                     alt=" Ebony Kenney "
                   />
                 </div>
