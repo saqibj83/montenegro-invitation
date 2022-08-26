@@ -92,6 +92,9 @@ import image62 from "common/assets/image/player62.jpg";
 
 import image65 from "common/assets/image/player65.jpg";
 import image66 from "common/assets/image/player66.jpg";
+
+import image68 from "common/assets/image/player68.jpg";
+
 function NextArrow(props) {
   const { style, onClick } = props;
   return (
@@ -1452,7 +1455,7 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image68}
                     alt=" David Peters "
                   />
                 </div>
