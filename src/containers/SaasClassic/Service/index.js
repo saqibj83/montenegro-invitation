@@ -23,24 +23,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             "
           />
           <p>
-            The Coin Rivet Invitational is a unique $200,000 NLH buyin that
-            features high-profiled business professionals and poker
-            professionals battling for prize and the coveted title Coin Rivet
-            trophy. Powered by Triton Poker, the invitational was inspired by
-            the{" "}
-            <Link href="https://www.youtube.com/playlist?list=PLy4KWtJrf3Uo1oLmh8MgAOJFNRcO-LQPL">
-              <a
-                target="_blank"
-                style={{ color: "#eba800", textDecoration: "underline" }}
-              >
-                record breaking Triton Million that took place in London in 2019
-              </a>
-            </Link>{" "}
-            where professionals and poker pros will play separately on Day 1,
-            then converge to battle against each other to a winner. Play will
-            start on September 10, 2022 at the Luxon Pay Mediterranean Poker
-            Party in Merit Royal Diamond, North Cyprus and conclude on September
-            12, 2022.
+            The Coin Rivet Invitational is a unique $200,000 NLH buy-in that
+            features high-profiled business people and poker professionals
+            battling for prize money and the coveted title Coin Rivet trophy.
+            Powered by Triton Poker, the invitational was inspired by the record
+            breaking Triton Million that took place in London in 2019 where
+            professionals and poker pros will play separately on Day 1, then
+            converge to battle against each other to a winner. This exclusive
+            event will start on September 10, 2022 at the Luxon Pay
+            Mediterranean Poker Party in Merit Royal Diamond, North Cyprus and
+            conclude on September 12, 2022.
           </p>
         </Box>
       </Container>
