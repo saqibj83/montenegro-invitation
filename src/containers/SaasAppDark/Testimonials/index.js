@@ -6,7 +6,9 @@ import Link from "next/link";
 import Button from "common/components/Button";
 import prevArr from "common/assets/image/left-arrow.svg";
 import nextArr from "common/assets/image/right-arrow.svg";
+
 import giveaway from "common/assets/image/giveaway-banner.png";
+import giveawayMobile from "common/assets/image/mobile-banner.png";
 
 import image1 from "common/assets/image/player1.jpeg";
 import image2 from "common/assets/image/player2.jpeg";
@@ -1655,8 +1657,8 @@ const Testimonials = () => {
             </div>
           </div>
         </ReactSlick>
-        {/* <div className="px-3 pt-14 text-center">
-          <Link href="https://click.triton-series.com/CRI-Giveaway>
+        <div className="px-3 pt-14 text-center hidden md:block">
+          <Link href="https://click.triton-series.com/CRI-Giveaway">
             <a target="_blank">
               <NextImage
                 className="cyprus-img"
@@ -1665,7 +1667,19 @@ const Testimonials = () => {
               />
             </a>
           </Link>
-        </div> */}
+        </div>
+
+        <div className="px-3 pt-14 text-center block md:hidden">
+          <Link href="https://click.triton-series.com/CRI-Giveaway">
+            <a target="_blank">
+              <NextImage
+                className="cyprus-img"
+                src={giveawayMobile}
+                alt="CRI Giveaway"
+              />
+            </a>
+          </Link>
+        </div>
       </Container>
     </Section>
   );
