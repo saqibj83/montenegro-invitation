@@ -1658,7 +1658,7 @@ const Testimonials = () => {
           </div>
         </ReactSlick>
         <div className="px-3 pt-14 text-center hidden md:block">
-          <Link href="https://click.triton-series.com/Cyprus2022-CRI-Giveway">
+          <Link href="https://click.triton-series.com/CRI-Giveaway">
             <a target="_blank">
               <NextImage
                 className="cyprus-img"
@@ -1670,7 +1670,7 @@ const Testimonials = () => {
         </div>
 
         <div className="px-3 pt-14 text-center block md:hidden">
-          <Link href="https://click.triton-series.com/Cyprus2022-CRI-Giveway">
+          <Link href="https://click.triton-series.com/CRI-Giveaway">
             <a target="_blank">
               <NextImage
                 className="cyprus-img"
