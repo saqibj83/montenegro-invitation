@@ -2,8 +2,12 @@ import Heading from "common/components/Heading";
 import Container from "common/components/UI/Container";
 import NextImage from "common/components/NextImage";
 import Section, { ReactSlick, SectionHeading } from "./testimonials.style";
+import Link from "next/link";
+import Button from "common/components/Button";
 import prevArr from "common/assets/image/left-arrow.svg";
 import nextArr from "common/assets/image/right-arrow.svg";
+import giveaway from "common/assets/image/giveaway-banner.png";
+
 import image1 from "common/assets/image/player1.jpeg";
 import image2 from "common/assets/image/player2.jpeg";
 
@@ -67,6 +71,7 @@ import image40 from "common/assets/image/player40.jpg";
 import image41 from "common/assets/image/player41.jpg";
 import image42 from "common/assets/image/player42.jpg";
 
+import image43 from "common/assets/image/player43.jpg";
 import image44 from "common/assets/image/player44.jpg";
 
 import image46 from "common/assets/image/player46.jpg";
@@ -985,7 +990,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image43}
                     alt="Karl Chappe-Gatien "
                   />
                 </div>
@@ -1650,6 +1655,17 @@ const Testimonials = () => {
             </div>
           </div>
         </ReactSlick>
+        {/* <div className="px-3 pt-14 text-center">
+          <Link href="https://click.triton-series.com/CRI-Giveaway>
+            <a target="_blank">
+              <NextImage
+                className="cyprus-img"
+                src={giveaway}
+                alt="CRI Giveaway"
+              />
+            </a>
+          </Link>
+        </div> */}
       </Container>
     </Section>
   );
