@@ -95,6 +95,7 @@ import image56 from "common/assets/image/player56.jpg";
 import image57 from "common/assets/image/player57.jpg";
 import image58 from "common/assets/image/player58.jpg";
 
+import image61 from "common/assets/image/player61.jpg";
 import image62 from "common/assets/image/player62.jpg";
 
 import image63 from "common/assets/image/player63.jpg";
@@ -1413,7 +1414,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image61}
                     alt="Wei Nan"
                   />
                 </div>
