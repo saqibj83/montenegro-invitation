@@ -98,6 +98,7 @@ import image58 from "common/assets/image/player58.jpg";
 import image62 from "common/assets/image/player62.jpg";
 
 import image63 from "common/assets/image/player63.jpg";
+import image64 from "common/assets/image/player64.jpg";
 
 import image65 from "common/assets/image/player65.jpg";
 import image66 from "common/assets/image/player66.jpg";
@@ -1306,7 +1307,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name"> Artur Martisosian </h4>
+                <h4 className="main_card__name"> Artur Martirosyan </h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
@@ -1315,8 +1316,8 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt=" Artur Martisosian "
+                    src={image64}
+                    alt=" Artur Martirosyan "
                   />
                 </div>
               </div>
