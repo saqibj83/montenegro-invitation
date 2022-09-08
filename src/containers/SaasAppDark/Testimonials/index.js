@@ -33,6 +33,7 @@ import image14 from "common/assets/image/player14.jpeg";
 
 import imageDef from "common/assets/image/default.png";
 
+import image15 from "common/assets/image/player15.jpg";
 import image16 from "common/assets/image/player16.jpg";
 
 import image17 from "common/assets/image/player17.jpg";
@@ -112,6 +113,7 @@ import image71 from "common/assets/image/player71.jpg";
 import image72 from "common/assets/image/player72.jpg";
 
 import image073 from "common/assets/image/player073.jpg";
+import image074 from "common/assets/image/player074.jpg";
 
 import image73 from "common/assets/image/player73.jpg";
 import image74 from "common/assets/image/player74.jpg";
@@ -119,6 +121,7 @@ import image74 from "common/assets/image/player74.jpg";
 import image76 from "common/assets/image/player76.jpg";
 
 import image77 from "common/assets/image/player77.jpg";
+import image78 from "common/assets/image/player78.jpg";
 
 import image80 from "common/assets/image/player80.jpg";
 
@@ -477,7 +480,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image15}
                     alt="Zhenglong Zhou"
                   />
                 </div>
@@ -1520,7 +1523,7 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image074}
                     alt=" Felipe Ramos "
                   />
                 </div>
@@ -1634,7 +1637,7 @@ const Testimonials = () => {
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image78}
                     alt="Barak Wisbrod "
                   />
                 </div>
