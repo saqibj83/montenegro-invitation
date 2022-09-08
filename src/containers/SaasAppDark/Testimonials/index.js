@@ -557,10 +557,10 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
-                    alt="Vadim Godzdanker"
+                    alt="VADZIM GODZDANKER"
                   />
                 </div>
-                <h4 className="main_card__name">Vadim Godzdanker</h4>
+                <h4 className="main_card__name">VADZIM GODZDANKER</h4>
               </div>
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
