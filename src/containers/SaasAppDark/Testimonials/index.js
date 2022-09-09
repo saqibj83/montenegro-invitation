@@ -80,6 +80,7 @@ import image44 from "common/assets/image/player44.jpg";
 import image45 from "common/assets/image/player45.jpg";
 import image46 from "common/assets/image/player46.jpg";
 
+import image47 from "common/assets/image/player47.jpg";
 import image48 from "common/assets/image/player48.jpg";
 
 import image49 from "common/assets/image/player49.jpg";
@@ -118,6 +119,7 @@ import image074 from "common/assets/image/player074.jpg";
 import image73 from "common/assets/image/player73.jpg";
 import image74 from "common/assets/image/player74.jpg";
 
+import image75 from "common/assets/image/player75.jpg";
 import image76 from "common/assets/image/player76.jpg";
 
 import image77 from "common/assets/image/player77.jpg";
@@ -1091,7 +1093,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image47}
                     alt="Sam Miller"
                   />
                 </div>
@@ -1585,7 +1587,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image75}
                     alt="Elias Talvitie "
                   />
                 </div>
