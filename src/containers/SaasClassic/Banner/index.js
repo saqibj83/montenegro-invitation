@@ -58,8 +58,28 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
         <Box {...row}>
           <Box {...imageWrapper} style={{ width: "100%", textAlign: "center" }}>
             <Fade bottom>
-              <NextImage className="cyprus-img" src={Coin} alt="Coin Rivet" />
+              <NextImage
+                className="cyprus-img"
+                src={Coin}
+                alt="Coin Rivet"
+                style={{ width: "200px" }}
+              />
             </Fade>
+          </Box>
+          <Box>
+            {/* <iframe
+              width="800"
+              height="400"
+              src="https://www.youtube.com/embed/MwVb-JFEm6M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style={{
+                marginTop: "30px",
+                textAlign: "center",
+              }}
+            ></iframe> */}
           </Box>
           <Box
             {...contentWrapper}
@@ -71,6 +91,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 color: "#fff",
                 fontSize: "26px",
                 lineHeight: "30px",
+                marginTop: "30px",
               }}
             >
               September 10-12, 2022
