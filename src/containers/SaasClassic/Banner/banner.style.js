@@ -28,6 +28,17 @@ export const BannerWrapper = styled.section`
     padding: 120px 0 0 0;
   }
 
+  .ifram-wd {
+    width: 800px;
+    height: 400px;
+    border: 4px solid #eba800;
+  }
+  @media only screen and (max-width: 667px) {
+    .ifram-wd {
+      width: 300px;
+      height: 180px;
+    }
+  }
   img {
     max-width: 100%;
     height: auto;

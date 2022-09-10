@@ -67,10 +67,9 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             </Fade>
           </Box>
           <Box>
-            {/* <iframe
-              width="800"
-              height="400"
-              src="https://www.youtube.com/embed/MwVb-JFEm6M"
+            <iframe
+              className="ifram-wd"
+              src="https://www.youtube.com/embed/NBBW28e9gZ0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -79,7 +78,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
                 textAlign: "center",
               }}
-            ></iframe> */}
+            ></iframe>
           </Box>
           <Box
             {...contentWrapper}
