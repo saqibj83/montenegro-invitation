@@ -3,7 +3,6 @@ import Container from "common/components/UI/Container";
 import NextImage from "common/components/NextImage";
 import Section, { ReactSlick, SectionHeading } from "./testimonials.style";
 import Link from "next/link";
-import Button from "common/components/Button";
 import prevArr from "common/assets/image/left-arrow.svg";
 import nextArr from "common/assets/image/right-arrow.svg";
 
@@ -1764,7 +1763,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/de.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/nl.svg"
                     alt="player"
                   />
                   <NextImage
