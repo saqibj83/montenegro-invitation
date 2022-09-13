@@ -125,6 +125,7 @@ import image76 from "common/assets/image/player76.jpg";
 import image77 from "common/assets/image/player77.jpg";
 import image78 from "common/assets/image/player78.jpg";
 
+import image79 from "common/assets/image/player79.jpg";
 import image80 from "common/assets/image/player80.jpg";
 
 import image81 from "common/assets/image/player81.jpg";
@@ -1678,7 +1679,7 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image79}
                     alt="Theis Vad Hennebjerre "
                   />
                 </div>
