@@ -1947,7 +1947,7 @@ const Testimonials = () => {
           </Link>
         </div>
 
-        <div className="px-3 pt-14 text-center block md:hidden">
+        {/* <div className="px-3 pt-14 text-center block md:hidden">
           <Link href="https://click.triton-series.com/CRI-Giveaway">
             <a target="_blank">
               <NextImage
@@ -1957,7 +1957,7 @@ const Testimonials = () => {
               />
             </a>
           </Link>
-        </div>
+        </div> */}
       </Container>
     </Section>
   );
