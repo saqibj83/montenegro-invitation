@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
 import Box from "common/components/Box";
+import Text from "common/components/Text";
+import Heading from "common/components/Heading";
+import Logo from "common/components/UIElements/Logo";
 import Container from "common/components/UI/Container";
 import FooterWrapper, { List, ListItem } from "./footer.style";
 import NextImage from "common/components/NextImage";
@@ -12,8 +15,6 @@ import facebook from "common/assets/image/saasClassic/facebook.png";
 import twitter from "common/assets/image/saasClassic/twitter.png";
 import instagram from "common/assets/image/saasClassic/instagram.png";
 import youtube from "common/assets/image/saasClassic/youtube.png";
-import twitch from "common/assets/image/saasClassic/twitch.jpg";
-
 import { FOOTER_WIDGET } from "common/data/SaasClassic";
 
 const Footer = ({
@@ -29,207 +30,214 @@ const Footer = ({
   return (
     <FooterWrapper>
       <Container className="footer_container">
-        <Box className="row" {...row}>
-          <Box {...colOne}>
-            <h1 style={{ color: "#EBA800" }}>FOLLOW US ON</h1>
-            <div style={{ marginRight: "20px", float: "left" }}>
-              <Link href="https://facebook.com/tritonpoker">
-                <a target="_blank">
-                  <NextImage src={facebook} alt="facebook" />
-                </a>
-              </Link>
-            </div>
-            <div style={{ marginRight: "20px", float: "left" }}>
-              <Link href="https://twitter.com/tritonpoker">
-                <a target="_blank">
-                  <NextImage src={twitter} alt="twitter" />
-                </a>
-              </Link>
-            </div>
-            <div style={{ marginRight: "20px", float: "left" }}>
-              <Link href="https://instagram.com/tritonpokerseries">
-                <a target="_blank">
-                  <NextImage src={instagram} alt="instagram" />
-                </a>
-              </Link>
-            </div>
-            <div style={{ marginRight: "20px", float: "left" }}>
-              <Link href="https://youtube.com/tritonpoker">
-                <a target="_blank">
-                  <NextImage src={youtube} alt="youtube" />
-                </a>
-              </Link>
+        <div className="footer-top">
+          <div className="flex flex-wrap -mx-2">
+            <div className="w-full lg:w-1/2 px-2">
+              <div className="footer-top__social">
+                <span className="footer-nav__col-title">SITEMAP</span>
+                <ul>
+                  <li>
+                    <Link href="#banner_section">
+                      <a>
+                        <i className="icon-arrow-sm"></i>
+                        Home
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#general_section">
+                      <a>
+                        <i className="icon-arrow-sm"></i>
+                        About
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#participants_section">
+                      <a>
+                        <i className="icon-arrow-sm"></i>Participants
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#time_section">
+                      <a>
+                        <i className="icon-arrow-sm"></i>Tournament
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#hotel_section">
+                      <a>
+                        <i className="icon-arrow-sm"></i>Hotel
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+
+                <div className="footer-nav_subscribe mt-8">
+                  <span className="footer-nav__col-title">NEWSLETTER</span>
+
+                  {/* <div class="box-field__row">
+                    <div id="mc_embed_signup">
+                      <form
+                        action="https://triton-series.us18.list-manage.com/subscribe/post?u=3957510c4fa663fcbc59da452&amp;id=1e0fdfae29"
+                        method="post"
+                        id="mc-embedded-subscribe-form"
+                        name="mc-embedded-subscribe-form"
+                        class="validate"
+                        target="_blank"
+                        novalidate
+                      >
+                        <div id="mc_embed_signup_scroll">
+                          <div class="box-field">
+                            <input
+                              type="email"
+                              value=""
+                              name="EMAIL"
+                              class="email"
+                              id="mce-EMAIL"
+                              placeholder="email address"
+                              required
+                            />
+                          </div>
+                          <div
+                            style={{ position: "absolute", left: "-5000px;" }}
+                            aria-hidden="true"
+                          >
+                            <input
+                              type="text"
+                              name="b_3957510c4fa663fcbc59da452_1e0fdfae29"
+                              tabindex="-1"
+                              value=""
+                            />
+                          </div>
+                          <div class="clear">
+                            <input
+                              type="submit"
+                              value="SUBSCRIBE"
+                              name="subscribe"
+                              id="mc-embedded-subscribe"
+                              class=" btn"
+                            />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> */}
+
+                  <div className="box-field__row">
+                    <div className="box-field">
+                      <input
+                        type="email"
+                        className="form-control"
+                        placeholder="Enter your email"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      className="btn"
+                      style={{ background: "#e9bc66" }}
+                    >
+                      subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="footer-nav_cotact mt-8">
+                <span className="footer-nav__col-title">CONTACT</span>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    float: "left",
+                  }}
+                >
+                  <i className="icon-map-pin"></i> 85, Fenlex House, St. John
+                  Street, Valleta, VLT1165, Malta
+                </p>
+                <ul>
+                  <li>
+                    <i className="icon-mail"></i>
+                    <a target="_blank" href="mailto:info@triton-series.com">
+                      info@triton-series.com{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <i className="icon-mail"></i>
+                    <a target="_blank" href="mailto:register@triton-series.com">
+                      register@triton-series.com
+                    </a>
+                  </li>
+                  <li>
+                    <i className="icon-mail"></i>
+                    <a
+                      target="_blank"
+                      href="mailto:partnerships@triton-series.com"
+                    >
+                      partnerships@triton-series.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            {/* <Logo
-              href="#"
-              logoSrc={LogoImage}
-              title="Hosting"
-              logoStyle={logoStyle}
-            /> */}
-            {/* <iframe
-              src="https://player.twitch.tv?channel=tritonpoker&amp;height=300&amp;parent=embed.example.com&amp;parent=othersite.example.com&amp;parent=triton-series.com&amp;referrer=https%3A%2F%2Ftriton-series.com%2Ftriton-super-high-roller-series-madrid-2022%2F&amp;width=450"
-              allowfullscreen=""
-              scrolling="no"
-              frameborder="0"
-              allow="autoplay; fullscreen"
-              title="Twitch"
-              sandbox="allow-modals allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
-              width="100%"
-              height="300"
-            ></iframe> */}
-            <Link href="https://www.twitch.tv/tritonpoker">
-              <a target="_blank">
-                <NextImage src={twitch} alt="twitch" />
+            <div className="w-full md:w-1/2 lg:w-1/2 px-2 mb-4">
+              <ul className="social">
+                <Link href="https://facebook.com/tritonpoker">
+                  <a target="_blank">
+                    <li className="facebook"></li>
+                  </a>
+                </Link>
+                <Link href="https://twitter.com/tritonpoker">
+                  <a target="_blank">
+                    <li className="twitter"></li>
+                  </a>
+                </Link>
+                <Link href="https://instagram.com/tritonpokerseries">
+                  <a target="_blank">
+                    <li className="instagram"></li>
+                  </a>
+                </Link>
+                <Link href="https://www.twitch.tv/tritonpoker">
+                  <a target="_blank">
+                    <li className="twitch"></li>
+                  </a>
+                </Link>
+                <Link href="https://youtube.com/tritonpoker">
+                  <a target="_blank">
+                    <li className="youtube"></li>
+                  </a>
+                </Link>
+                <Link href="https://discord.gg/tritonpoker">
+                  <a target="_blank">
+                    <li className="discord"></li>
+                  </a>
+                </Link>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="footer-copy">
+          <span>&copy; All rights reserved. Triton Series 2023</span>
+
+          <div>
+            <Link href="https://triton-series.com/privacy-policy/">
+              <a target="_blank" className="linkFooter">
+                Privacy Policy
               </a>
             </Link>
-          </Box>
-          {/* End of footer logo column */}
-          <Box {...colTwo}>
-            <Container>
-              <h2 style={{ color: "#EBA800", marginTop: "100px" }}>
-                SUBSCRIBE TO OUR NEWSLETTER
-              </h2>
-              <Input
-                inputType="email"
-                iconPosition="right"
-                isMaterial={true}
-                className="email_input"
-                style={{ width: "78%" }}
-              />
-              <Button
-                {...buttonStyle}
-                title="Submit Now "
-                className="btn-footer"
-              />
-              <h2 style={{ color: "#EBA800", marginTop: "10px" }}>
-                GOT A QUESTION?
-              </h2>
-              <div
-                style={{
-                  color: "#fff !important",
-                  margin: "2px 20px 0 0 !important",
-                  float: "left",
-                }}
-              >
-                <h4
-                  style={{
-                    color: "#EBA800 !important",
-                    margin: "0 !important",
-                  }}
-                >
-                  For More INFO
-                </h4>
-                <p>
-                  <Link href="mailto:info@triton-series.com">
-                    <a>info@triton-series.com</a>
-                  </Link>
-                </p>
-              </div>
-              <div
-                style={{
-                  color: "#fff !important",
-                  margin: "2px 20px 0 0 !important",
-                  float: "left",
-                }}
-              >
-                <h4
-                  style={{
-                    color: "#EBA800 !important",
-                    margin: "0 !important",
-                  }}
-                >
-                  JOIN OUR NEXT EVENT
-                </h4>
-                <p>
-                  <Link href="mailto:info@register@triton-series.com">
-                    <a>register@triton-series.com</a>
-                  </Link>
-                </p>
-              </div>
-              <div
-                style={{
-                  color: "#fff !important",
-                  margin: "0 !important",
-                  float: "left",
-                }}
-              >
-                <h4
-                  style={{
-                    color: "#EBA800 !important",
-                    margin: "0 !important",
-                  }}
-                >
-                  WANT TO BE A SPONSOR?
-                </h4>
-                <p>
-                  <Link href="mailto:partnerships@triton-series.com">
-                    <a>partnerships@triton-series.com</a>
-                  </Link>
-                </p>
-              </div>
-              <div style={{ float: "left" }}>
-                {" "}
-                <h3
-                  style={{
-                    color: "#EBA800 !important",
-                    margin: "20px 0 !important",
-                  }}
-                >
-                  85, Fenlex House, St. John Street, Valleta, VLT1165, Malta
-                </h3>
-              </div>
-              <Box style={{ float: "left", width: "100%" }}>
-                <div style={{ float: "left", marginRight: "10px" }}>
-                  <Link href="https://triton-series.com/privacy-policy/">
-                    <a
-                      className="link-fon"
-                      style={{ textTransform: "uppercase" }}
-                    >
-                      Privacy Policy
-                    </a>
-                  </Link>
-                </div>
-                <div style={{ float: "left", marginRight: "10px" }}>
-                  <Link href="https://triton-series.com/terms-and-conditions/">
-                    <a
-                      className="link-fon"
-                      style={{ textTransform: "uppercase" }}
-                    >
-                      Terms and Conditions
-                    </a>
-                  </Link>
-                </div>
-                <div style={{ float: "left", marginRight: "10px" }}>
-                  <Link href="https://triton-series.com/about-paul-phua">
-                    <a
-                      className="link-fon"
-                      style={{ textTransform: "uppercase" }}
-                    >
-                      About Paul Phua
-                    </a>
-                  </Link>
-                </div>
-              </Box>
-            </Container>
-
-            {/* {FOOTER_WIDGET.map((widget, index) => (
-              <Box className="col" {...col} key={`footer-widget-${index}`}>
-                <Heading content={widget.title} {...titleStyle} />
-                <List>
-                  {widget.menuItems.map((item, index) => (
-                    <ListItem key={`footer-list-item-${index}`}>
-                      <Link href={item.url}>
-                        <a className="ListItem">{item.text}</a>
-                      </Link>
-                    </ListItem>
-                  ))}
-                </List>
-              </Box>
-            ))} */}
-          </Box>
-          {/* End of footer List column */}
-        </Box>
+            <Link href="https://triton-series.com/terms-and-conditions/">
+              <a target="_blank" className="linkFooter">
+                Terms and Conditions
+              </a>
+            </Link>
+            <Link href="https://triton-series.com/about-paul-phua">
+              <a target="_blank" className="linkFooter">
+                About Paul Phua
+              </a>
+            </Link>
+          </div>
+        </div>
       </Container>
     </FooterWrapper>
   );

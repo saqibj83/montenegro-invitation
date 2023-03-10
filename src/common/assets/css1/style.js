@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const ResetCSS = createGlobalStyle`
   ::selection {
@@ -73,6 +73,7 @@ const ResetCSS = createGlobalStyle`
   }
 
   .reuseModalHolder {
+    padding: 0 !important;
     &.demo_switcher_modal {
       border: 0 !important;
       background-color: rgba(16, 30, 77, 0.9) !important;
