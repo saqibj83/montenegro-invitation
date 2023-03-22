@@ -93,7 +93,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
-              September 10-12, 2022
+              May 18-20, 2023
             </p>
             <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/15192309/coin-rivet-structure.pdf">
               <a>

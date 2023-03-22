@@ -13,26 +13,25 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         <Box {...secTitleWrapper}>
           <Heading
             {...secHeading}
-            content=" $200,000 COIN RIVET INVITATIONAL
+            content=" $200,000 LUXON INVITATIONAL - POWERED BY TRITON POKER SERIES
            
             "
           />
           <Heading
             {...secHeading}
-            content="  SEPTEMBER 10-12TH 2022
+            content="  MAY 18th - 20th  2023
             "
           />
           <p>
-            The Coin Rivet Invitational is a unique $200,000 NLH buy-in that
-            features high-profiled business people and poker professionals
-            battling for prize money and the coveted title Coin Rivet trophy.
-            Powered by Triton Poker, the invitational was inspired by the record
-            breaking Triton Million that took place in London in 2019 where
-            professionals and poker pros will play separately on Day 1, then
-            converge to battle against each other to a winner. This exclusive
-            event will start on September 10, 2022 at the Luxon Pay
-            Mediterranean Poker Party in Merit Royal Diamond, North Cyprus and
-            conclude on September 12, 2022.
+            The Luxon Invitational is a unique $200,000 NLH buy-in that features
+            affluent VIPS and poker professionals battling for prize money and
+            the coveted title & trophy. Powered by Triton Poker, the
+            invitational was inspired by the record breaking Triton Million that
+            took place in London in 2019 where professionals and poker pros will
+            play separately on Day 1, then converge to battle against each other
+            to a winner. This exclusive event will start on May 18, 2023 at the
+            Merit Royal Diamond, North Cyprus and conclude May 20, 2023 during
+            the exclusive Triton Poker SHRS tournament.
           </p>
         </Box>
       </Container>

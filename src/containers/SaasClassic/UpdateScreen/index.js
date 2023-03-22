@@ -32,28 +32,96 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           </TabPane>
           <TabPane tab="Accommodation" key="2">
             <ul>
-              <li>Arrival: 4th of September 2022</li>
-              <li>Departure: 20th of September 2022</li>
+              <li>Arrival: 9th of May 2023</li>
+              <li>Departure: 26th of May 2023</li>
               <li>
                 During Triton Series CYPRUS complimentary accommodation is
-                offered to players who will qualify for the USD 250K combined
+                offered to players who will qualify for the USD 300K combined
                 spend in tournament buy-ins. We are pleased to offer
-                complimentary accommodation at:
+                complimentary accommodation at the Merit Royal Diamond Hotel
               </li>
-              <li>Merit Royal Diamond Hotel</li>
-              <li>Please advise at your earliest convenience.</li>
-              <li>The number of rooms available is limited.</li>
               <li>
                 <Link href="https://triton-series.com/accommodation-terms-conditions/">
                   <a>Click here for accommodation terms and conditions</a>
                 </Link>
               </li>
+              <li>
+                Complimentary accommodation is offered at Merit Royal Diamond
+                Hotel, subject to the following terms and conditions:
+              </li>
+            </ul>
+            <ul style={{ paddingLeft: "30px" }}>
+              <li>
+                1. Must play any tournament for a total combined buy-in amount
+                of USD 300K.
+              </li>
+              <li>
+                2. Accommodation is complimentary for stay period between May
+                9th to 26th, 2023 with a maximum stay of 17 nights.
+              </li>
+              <li>
+                3. Complimentary accommodation is applicable for Standard Rooms.
+                Upgrade options is subject to availability upon request and will
+                incur additional cost on guest account.
+              </li>
+              <li>
+                4. Confirmation of attendance and room requirements must be sent
+                to Triton VIP Services before May 1st 2022. Players are advised
+                to confirm their attendance and make hotel reservations prior to
+                that date.
+              </li>
+              <li>
+                5. Upon check-in, players will need to pay a deposit for the the
+                total booking amount and for incidentals. The hotel will release
+                the prepaid amount once verified that players have reached the
+                required amount as stated on (1). Due to complications with
+                credit card refunds in North Cyprus, it is highly recommended to
+                pay the deposit in cash.
+              </li>
+              <li>
+                6. Extension of hotel room is subject to availability and will
+                incur additional cost on guest account. Different rates may
+                apply.
+              </li>
+              <li>
+                7. Check-In time is at 15:00. Early Check-In is subject to
+                availability upon request and may incur an additional cost of
+                (1) room night.
+              </li>
+              <li>
+                8. Check Out time is at 12:00. Late check-out is subject to
+                availability upon request and may incur an additional cost based
+                on actual check-out time.
+              </li>
+              <li>
+                9. Complimentary accommodation is inclusive of full board meals
+                for 2 pax.
+              </li>
+              <li>
+                10. Complimentary accommodation is inclusive of (1) round-trip
+                airport transfer. Advanced booking of at least 24 hours is
+                required.
+              </li>
+              <li>
+                11. Cancellation of booking is subject to the hotel’s
+                cancellation policy and will incur penalty to be borne by the
+                player.
+              </li>
+              <li>
+                12. Exceptions for all above conditions will be handled on a
+                case-by-case basis.
+              </li>
+              <li>
+                Please get in touch with our VIP services for information on
+                rates and booking at{" "}
+                <a href="mailto:vip@triton-series.com">vip@triton-series.com</a>
+              </li>
             </ul>
           </TabPane>
           <TabPane tab="Travel Information" key="3">
             <h2>Entering Cyprus</h2>
-            <h3>Arrival & Transfers</h3>
-            <p>
+            <h3 className="mb-3">Arrival & Transfers</h3>
+            <p className="mb-3">
               <strong> Ercan International Airport (ECN)</strong> is the primary
               entry point to the Turkish Republic of North Cyprus (TRNC) via
               Istanbul, Turkey. It’s a 50 minute drive to Merit Royal Diamond
@@ -65,11 +133,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               in LCA will need to cross the border from South to TRNC to get to
               Merit Royal Diamond Hotel via land transport which takes 1.5
               hours, and will need to depart the same way.
-            </p>
-            <p>
-              As of 13-June 2022, travellers are allowed to enter TRNC and the
-              Republic of Cyprus without the requirement of taking a negative
-              PCR test regardless of vaccination status.
             </p>
             <ul style={{ paddingLeft: "50px" }}>
               <li>

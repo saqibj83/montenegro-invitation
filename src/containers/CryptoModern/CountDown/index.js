@@ -114,7 +114,7 @@ const ModalContent1 = () => (
     <div className="relative bg-white main-box rounded-lg shadow dark:bg-gray-700 ">
       <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
         <h3 className=" dark:text-white">
-          Schedule <br /> <span>10th - 12th September</span>
+          Schedule <br /> <span>18th - 20th May</span>
         </h3>
 
         <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/15192309/coin-rivet-structure.pdf">
@@ -129,7 +129,7 @@ const ModalContent1 = () => (
       </div>
 
       <div className=" p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0">
-        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">Saturday 10th Sep</h4>
+        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">THURSDAY 18th May</h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0 shadow">
           <thead>
             <tr>
@@ -162,10 +162,10 @@ const ModalContent1 = () => (
                 2 PM
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
-                2 PM
+                -
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
-                Coin Rivet Invitational Day 1
+                NLH - LUXON INVITATIONAL Day 1
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $200K
@@ -185,7 +185,7 @@ const ModalContent1 = () => (
       </div>
 
       <div className="p-0 mb-3 space-y-6 rounded sm:p-3 sm:mb-0 ">
-        <h4 className="text-black pl-3 ">Sunday 11th Sep</h4>
+        <h4 className="text-black pl-3 ">Friday 19th May</h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
@@ -221,7 +221,7 @@ const ModalContent1 = () => (
                 -
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
-                Coin Rivet Invitational Day 2
+                NLH - LUXON INVITATIONAL Day 2
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $200K
@@ -240,7 +240,7 @@ const ModalContent1 = () => (
         </table>
       </div>
       <div className="p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0 ">
-        <h4 className="text-black pl-3">Monday 12th Sep</h4>
+        <h4 className="text-black pl-3">Satuday 20th May</h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
@@ -276,7 +276,7 @@ const ModalContent1 = () => (
                 -
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
-                Coin Rivet Invitational Day 3
+                NLH - LUXON INVITATIONAL Day 3
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 $200K
