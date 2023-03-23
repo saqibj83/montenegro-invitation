@@ -103,7 +103,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             >
               May 18-20, 2023
             </p>
-            <Link href="#">
+            <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/SHRS_North_Cyprus_e115689374.pdf?updated_at=2023-03-23T08:03:22.113Z">
               <a>
                 <Button
                   title="VIEW FULL STRUCTURE"
