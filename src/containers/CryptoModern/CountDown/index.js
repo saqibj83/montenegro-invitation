@@ -130,7 +130,7 @@ const ModalContent1 = () => (
           Schedule <br /> <span>18th - 20th May</span>
         </h3>
 
-        <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/15192309/coin-rivet-structure.pdf">
+        <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/SHRS_North_Cyprus_e115689374.pdf">
           <a>
             <Button
               title="Download Schedule"
