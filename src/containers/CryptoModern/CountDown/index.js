@@ -46,7 +46,7 @@ const ModalContent = () => (
             after getting eliminated
           </li>
           <li>
-            Registration will end at the start of Level 11 (Day 2 - 02:55 PM)
+            Registration will end at the start of Level 11 (Day 2 – 2:55PM)
           </li>
           <li>Day 2 will play down to the Final Table</li>
         </ul>
@@ -62,48 +62,57 @@ const ModalContent = () => (
             the tournament starts
           </li>
           <li>
-            A regressive time bank system will apply, please see "Poker Rules"
-          </li>
-          <li>
-            Upon closing registration each player will receive 5 extra Time Bank
-            Cards
+            A regressive time bank system will apply, please see “Tournament
+            Rules”
           </li>
           <li>
             Upon reaching the Final Table all players will receive 5 extra Time
             Bank Cards
           </li>
-          <li>All Shot Clock rules listed in the "Poker Rules" will apply</li>
+          <li>
+            All Shot Clock rules listed in the "Tournament Rules" will apply
+          </li>
         </ul>
         <h2 className="text-xl font-bold">SEAT DRAW</h2>
         <ul className="px-3">
-          <li>
-            Businessmen and Pros will play separately for the first 8 levels
-          </li>
+          <li>VIPs and Pros will play separately for the first 8 levels</li>
           <li>
             At the end of level 8 there will be a complete random redraw with
             the rules explained in point (3)
           </li>
           <li>
             During levels 9, 10, 11 and 12 players will play on tables with a
-            balanced numbers of pros and businessmen as much as possible (i.e. 4
-            Businessmen and 4 Pros)
+            balanced numbers of pros and VIPs as much as possible (i.e. 4 VIPs
+            and 4 Pros)
           </li>
           <li>At the end of level 12 there will be a complete random redraw</li>
 
           <li>
-            Businessman/Pro pair will play at different tables from Level 9 up
-            until the last two tables remaining (16 players)
+            VIPs/Pro pair will play at different tables from Level 9 up until
+            the last two tables remaining (16 players)
           </li>
         </ul>
         <h2 className="text-xl font-bold">TV & Media Coverage</h2>
         <ul className="px-3">
           <li>This event will be televised.</li>
-          <li>Players may be asked for professional photoshoot</li>
+          <li>Players may be asked to be professionally photographed</li>
           <li>
-            All Coin Rivet Invitational players will be required to provide
-            their availability for interviews.
+            All Luxon Invitational players will be required to provide their
+            availability for interviews
           </li>
         </ul>
+        <p>
+          <strong>
+            **All other Triton Poker SHRS tournament rules apply. &nbsp;
+            <a
+              style={{ color: "#eba800" }}
+              target="_blank"
+              href="https://triton-series.com/tournament-rules/"
+            >
+              Click here
+            </a>
+          </strong>
+        </p>
       </div>
     </div>
   </>
@@ -159,7 +168,7 @@ const ModalContent1 = () => (
           <tbody class="bg-white dark:bg-slate-800">
             <tr>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
-                2 PM
+                1 PM
               </td>
               <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
                 -
