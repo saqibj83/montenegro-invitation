@@ -34,6 +34,10 @@ const ModalContent = () => (
         <h2 className="text-xl font-bold">GENERAL</h2>
         <ul className="px-3">
           <li>
+            Registration Fees are not included in the buy-in. Total buy-in
+            210,000 USD.
+          </li>
+          <li>
             Players are required to play from the very beginning of the
             tournament
           </li>
