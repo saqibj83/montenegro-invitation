@@ -8,7 +8,8 @@ import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
-import Coin from "common/assets/image/saasClassic/coing-rivet.png";
+import Coin from "common/assets/image/saasClassic/luxon.png";
+import placeholder from "common/assets/image/saasClassic/video.jpeg";
 import { play } from "react-icons-kit/entypo/play";
 
 // close button for modal
@@ -67,7 +68,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             </Fade>
           </Box>
           <Box>
-            <iframe
+            <NextImage
+              className="cyprus-img"
+              src={placeholder}
+              alt="Coin Rivet"
+              style={{ border: "4px solid rgb(235, 168, 0)" }}
+            />
+
+            {/* <iframe
               className="ifram-wd"
               src="https://www.youtube.com/embed/NBBW28e9gZ0"
               title="YouTube video player"
@@ -78,7 +86,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
                 textAlign: "center",
               }}
-            ></iframe>
+            ></iframe> */}
           </Box>
           <Box
             {...contentWrapper}
@@ -95,7 +103,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             >
               May 18-20, 2023
             </p>
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/15192309/coin-rivet-structure.pdf">
+            <Link href="#">
               <a>
                 <Button
                   title="VIEW FULL STRUCTURE"

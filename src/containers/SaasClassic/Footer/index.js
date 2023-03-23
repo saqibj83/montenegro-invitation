@@ -60,9 +60,9 @@ const Footer = ({
                     </Link>
                   </li>
                   <li>
-                    <Link href="#time_section">
+                    <Link href="#tournament_info">
                       <a>
-                        <i className="icon-arrow-sm"></i>Tournament
+                        <i className="icon-arrow-sm"></i>Tournament Info
                       </a>
                     </Link>
                   </li>

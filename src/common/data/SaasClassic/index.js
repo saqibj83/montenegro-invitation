@@ -21,7 +21,7 @@ export const MENU_ITEMS = [
   },
   {
     label: "TOURNAMENT INFO",
-    path: "#time_section",
+    path: "#tournament_info",
     offset: "0",
   },
   {

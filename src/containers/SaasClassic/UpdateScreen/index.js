@@ -104,15 +104,15 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           All tournaments may have their structures adjusted (including, but not
           limited to) levels, level length and days added or subtracted at the
           sole discretion of the Tournament Director.
-          <Link href="https://cyprus.triton-series.com/">
+          {/* <Link href="#">
             <a>
               <Button
-                title="Triton Cyprus 2022 Main Page"
+                title="Triton Cyprus Main Page"
                 className="primary-cta"
                 style={{ marginTop: "20px" }}
               />
             </a>
-          </Link>
+          </Link> */}
         </p>
       </Container>
     </SectionWrapper>

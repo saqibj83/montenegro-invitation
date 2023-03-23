@@ -337,7 +337,7 @@ const CountDownSection = () => {
     });
   };
   return (
-    <SectionWrapper className="bg-event" id="time_section">
+    <SectionWrapper className="bg-event" id="tournament_info">
       <Container>
         <Heading content="Tournament Info " />
         <Fade up>
