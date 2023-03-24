@@ -215,9 +215,7 @@ const Testimonials = () => {
         <ReactSlick {...settings}>
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -257,9 +255,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -339,9 +335,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -381,9 +375,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -423,9 +415,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -465,9 +455,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -505,9 +493,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -545,9 +531,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -585,9 +569,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -625,9 +607,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -665,9 +645,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -705,9 +683,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -745,9 +721,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -785,9 +759,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -825,9 +797,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -865,9 +835,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -905,9 +873,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -945,9 +911,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -985,9 +949,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1025,9 +987,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1065,9 +1025,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1105,9 +1063,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1145,9 +1101,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1185,9 +1139,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1225,9 +1177,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1265,9 +1215,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1305,9 +1253,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1345,9 +1291,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1385,9 +1329,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1425,9 +1367,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1465,9 +1405,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1505,9 +1443,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1545,9 +1481,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1585,9 +1519,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1625,9 +1557,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1665,9 +1595,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1705,9 +1633,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1745,9 +1671,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1785,9 +1709,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1825,9 +1747,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1865,9 +1785,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1905,9 +1823,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1945,9 +1861,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
@@ -1985,9 +1899,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">
-                VIP<span style={{ textTransform: "lowercase" }}>s</span>{" "}
-              </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 {/* <img
                   className="flag-PlayerPhoto"
