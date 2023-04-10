@@ -15,6 +15,7 @@ const SectionWrapper = styled.section`
   .rc-tabs-tabpane h2 {
     color: #212121;
     padding: 20px 40px 0;
+    font-size: 18px;
   }
   .rc-tabs-tab-btn {
     font-weight: bold;

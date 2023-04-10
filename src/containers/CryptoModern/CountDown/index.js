@@ -367,7 +367,7 @@ const CountDownSection = () => {
         <Fade up>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
-              <div className="bg-sky-900 py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
+              <div className="bg-b py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
                 <div className="w-full text-center ">
                   <NextImage src={Schedule} alt="Schedule" />
                   <h1>SCHEDULE</h1>
@@ -381,7 +381,7 @@ const CountDownSection = () => {
               </div>
             </div>
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
-              <div className="bg-sky-900 py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
+              <div className="bg-b py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
                 <div className="w-full text-center ">
                   <NextImage src={Rules} alt="Tournament Rules" />
                   <h1>TOURNAMENT RULES</h1>
