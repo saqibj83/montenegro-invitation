@@ -83,22 +83,22 @@ export const GlobalStyle = createGlobalStyle`
         left: -35px;
 }
     h3, h4 {
-      font-size: 14px;
+      font-size: 18px;
     }
     p {
-      font-size: 16px !important;
+      font-size: 18px !important;
     }
     p span {
-      font-size: 14px !important;
+      font-size: 18px !important;
     }
     h2 
     {
-      font-size:20px !important;
-      font-weight: 400 !important
+      font-size:18px !important;
+      font-weight: 800 !important
     }
   li {
 
-      font-size: 14px !important;
+      font-size: 18px !important;
   }
 
   }
