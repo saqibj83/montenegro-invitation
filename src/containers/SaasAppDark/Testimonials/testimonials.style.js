@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Section = styled.section`
   padding-top: 100px;
-  background: #011933;
+  background: #000;
 
   @media only screen and (max-width: 1536px) {
     padding-top: 100px;

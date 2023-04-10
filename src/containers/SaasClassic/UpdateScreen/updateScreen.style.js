@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 100px 0 50px 0;
-  background: #011933;
+  background: #000;
   .rc-tabs-content-holder {
     background: #ffff;
     border-radius: 0px 0px 10px 10px;
@@ -27,7 +27,7 @@ const SectionWrapper = styled.section`
   .rc-tabs-tabpane p {
     color: #212121;
     padding: 0 40px;
-    line-height: 20px;
+    line-height: 30px;
     font-size: 18px;
     text-transform: none;
   }
@@ -79,6 +79,7 @@ const SectionWrapper = styled.section`
     color: #212121;
     font-size: 18px;
     text-transform: none;
+    line-height: 30px;
   }
   li a {
     color: #eba800 !important;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 75px 0 20px 0;
-  background: #011933;
+  background: #000;
   p {
     color: #fff;
     font-size: 18px;
