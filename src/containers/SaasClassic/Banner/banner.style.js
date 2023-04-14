@@ -15,12 +15,12 @@ const Bubble = keyframes`
 `;
 
 export const BannerWrapper = styled.section`
-  padding: 150px 0 50px 0;
+  padding: 100px 0 50px 0;
   background-image: url(${BgIMage?.src});
   background-size: cover;
   background-position: top center;
   overflow: hidden;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;

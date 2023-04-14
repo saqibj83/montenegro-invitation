@@ -38,7 +38,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             className="main-logo"
           />
           <Logo
-            href="https://www.triton-series.com/"
+            href="https://cyprus.triton-series.com/"
             logoSrc={LogoImageAlt}
             title="Portfolio"
             logoStyle={logoStyle}

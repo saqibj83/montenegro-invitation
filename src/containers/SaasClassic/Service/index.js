@@ -10,16 +10,21 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="general_section">
       <Container>
-        <Box {...secTitleWrapper}>
+        <Box {...secTitleWrapper} style={{ textAlign: "center" }}>
           <Heading
             {...secHeading}
-            content=" $200,000 LUXON INVITATIONAL - POWERED BY TRITON POKER SERIES
+            content="  LUXONPAY INVITATIONAL - POWERED BY 
            
             "
           />
+          <img
+            src="https://triton-series.com/wp-content/uploads/2019/11/TTPK_logo_new-flat-added-bavel_190320.1_horizontal.png"
+            alt=""
+            style={{ width: "200px", textAlign: "center", display: "inline" }}
+          />
           <Heading
             {...secHeading}
-            content="  MAY 18th - 20th  2023
+            content="  $200,000 - MAY 18th - 20th  2023
             "
           />
           <p>

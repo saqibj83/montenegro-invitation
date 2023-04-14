@@ -91,20 +91,22 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             </ul>
           </TabPane>
         </Tabs>
-        <p
-          style={{
-            textAlign: "center",
-            paddingTop: "20px",
-            color: "#fff",
-            fontSize: "18px",
-            textTransform: "none",
-          }}
-        >
-          Management reserves the right to impose payout option restrictions.
-          All tournaments may have their structures adjusted (including, but not
-          limited to) levels, level length and days added or subtracted at the
-          sole discretion of the Tournament Director.
-          {/* <Link href="#">
+        <Box style={{ textAlign: "center" }}>
+          <p
+            style={{
+              textAlign: "center",
+              paddingTop: "20px",
+              color: "#fff",
+              fontSize: "18px",
+              textTransform: "none",
+            }}
+          >
+            Management reserves the right to impose payout option restrictions.
+            All tournaments may have their structures adjusted (including, but
+            not limited to) levels, level length and days added or subtracted at
+            the sole discretion of the Tournament Director.
+          </p>
+          <Link href="https://cyprus.triton-series.com/">
             <a>
               <Button
                 title="Triton Cyprus Main Page"
@@ -112,8 +114,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 style={{ marginTop: "20px" }}
               />
             </a>
-          </Link> */}
-        </p>
+          </Link>
+        </Box>
       </Container>
     </SectionWrapper>
   );
