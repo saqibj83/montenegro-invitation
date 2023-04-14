@@ -6,6 +6,13 @@ import styled from "styled-components";
 const Section = styled.section`
   padding-top: 100px;
   background: #000;
+  .pd-6 {
+    height: 275px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
   @media only screen and (max-width: 1536px) {
     padding-top: 100px;

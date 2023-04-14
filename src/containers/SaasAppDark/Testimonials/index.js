@@ -222,7 +222,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/lt.svg"
                   alt="player"
                 />
-                <div className="main_card__image">
+                <div className="main_card__image ">
                   <NextImage className="cyprus-img" src={image1} alt="Tony G" />
                 </div>
                 <h4 className="main_card__name">Tony G</h4>
@@ -258,7 +258,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -272,7 +272,7 @@ const Testimonials = () => {
 
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Laszlo Bujtas</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/hu.svg"
@@ -298,7 +298,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
                   alt="player"
                 />
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={image5}
@@ -312,7 +312,7 @@ const Testimonials = () => {
 
               <div className="cell small main__card__bottom">
                 <h4 className="main_card__name">Ben Lamb</h4>
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -338,7 +338,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -352,7 +352,7 @@ const Testimonials = () => {
 
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Linus Loeliger</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/ch.svg"
@@ -378,7 +378,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -392,7 +392,7 @@ const Testimonials = () => {
 
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Michael Addamo</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/au.svg"
@@ -418,7 +418,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -432,7 +432,7 @@ const Testimonials = () => {
 
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Jason Koon</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -458,7 +458,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -470,7 +470,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Mikita Badziakouski</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/by.svg"
@@ -496,7 +496,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -508,7 +508,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Stephen Chidwick</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
@@ -534,7 +534,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -546,7 +546,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Matthias Eibenger</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/at.svg"
@@ -572,7 +572,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -584,7 +584,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Wiktor Malinowski</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/pl.svg"
@@ -610,7 +610,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -622,7 +622,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Adrian Mateos </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/es.svg"
@@ -648,7 +648,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -660,7 +660,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Albert Daher</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://cdn.triton-series.com/wp-content/uploads/2019/12/11113507/ber.png"
@@ -686,7 +686,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -698,7 +698,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Sam Grafton</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
@@ -724,7 +724,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -736,7 +736,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Mustapha Kanit</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/it.svg"
@@ -762,7 +762,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -774,7 +774,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Fedor Holz</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/de.svg"
@@ -800,7 +800,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -812,7 +812,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Steve O'Dwyer </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -838,7 +838,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -850,7 +850,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Seth Davies </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -876,7 +876,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -888,7 +888,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Erik Seidel </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -914,7 +914,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -926,7 +926,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Nick Petrangelo </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -952,7 +952,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -964,7 +964,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Espen Jorstad </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/no.svg"
@@ -990,7 +990,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1002,7 +1002,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> DANNY TANG </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/hk.svg"
@@ -1028,7 +1028,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1040,7 +1040,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Rui Cao </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/fr.svg"
@@ -1066,7 +1066,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1078,7 +1078,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Patrik Antonius </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/fi.svg"
@@ -1104,7 +1104,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1116,7 +1116,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Michael Zhang </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
@@ -1142,7 +1142,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1154,7 +1154,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Chris brewer </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -1180,7 +1180,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1192,7 +1192,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Isaac Haxton </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -1218,7 +1218,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1230,7 +1230,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Aleksejs Ponakovs </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/lv.svg"
@@ -1256,7 +1256,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1268,7 +1268,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Sam Greenwood </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/ca.svg"
@@ -1294,7 +1294,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1306,7 +1306,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Ebony Kenney </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -1332,7 +1332,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1344,7 +1344,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Artur Martirosyan </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/ru.svg"
@@ -1370,7 +1370,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1382,7 +1382,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> ElkY Grospellier</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/fr.svg"
@@ -1408,7 +1408,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1420,7 +1420,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> David Peters </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -1446,7 +1446,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1458,7 +1458,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Dan Cates </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -1484,7 +1484,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1496,7 +1496,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Christoph Vogelsang</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/de.svg"
@@ -1522,7 +1522,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1534,7 +1534,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Felipe Ramos </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/br.svg"
@@ -1560,7 +1560,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1572,7 +1572,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name"> Michael Soyza </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
@@ -1598,7 +1598,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1610,7 +1610,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Tom Vogelsang </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/nl.svg"
@@ -1636,7 +1636,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1648,7 +1648,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Barak Wisbrod </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/is.svg"
@@ -1674,7 +1674,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1686,7 +1686,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Henrik Hecklen</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/dk.svg"
@@ -1712,7 +1712,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1724,7 +1724,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Ben Tollerene</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -1750,7 +1750,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1762,7 +1762,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Luuk Gieles</h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/nl.svg"
@@ -1788,7 +1788,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1800,7 +1800,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Yuri Dzivielevski </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/br.svg"
@@ -1826,7 +1826,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1838,7 +1838,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Viacheslav Buldygin </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/ru.svg"
@@ -1864,7 +1864,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1876,7 +1876,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Viktor Kudinov </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/ru.svg"
@@ -1902,7 +1902,7 @@ const Testimonials = () => {
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
                   alt="player"
                 /> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   <NextImage
                     className="cyprus-img"
                     src={imageDef}
@@ -1914,7 +1914,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
               <div className="cell small main__card__bottom">
                 {/* <h4 className="main_card__name">Kahle Burns </h4> */}
-                <div className="main_card__image">
+                <div className="main_card__image pd-6">
                   {/* <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/au.svg"
