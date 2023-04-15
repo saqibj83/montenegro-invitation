@@ -289,30 +289,30 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* <div className="main_card cell auto">
+          <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">VP <span style={{textTransform:"lowercase"}}>s</span> </div>
+              <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
                   src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
                   alt="player"
                 />
-                <div className="main_card__image pd-6">
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
                     src={image5}
-                    alt="Bobby Baldwin"
+                    alt="Sean Perry"
                   />
                 </div>
-                <h4 className="main_card__name">Bobby Baldwin</h4>
+                <h4 className="main_card__name">Sean Perry</h4>
               </div>
 
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">Ben Lamb</h4>
-                <div className="main_card__image pd-6">
+                <h4 className="main_card__name">David Peters</h4>
+                <div className="main_card__image ">
                   <img
                     className="flag-PlayerPhoto"
                     src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
@@ -321,13 +321,13 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image6}
-                    alt="Ben Lamb"
+                    alt="David Peters"
                   />
                 </div>
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
             </div>
-          </div> */}
+          </div>
 
           <div className="main_card cell auto">
             <div className="grid-x">
