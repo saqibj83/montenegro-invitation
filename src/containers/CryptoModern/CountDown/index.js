@@ -34,15 +34,15 @@ const CloseModalButton = () => (
 
 const ModalContent = () => (
   <>
-    <div className="relative bg-white rounded-lg shadow dark:bg-gray-700 ">
-      <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
-        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+    <div className="relative bg-white rounded-lg shadow  ">
+      <div className="flex justify-between items-start p-4 rounded-t border-b ">
+        <h3 className="text-xl font-semibold text-black">
           Tournament Rules - Luxon Invitational
         </h3>
       </div>
 
       <div className="p-6 space-y-6">
-        <h2 className="text-xl font-bold">GENERAL</h2>
+        <h2 className="text-xl text-black font-bold">GENERAL</h2>
         <ul className="px-3">
           <li>
             Registration Fees are not included in the buy-in. Total buy-in
@@ -135,9 +135,9 @@ const ModalContent = () => (
 
 const ModalContent1 = () => (
   <ContentTable>
-    <div className="relative bg-white main-box rounded-lg shadow dark:bg-gray-700 ">
-      <div className="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
-        <h3 className=" dark:text-white">
+    <div className="relative bg-white main-box rounded-lg shadow  ">
+      <div className="flex justify-between items-start p-4 rounded-t border-b ">
+        <h3 className=" text-black">
           Schedule <br /> <span>18th - 20th May</span>
         </h3>
 
@@ -157,50 +157,50 @@ const ModalContent1 = () => (
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0 shadow">
           <thead>
             <tr>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Start Time
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Late Reg
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Event
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Buy-in
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Reg Fee
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Chips
               </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium  text-white text-left">
+              <th class="border-b  text-lg font-medium  text-white text-left">
                 Clock
               </th>
             </tr>
           </thead>
-          <tbody class="bg-white dark:bg-slate-800">
+          <tbody class="bg-white">
             <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 1 PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 -
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 1
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 $200K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 $10K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 300K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 50
               </td>
             </tr>
@@ -213,50 +213,50 @@ const ModalContent1 = () => (
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Start Time
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Late Reg
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Event
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Buy-in
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Reg Fee
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Chips
               </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium  text-white text-left">
+              <th class="border-b  text-lg font-medium  text-white text-left">
                 Clock
               </th>
             </tr>
           </thead>
           <tbody class="bg-white dark:bg-slate-800">
             <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 1 PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 -
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 2
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 $200K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 $10K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 300K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 50
               </td>
             </tr>
@@ -268,50 +268,50 @@ const ModalContent1 = () => (
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Start Time
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Late Reg
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Event
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Buy-in
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Reg Fee
               </th>
-              <th class="border-b dark:border-slate-600 text-lg p-1 sm:p-4 font-medium text-white text-left">
+              <th class="border-b  text-lg p-1 sm:p-4 font-medium text-white text-left">
                 Chips
               </th>
-              <th class="border-b dark:border-slate-600 text-lg font-medium  text-white text-left">
+              <th class="border-b  text-lg font-medium  text-white text-left">
                 Clock
               </th>
             </tr>
           </thead>
           <tbody class="bg-white dark:bg-slate-800">
             <tr>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 1PM
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 -
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 3
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 $200K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
                 $10K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 300K
               </td>
-              <td class="border-b border-slate-100 dark:border-slate-700 p-1 sm:p-4  pr-8 text-slate-500 dark:text-slate-400">
+              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
                 50
               </td>
             </tr>
