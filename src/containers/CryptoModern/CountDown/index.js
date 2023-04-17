@@ -182,27 +182,15 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white">
             <tr>
-              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
-                1 PM
-              </td>
-              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
-                -
-              </td>
-              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">1 PM</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
+              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 1
               </td>
-              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
-                $200K
-              </td>
-              <td class="border-b border-slate-100  p-1 sm:p-4  text-slate-500 ">
-                $10K
-              </td>
-              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
-                300K
-              </td>
-              <td class="border-b border-slate-100  p-1 sm:p-4  pr-8 text-slate-500 ">
-                50
-              </td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
+              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
           </tbody>
         </table>

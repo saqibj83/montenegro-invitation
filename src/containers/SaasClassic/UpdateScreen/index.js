@@ -110,7 +110,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             <a>
               <Button
                 title="Triton Cyprus Main Page"
-                className="primary-cta"
+                className="btn-bg"
                 style={{ marginTop: "20px" }}
               />
             </a>

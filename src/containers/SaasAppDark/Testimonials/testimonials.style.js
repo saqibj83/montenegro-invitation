@@ -144,7 +144,19 @@ export const ReactSlick = styled(Slider)`
     margin-top: 10px;
   }
   .main_card__invites {
-    background-image: linear-gradient(93deg, #d3a952 7%, #c0994a 92%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(180, 128, 44, 1) 0%,
+      rgba(246, 208, 110, 1) 15%,
+      rgba(225, 166, 52, 1) 32%,
+      rgba(239, 193, 88, 1) 42%,
+      rgba(246, 208, 110, 1) 50%,
+      rgba(240, 191, 84, 1) 58%,
+      rgba(225, 166, 52, 1) 68%,
+      rgba(246, 208, 110, 1) 85%,
+      rgba(180, 128, 44, 1) 100%,
+      rgba(246, 208, 110, 1) 7064%
+    );
     font-size: 0.8125rem;
     letter-spacing: 4px;
     font-weight: 600;

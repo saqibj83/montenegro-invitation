@@ -13,10 +13,16 @@ const ButtonStyle = styled.button`
   color: ${themeGet("#000", "#000")};
   background: linear-gradient(
     90deg,
-    rgb(245, 191, 64),
-    rgb(255, 225, 156) 50%,
-    rgb(245, 191, 64) 100%,
-    rgb(245, 191, 64) 0px
+    rgba(180, 128, 44, 1) 0%,
+    rgba(246, 208, 110, 1) 15%,
+    rgba(225, 166, 52, 1) 32%,
+    rgba(239, 193, 88, 1) 42%,
+    rgba(246, 208, 110, 1) 50%,
+    rgba(240, 191, 84, 1) 58%,
+    rgba(225, 166, 52, 1) 68%,
+    rgba(246, 208, 110, 1) 85%,
+    rgba(180, 128, 44, 1) 100%,
+    rgba(246, 208, 110, 1) 7064%
   );
   min-height: ${themeGet("heights.3", "48")}px;
   min-width: ${themeGet("widths.3", "48")}px;
