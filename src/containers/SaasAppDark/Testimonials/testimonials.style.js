@@ -157,7 +157,7 @@ export const ReactSlick = styled(Slider)`
       rgba(180, 128, 44, 1) 100%,
       rgba(246, 208, 110, 1) 7064%
     );
-    font-size: 0.8125rem;
+    font-size: 1rem;
     letter-spacing: 4px;
     font-weight: 600;
     padding: 0.15rem;
