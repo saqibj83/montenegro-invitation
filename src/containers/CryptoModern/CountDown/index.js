@@ -224,7 +224,7 @@ const ModalContent1 = () => (
               </th>
             </tr>
           </thead>
-          <tbody class="bg-white dark:bg-slate-800">
+          <tbody class="bg-white ">
             <tr>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">1 PM</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
@@ -267,7 +267,7 @@ const ModalContent1 = () => (
               </th>
             </tr>
           </thead>
-          <tbody class="bg-white dark:bg-slate-800">
+          <tbody class="bg-white ">
             <tr>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">1PM</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
