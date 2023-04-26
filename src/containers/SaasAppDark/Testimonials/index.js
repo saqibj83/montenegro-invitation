@@ -653,33 +653,35 @@ const Testimonials = () => {
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
-                {/* <img
+                <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/id.svg"
                   alt="player"
-                /> */}
-                <div className="main_card__image pd-6">
+                />
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Paul Phua"
+                    src={image23}
+                    alt="Ferdinand Putra"
                   />
                 </div>
-                {/* <h4 className="main_card__name">Paul Phua</h4> */}
+                <h4 className="main_card__name">Ferdinand Putra</h4>
               </div>
+
               <div className=" cell small main_card__invites">INVITES</div>
+
               <div className="cell small main__card__bottom">
-                {/* <h4 className="main_card__name">Albert Daher</h4> */}
-                <div className="main_card__image pd-6">
-                  {/* <img
+                <h4 className="main_card__name">Sergio Aldo </h4>
+                <div className="main_card__image ">
+                  <img
                     className="flag-PlayerPhoto"
-                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/11113507/ber.png"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/es.svg"
                     alt="player"
-                  /> */}
+                  />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Albert Daher"
+                    src={image24}
+                    alt="Sergio Aldo   "
                   />
                 </div>
               </div>
