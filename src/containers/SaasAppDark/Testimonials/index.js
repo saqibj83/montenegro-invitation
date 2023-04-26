@@ -671,7 +671,7 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">Sergio Aldo </h4>
+                <h4 className="main_card__name">Sergio Aido </h4>
                 <div className="main_card__image ">
                   <img
                     className="flag-PlayerPhoto"
@@ -681,7 +681,7 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image24}
-                    alt="Sergio Aldo   "
+                    alt="Sergio Aido   "
                   />
                 </div>
               </div>
