@@ -693,33 +693,35 @@ const Testimonials = () => {
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
-                {/* <img
+                <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/az.svg"
                   alt="player"
-                /> */}
-                <div className="main_card__image pd-6">
+                />
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Paul Phua"
+                    src={image25}
+                    alt="Ramin Hajiyev "
                   />
                 </div>
-                {/* <h4 className="main_card__name">Paul Phua</h4> */}
+                <h4 className="main_card__name">Ramin Hajiyev </h4>
               </div>
+
               <div className=" cell small main_card__invites">INVITES</div>
+
               <div className="cell small main__card__bottom">
-                {/* <h4 className="main_card__name">Sam Grafton</h4> */}
-                <div className="main_card__image pd-6">
-                  {/* <img
+                <h4 className="main_card__name">Mikita Badziakouski </h4>
+                <div className="main_card__image ">
+                  <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/by.svg"
                     alt="player"
-                  /> */}
+                  />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Sam Grafton"
+                    src={image26}
+                    alt="Mikita Badziakouski   "
                   />
                 </div>
               </div>
