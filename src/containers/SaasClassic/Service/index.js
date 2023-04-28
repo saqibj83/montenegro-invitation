@@ -18,24 +18,24 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           />
           <Heading
             {...secHeading}
-            content="  $200,000 NLH
+            content="  £250,000 NLH
             "
           />
           <Heading
             {...secHeading}
-            content="  18th - 20th MAY  2023
+            content="  3rd - 5th Aug 2023  
             "
           />
           <p>
-            The Luxon Invitational is a unique $200,000 NLH buy-in that features
+            The Luxon Invitational is a unique £250,000 NLH buy-in that features
             affluent VIPs and poker professionals battling for prize money and
             the coveted title & trophy. Powered by Triton Poker, the
             invitational was inspired by the record breaking Triton Million that
             took place in London in 2019 where prominent VIPs and poker pros
             will play separately on Day 1, then converge to battle against each
-            other to a winner. This exclusive event will start on May 18, 2023
-            at the Merit Royal Diamond, North Cyprus and conclude May 20, 2023
-            during the exclusive Triton Poker SHRS tournament.
+            other to a winner. This exclusive event will start on August 03,
+            2023 at the JW Marriott Grosvenor House, London and conclude August
+            05, 2023 during the exclusive Triton Poker SHRS tournament.
           </p>
         </Box>
       </Container>

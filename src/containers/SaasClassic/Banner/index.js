@@ -101,7 +101,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
-              May 18-20, 2023
+              Aug 03-05, 2023
             </p>
             <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/SHRS_North_Cyprus_e115689374.pdf">
               <a>

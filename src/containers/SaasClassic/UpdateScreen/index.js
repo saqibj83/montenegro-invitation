@@ -21,7 +21,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13016.288956205337!2d33.2107858!3d35.3538535!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sMerit%20Royal%20Diamond%20Hotel%20%26%20Spa!5e0!3m2!1sen!2s!4v1661327645450!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.772239254875!2d-0.1552706!3d51.509674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760533d54bc165%3A0xbd82f4f5c122c765!2sJW%20Marriott%20Grosvenor%20House%20London!5e0!3m2!1sen!2s!4v1682665381898!5m2!1sen!2s"
               width="100%"
               height="450"
               style={{ border: "0" }}
@@ -106,10 +106,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             not limited to) levels, level length and days added or subtracted at
             the sole discretion of the Tournament Director.
           </p>
-          <Link href="https://cyprus.triton-series.com/">
+          <Link href="https://london2023.vercel.app/">
             <a>
               <Button
-                title="Triton Cyprus Main Page"
+                title="Triton London Main Page"
                 className="btn-bg"
                 style={{ marginTop: "20px" }}
               />
