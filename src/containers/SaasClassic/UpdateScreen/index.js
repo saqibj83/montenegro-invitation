@@ -46,7 +46,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               </li> */}
               <li>
                 <Link
-                  href="https://triton-series.com/accommodation-terms-conditions/"
+                  href="https://triton-series.com/london-accommodation-tc/"
                   legacyBehavior
                 >
                   <a>Click here for accommodation terms and conditions</a>
