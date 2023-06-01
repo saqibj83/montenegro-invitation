@@ -45,12 +45,20 @@ const ModalContent = () => (
         <h2 className="text-xl text-black font-bold">GENERAL</h2>
         <ul className="px-3">
           <li>
-            Registration Fees are not included in the buy-in. Total buy-in
-            210,000 USD.
+            {" "}
+            Registration Fees are not included in the buy-in. Total buy-in GBP
+            262,500.
           </li>
           <li>
-            Players are required to play from the very beginning of the
+            layers are required to play from the very beginning of the
             tournament
+          </li>
+          <li>
+            It is the VIP players obligation to confirm their attendance as soon
+            as possible to secure their seat and to guarantee this tournament’s
+            success. VIP players are encouraged to advise on their choice of PRO
+            pairing up with at earliest convenience and required to do so at 48h
+            prior to the event the latest.
           </li>
           <li>
             Tournament will play 8-handed – the final table will be 9-handed
@@ -61,28 +69,40 @@ const ModalContent = () => (
             after getting eliminated
           </li>
           <li>
-            Registration will end at the start of Level 11 (Day 2 – 2:55PM)
+            Players eliminated before the start of the Dinner Break wishing to
+            re-enter will need to notify the tournament staff about it. Their
+            stacks will be included in the complete 50/50 redraw.
+          </li>
+          <li>
+            {" "}
+            Registration for re-entries only will end at the start of Level 11
+            (Start of Day 2 – 1:00PM)
           </li>
           <li>Day 2 will play down to the Final Table</li>
+          <li>
+            This is a restricted Buy-In event and It will not grant any POY
+            points
+          </li>
         </ul>
         <h2 className="text-xl font-bold">TIME</h2>
         <ul className="px-3">
           <li>
             Each player will have the following seconds to act on the Shot
             Clock: 20 seconds pre-flop, 25 on the flop and 30 on the turn and
-            river
+            river unless otherwise advertised.
           </li>
           <li>
-            Each player will receive 12 Time Bank cards upon registering before
-            the tournament starts
+            Each player will receive 12 Time Bank tokens at the start of the
+            tournament
           </li>
           <li>
+            {" "}
             A regressive time bank system will apply, please see “Tournament
             Rules”
           </li>
           <li>
-            Upon reaching the Final Table all players will receive 5 extra Time
-            Bank Cards
+            When the re-entry period will end and upon reaching the Final Table
+            all players will receive 5 extra Time Bank Cards
           </li>
           <li>
             All Shot Clock rules listed in the "Tournament Rules" will apply
@@ -90,30 +110,46 @@ const ModalContent = () => (
         </ul>
         <h2 className="text-xl font-bold">SEAT DRAW</h2>
         <ul className="px-3">
-          <li>VIPs and Pros will play separately for the first 8 levels</li>
+          <li>VIPs and PROs will play separately for the first 8 levels</li>
           <li>
             At the end of level 8 there will be a complete random redraw with
-            the rules explained in point (3)
+            the rules explained in the point below
           </li>
           <li>
             During levels 9, 10, 11 and 12 players will play on tables with a
             balanced numbers of pros and VIPs as much as possible (i.e. 4 VIPs
-            and 4 Pros)
+            and 4 PROs)
           </li>
           <li>At the end of level 12 there will be a complete random redraw</li>
-
           <li>
-            VIPs/Pro pair will play at different tables from Level 9 up until
-            the last two tables remaining (16 players)
+            VIPs/Pro pair will play at different tables up until at least the
+            last two tables remaining (16 players)
           </li>
         </ul>
         <h2 className="text-xl font-bold">TV & Media Coverage</h2>
         <ul className="px-3">
-          <li>This event will be televised.</li>
-          <li>Players may be asked to be professionally photographed</li>
+          <li>This event will be televised</li>
+          <li>
+            Players images and their full names will be published on social
+            media channels prior to the event
+          </li>
+          <li>
+            In case of attending Triton Super High Roller Series for the first
+            time, Luxon Invitational players will be asked to provide a high
+            quality portrait with the rights for publishing.
+          </li>
+          <li>
+            Players may be asked to be professionally photographed during the
+            event
+          </li>
+          <li>
+            Prior to the Luxon Invitational event all players are required to
+            fill in a mandatory media/TV questionnaire for content (commentary)
+            purposes
+          </li>
           <li>
             All Luxon Invitational players will be required to provide their
-            availability for interviews
+            availability for interviews.
           </li>
         </ul>
         <p>
@@ -138,7 +174,7 @@ const ModalContent1 = () => (
     <div className="relative bg-white main-box rounded-lg shadow  ">
       <div className="flex justify-between items-start p-4 rounded-t border-b ">
         <h3 className=" text-black">
-          Schedule <br /> <span>18th - 20th May</span>
+          Schedule <br /> <span>03rd - 05th August</span>
         </h3>
 
         <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/SHRS_North_Cyprus_e115689374.pdf">
@@ -153,7 +189,7 @@ const ModalContent1 = () => (
       </div>
 
       <div className=" p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0">
-        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">THURSDAY 18th May</h4>
+        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">THURSDAY 3rd August</h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0 shadow">
           <thead>
             <tr>
@@ -187,8 +223,8 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 1
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -197,7 +233,7 @@ const ModalContent1 = () => (
       </div>
 
       <div className="p-0 mb-3 space-y-6 rounded sm:p-3 sm:mb-0 ">
-        <h4 className="text-black pl-3 ">Friday 19th May</h4>
+        <h4 className="text-black pl-3 ">Friday 04th August</h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
@@ -231,8 +267,8 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 2
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -240,7 +276,7 @@ const ModalContent1 = () => (
         </table>
       </div>
       <div className="p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0 ">
-        <h4 className="text-black pl-3">Satuday 20th May</h4>
+        <h4 className="text-black pl-3">Satuday 5th August</h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
@@ -274,8 +310,8 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 3
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
