@@ -177,7 +177,7 @@ const ModalContent1 = () => (
           Schedule <br /> <span>03rd - 05th August</span>
         </h3>
 
-        <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/SHRS_North_Cyprus_e115689374.pdf">
+        <Link href="#">
           <a>
             <Button
               title="Download Schedule"
@@ -223,7 +223,7 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 1
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£200K</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
@@ -267,7 +267,7 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 2
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£200K</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
@@ -310,7 +310,7 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 3
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£200K</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
