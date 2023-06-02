@@ -103,7 +103,13 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             >
               Aug 03-05, 2023
             </p>
-            <Link href="#">
+            <div className="prime-cta">
+              <div className="primary-cta" style={{ marginTop: "5px" }}>
+                VIEW FULL STRUCTURE
+              </div>
+              <span class="tooltiptext">Coming Soon</span>
+            </div>
+            {/* <Link href="#">
               <a>
                 <Button
                   title="VIEW FULL STRUCTURE"
@@ -111,7 +117,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                   style={{ marginTop: "20px" }}
                 />
               </a>
-            </Link>
+            </Link> */}
           </Box>
         </Box>
       </Container>

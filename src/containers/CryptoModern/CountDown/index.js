@@ -47,11 +47,11 @@ const ModalContent = () => (
           <li>
             {" "}
             Registration Fees are not included in the buy-in. Total buy-in GBP
-            262,500.
+            210,000.
           </li>
           <li>
             layers are required to play from the very beginning of the
-            tournament
+            tournament.
           </li>
           <li>
             It is the VIP players obligation to confirm their attendance as soon
@@ -61,12 +61,12 @@ const ModalContent = () => (
             prior to the event the latest.
           </li>
           <li>
-            Tournament will play 8-handed – the final table will be 9-handed
+            Tournament will play 8-handed – the final table will be 9-handed.
           </li>
-          <li>Single (1) Re-Entry available during the Registration Period</li>
+          <li>Single (1) Re-Entry available during the Registration Period.</li>
           <li>
             If a player wishes to Re-Enter he/she will have 30 Mins to do so
-            after getting eliminated
+            after getting eliminated.
           </li>
           <li>
             Players eliminated before the start of the Dinner Break wishing to
@@ -76,12 +76,12 @@ const ModalContent = () => (
           <li>
             {" "}
             Registration for re-entries only will end at the start of Level 11
-            (Start of Day 2 – 1:00PM)
+            (Start of Day 2 – 1:00PM).
           </li>
-          <li>Day 2 will play down to the Final Table</li>
+          <li>Day 2 will play down to the Final Table.</li>
           <li>
-            This is a restricted Buy-In event and It will not grant any POY
-            points
+            This is a restricted Buy-In event and it will not grant any POY
+            points.
           </li>
         </ul>
         <h2 className="text-xl font-bold">TIME</h2>
@@ -93,45 +93,47 @@ const ModalContent = () => (
           </li>
           <li>
             Each player will receive 12 Time Bank tokens at the start of the
-            tournament
+            tournament.
           </li>
           <li>
             {" "}
             A regressive time bank system will apply, please see “Tournament
-            Rules”
+            Rules”.
           </li>
           <li>
             When the re-entry period will end and upon reaching the Final Table
-            all players will receive 5 extra Time Bank Cards
+            all players will receive 5 extra Time Bank Cards.
           </li>
           <li>
-            All Shot Clock rules listed in the "Tournament Rules" will apply
+            All Shot Clock rules listed in the "Tournament Rules" will apply.
           </li>
         </ul>
         <h2 className="text-xl font-bold">SEAT DRAW</h2>
         <ul className="px-3">
-          <li>VIPs and PROs will play separately for the first 8 levels</li>
+          <li>VIPs and PROs will play separately for the first 8 levels.</li>
           <li>
             At the end of level 8 there will be a complete random redraw with
-            the rules explained in the point below
+            the rules explained in the point below.
           </li>
           <li>
             During levels 9, 10, 11 and 12 players will play on tables with a
-            balanced numbers of pros and VIPs as much as possible (i.e. 4 VIPs
-            and 4 PROs)
+            balanced numbers of PROs and VIPs as much as possible (i.e. 4 VIPs
+            and 4 PROs).
           </li>
-          <li>At the end of level 12 there will be a complete random redraw</li>
           <li>
-            VIPs/Pro pair will play at different tables up until at least the
-            last two tables remaining (16 players)
+            At the end of level 12 there will be a complete random redraw.
+          </li>
+          <li>
+            VIPs/Pros pair will play at different tables up until at least the
+            last two tables remaining (16 players).
           </li>
         </ul>
         <h2 className="text-xl font-bold">TV & Media Coverage</h2>
         <ul className="px-3">
-          <li>This event will be televised</li>
+          <li>This event will be televised.</li>
           <li>
             Players images and their full names will be published on social
-            media channels prior to the event
+            media channels prior to the event.
           </li>
           <li>
             In case of attending Triton Super High Roller Series for the first
@@ -140,12 +142,12 @@ const ModalContent = () => (
           </li>
           <li>
             Players may be asked to be professionally photographed during the
-            event
+            event.
           </li>
           <li>
             Prior to the Luxon Invitational event all players are required to
             fill in a mandatory media/TV questionnaire for content (commentary)
-            purposes
+            purposes.
           </li>
           <li>
             All Luxon Invitational players will be required to provide their
@@ -177,7 +179,7 @@ const ModalContent1 = () => (
           Schedule <br /> <span>03rd - 05th August</span>
         </h3>
 
-        <Link href="#">
+        {/* <Link href="#">
           <a>
             <Button
               title="Download Schedule"
@@ -185,7 +187,7 @@ const ModalContent1 = () => (
               style={{ minHeight: "20px", marginTop: "15px" }}
             />
           </a>
-        </Link>
+        </Link> */}
       </div>
 
       <div className=" p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0">

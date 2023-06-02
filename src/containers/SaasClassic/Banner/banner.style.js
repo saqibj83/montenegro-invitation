@@ -27,6 +27,60 @@ export const BannerWrapper = styled.section`
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
   }
+  .prime-cta {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: center;
+    color: #000;
+    background: linear-gradient(
+      90deg,
+      rgba(180, 128, 44, 1) 0%,
+      rgba(246, 208, 110, 1) 15%,
+      rgba(225, 166, 52, 1) 32%,
+      rgba(239, 193, 88, 1) 42%,
+      rgba(246, 208, 110, 1) 50%,
+      rgba(240, 191, 84, 1) 58%,
+      rgba(225, 166, 52, 1) 68%,
+      rgba(246, 208, 110, 1) 85%,
+      rgba(180, 128, 44, 1) 100%,
+      rgba(246, 208, 110, 1) 7064%
+    );
+    min-height: 46px;
+    min-width: 48px;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    transition: all 0.3s ease;
+  }
+  .prime-cta .tooltiptext {
+    visibility: hidden;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: -45px;
+    padding: 4px;
+    border: 1px solid #eba800;
+    z-index: 90;
+    width: 150px;
+  }
+  .prime-cta:hover .tooltiptext {
+    visibility: visible;
+  }
 
   .ifram-wd {
     width: 800px;
