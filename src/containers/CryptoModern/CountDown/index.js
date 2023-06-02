@@ -50,7 +50,7 @@ const ModalContent = () => (
             210,000.
           </li>
           <li>
-            layers are required to play from the very beginning of the
+            Players are required to play from the very beginning of the
             tournament.
           </li>
           <li>
