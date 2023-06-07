@@ -25,7 +25,7 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "HOTEL & TRANSFER",
+    label: "VENUE",
     path: "#hotel_section",
     offset: "0",
   },
