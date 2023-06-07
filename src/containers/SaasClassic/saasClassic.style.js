@@ -289,7 +289,7 @@ export const ContentWrapper = styled.div`
           }
         }
         a {
-          padding: 5px;
+          padding: 5px 14px;
           font-size: 18px;
           font-weight: 400;
           color: #fff;
