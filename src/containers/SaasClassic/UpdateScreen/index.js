@@ -16,7 +16,7 @@ import { SCREENSHOTS } from "common/data/SaasClassic";
 
 const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
   return (
-    <SectionWrapper id="venue">
+    <SectionWrapper id="hotel_section">
       <Container>
         <Box {...secTitleWrapper}>
           <Heading {...secHeading} content="Event Venue and Accommodation" />
