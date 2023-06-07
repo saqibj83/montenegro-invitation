@@ -19,7 +19,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
     <SectionWrapper id="hotel_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="HOTEL & TRANSFER" />
+          <Heading {...secHeading} content="EVENT VENUE AND ACCOMMODATION" />
         </Box>
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
