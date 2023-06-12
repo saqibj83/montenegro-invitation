@@ -85,7 +85,7 @@ export const BannerWrapper = styled.section`
   .ifram-wd {
     width: 800px;
     height: 400px;
-    border: 4px solid #eba800;
+    // border: 4px solid #eba800;
   }
   @media only screen and (max-width: 667px) {
     .ifram-wd {
