@@ -35,8 +35,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           </TabPane>
           <TabPane tab="Accommodation" key="2">
             <ul>
-              <li>Arrival: 26th of July 2023</li>
-              <li>Departure: 11th of August 2023</li>
+              <li>Arrival: 26<sup>th</sup> of July 2023</li>
+              <li>Departure: 11<sup>th</sup> of August 2023</li>
               <li>ACCOMMODATION: INTERCONTINENTAL LONDON PARK LANE</li>
               {/* <li>
                 During Triton Series CYPRUS complimentary accommodation is
