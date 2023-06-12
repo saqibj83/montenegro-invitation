@@ -19,6 +19,15 @@ a {
 a:hover {
   color:#EBA800;
 }
+.flag-PlayerPhoto {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  overflow: hidden;
+  z-index: 9999;
+  margin-top: -5px;
+  border: 2px solid rgb(235, 168, 0);
+}
 .footer-nav__col-title {
   display: block;
   font-size: 18px;
@@ -98,6 +107,7 @@ a:hover {
 a.linkFooter {
     color: #EBA800;
     padding: 0 15px;
+    float:left;
 }
 ul.social {
   list-style: none;

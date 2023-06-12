@@ -68,16 +68,16 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             </Fade>
           </Box>
           <Box>
-            <NextImage
+            {/* <NextImage
               className="cyprus-img"
               src={placeholder}
               alt="Coin Rivet"
               style={{ border: "4px solid rgb(235, 168, 0)" }}
-            />
+            /> */}
 
-            {/* <iframe
+            <iframe
               className="ifram-wd"
-              src="https://www.youtube.com/embed/NBBW28e9gZ0"
+              src="https://www.youtube.com/embed/lb--zQ8tXHs"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -86,7 +86,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
                 textAlign: "center",
               }}
-            ></iframe> */}
+            ></iframe>
           </Box>
           <Box
             {...contentWrapper}

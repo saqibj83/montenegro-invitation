@@ -1,21 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
-import Box from "common/components/Box";
-import Text from "common/components/Text";
-import Heading from "common/components/Heading";
-import Logo from "common/components/UIElements/Logo";
 import Container from "common/components/UI/Container";
 import FooterWrapper, { List, ListItem } from "./footer.style";
-import NextImage from "common/components/NextImage";
-import Button from "common/components/Button";
-import Input from "common/components/Input";
-
-import facebook from "common/assets/image/saasClassic/facebook.png";
-import twitter from "common/assets/image/saasClassic/twitter.png";
-import instagram from "common/assets/image/saasClassic/instagram.png";
-import youtube from "common/assets/image/saasClassic/youtube.png";
-import { FOOTER_WIDGET } from "common/data/SaasClassic";
 
 const Footer = ({
   row,
@@ -239,6 +226,24 @@ const Footer = ({
                 About Paul Phua
               </a>
             </Link>
+            {/* <Link href="/en">
+              <a className="linkFooter">
+                <img
+                  class="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
+                  alt="player"
+                ></img>
+              </a>
+            </Link>
+            <Link href="cn">
+              <a className="linkFooter">
+                <img
+                  class="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/cn.svg"
+                  alt="player"
+                ></img>
+              </a>
+            </Link> */}
           </div>
         </div>
       </Container>

@@ -1,9 +1,9 @@
-import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
-import Scrollspy from 'react-scrollspy';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import React, { useContext } from "react";
+import PropTypes from "prop-types";
+import Scrollspy from "react-scrollspy";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import { DrawerContext } from '../../contexts/DrawerContext';
+import { DrawerContext } from "../../contexts/DrawerContext";
 
 const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
   const { dispatch } = useContext(DrawerContext);
@@ -16,7 +16,7 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
   });
 
   // Add all classs to an array
-  const addAllClasses = ['scrollspy__menu'];
+  const addAllClasses = ["scrollspy__menu"];
 
   // className prop checking
   if (className) {
@@ -26,14 +26,14 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
   // Close drawer when click on menu item
   const toggleDrawer = () => {
     dispatch({
-      type: 'TOGGLE',
+      type: "TOGGLE",
     });
   };
 
   return (
     <Scrollspy
       items={scrollItems}
-      className={addAllClasses.join(' ')}
+      className={addAllClasses.join(" ")}
       drawerClose={drawerClose}
       {...props}
     >
@@ -61,6 +61,35 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
         </li>
       ))}
     </Scrollspy>
+    // <Scrollspy
+    //   items={[
+    //     "banner_section",
+    //     "general_section",
+    //     "participants_section",
+    //     "tournament_info",
+    //     "hotel_section",
+    //   ]}
+    //   className={addAllClasses.join(" ")}
+    //   drawerClose={drawerClose}
+    //   {...props}
+    //   currentClassName="is-current"
+    // >
+    //   <li>
+    //     <a href="#banner_section">HOME</a>
+    //   </li>
+    //   <li>
+    //     <a href="#general_section">ABOUT</a>
+    //   </li>
+    //   <li>
+    //     <a href="#participants_section">PARTICIPANTS</a>
+    //   </li>
+    //   <li>
+    //     <a href="#tournament_info">TOURNAMENT INFO</a>
+    //   </li>
+    //   <li>
+    //     <a href="#hotel_section">VENUE</a>
+    //   </li>
+    // </Scrollspy>
   );
 };
 
@@ -98,8 +127,8 @@ ScrollSpyMenu.propTypes = {
 };
 
 ScrollSpyMenu.defaultProps = {
-  componentTag: 'ul',
-  currentClassName: 'is-current',
+  componentTag: "ul",
+  currentClassName: "is-current",
 };
 
 export default ScrollSpyMenu;
