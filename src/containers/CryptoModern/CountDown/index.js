@@ -176,7 +176,10 @@ const ModalContent1 = () => (
     <div className="relative bg-white main-box rounded-lg shadow  ">
       <div className="flex justify-between items-start p-4 rounded-t border-b ">
         <h3 className=" text-black">
-          Schedule <br /> <span>03rd - 05th August</span>
+          Schedule <br />{" "}
+          <span>
+            3<sup>rd</sup> - 5<sup>th</sup> August
+          </span>
         </h3>
 
         {/* <Link href="#">
@@ -191,7 +194,9 @@ const ModalContent1 = () => (
       </div>
 
       <div className=" p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0">
-        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">THURSDAY 3rd August</h4>
+        <h4 className="text-black pl-3 pt-4 sm:pt-0 ">
+          THURSDAY 3<sup>rd</sup> August
+        </h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0 shadow">
           <thead>
             <tr>
@@ -235,7 +240,9 @@ const ModalContent1 = () => (
       </div>
 
       <div className="p-0 mb-3 space-y-6 rounded sm:p-3 sm:mb-0 ">
-        <h4 className="text-black pl-3 ">Friday 04th August</h4>
+        <h4 className="text-black pl-3 ">
+          Friday 4<sup>th</sup> August
+        </h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
@@ -278,7 +285,9 @@ const ModalContent1 = () => (
         </table>
       </div>
       <div className="p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0 ">
-        <h4 className="text-black pl-3">Satuday 5th August</h4>
+        <h4 className="text-black pl-3">
+          Satuday 5<sup>th</sup> August
+        </h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
             <tr>
