@@ -3,6 +3,11 @@ import styled from "styled-components";
 const SectionWrapper = styled.section`
   padding: 75px 0 20px 0;
   background: #000;
+  h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
   p {
     color: #fff;
     font-size: 18px;
