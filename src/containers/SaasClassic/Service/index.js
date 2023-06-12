@@ -33,9 +33,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             invitational was inspired by the record breaking Triton Million that
             took place in London in 2019 where prominent VIPs and poker pros
             will play first 8 levels separately, then converge to battle against
-            each other to a winner. This exclusive event will start on August 3,
+            each other to a winner. This exclusive event will start on August 3<sup>rd</sup>,
             2023 at the JW Marriott Grosvenor House London and conclude August
-            5th, 2023 during the exclusive Triton Poker SHRS London tournament.
+            5<sup>th</sup>, 2023 during the exclusive Triton Poker SHRS London tournament.
           </p>
         </Box>
       </Container>
