@@ -101,7 +101,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
-              Aug 03-05, 2023
+              Aug 3th - 5th, 2023
             </p>
             <div className="prime-cta">
               <div className="primary-cta" style={{ marginTop: "5px" }}>
