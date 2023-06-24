@@ -46,8 +46,8 @@ const ModalContent = () => (
         <ul className="px-3">
           <li>
             {" "}
-            Registration Fees are not included in the buy-in. Total buy-in GBP
-            210,000.
+            Registration Fees are not included in the buy-in. Total buy-in
+            260,000 USD.
           </li>
           <li>
             Players are required to play from the very beginning of the
@@ -230,8 +230,8 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 1
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -276,8 +276,8 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 2
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -321,8 +321,8 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - LUXON INVITATIONAL Day 3
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">£10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
