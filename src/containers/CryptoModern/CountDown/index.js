@@ -46,8 +46,8 @@ const ModalContent = () => (
         <ul className="px-3">
           <li>
             {" "}
-            Registration Fees are not included in the buy-in. Total buy-in
-            262,500 USD.
+            Registration Fees are not included in the buy-in. Total buy-in USD
+            262,500 .
           </li>
           <li>
             Players are required to play from the very beginning of the
