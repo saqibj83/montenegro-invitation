@@ -28,7 +28,7 @@ const SectionWrapper = styled.section`
   .rc-tabs-tabpane p {
     color: #212121;
     padding: 0 40px;
-    line-height: 30px;
+    line-height: 20px;
     font-size: 18px;
     text-transform: none;
   }
@@ -80,7 +80,7 @@ const SectionWrapper = styled.section`
     color: #212121;
     font-size: 18px;
     text-transform: none;
-    line-height: 30px;
+    line-height: 20px;
   }
   li a {
     color: #eba800 !important;
