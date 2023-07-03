@@ -12,7 +12,7 @@ const SectionWrapper = styled.section`
     color: #fff;
     font-size: 18px;
     text-transform: none;
-    margin: 60px 0 0;
+    margin: 0 0 30px;
   }
 
   .service_item {

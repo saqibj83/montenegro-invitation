@@ -16,14 +16,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             alt=""
             style={{ width: "400px", textAlign: "center", display: "inline" }}
           />
-          <Heading
-            {...secHeading}
-            content="  $250,000 NLH
-            "
-          />
-          <h2>
-            3<sup>rd</sup> - 5<sup>th</sup> Aug 2023{" "}
-          </h2>
+
+          <p>
+            <strong>250,000 NLH</strong> <br />3<sup>rd</sup> - 5<sup>th</sup>{" "}
+            AUG 2023{" "}
+          </p>
           <p>
             The Luxon Invitational is a unique $250,000 NLH buy-in that features
             affluent VIPs and poker professionals battling for prize money and
