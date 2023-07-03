@@ -18,7 +18,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           />
 
           <p>
-            <strong>250,000 NLH</strong> <br />3<sup>rd</sup> - 5<sup>th</sup>{" "}
+            <strong>250,000 NLH</strong> <br />3<sup>RD</sup> - 5<sup>TH</sup>{" "}
             AUG 2023{" "}
           </p>
           <p>
