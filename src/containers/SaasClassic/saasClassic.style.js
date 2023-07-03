@@ -38,7 +38,9 @@ export const GlobalStyle = createGlobalStyle`
     position: relative;
     text-transform: uppercase !important;
   }
-
+  sup {
+    top: -0.25em !important;
+}
   @media only screen and (max-width: 550px) {
     .video-modal {
       max-width: 360px !important;

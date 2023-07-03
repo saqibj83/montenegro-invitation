@@ -101,7 +101,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
-              Aug 3<sup>rd</sup> - 5<sup>th</sup>, 2023
+              AUGUST 3<sup>rd</sup> - 5<sup>th</sup>, 2023
             </p>
             <div className="prime-cta">
               <div className="primary-cta" style={{ marginTop: "5px" }}>
