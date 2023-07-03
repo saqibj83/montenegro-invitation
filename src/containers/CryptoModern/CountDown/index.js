@@ -231,7 +231,7 @@ const ModalContent1 = () => (
                 NLH - LUXON INVITATIONAL Day 1
               </td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -277,7 +277,7 @@ const ModalContent1 = () => (
                 NLH - LUXON INVITATIONAL Day 2
               </td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -322,7 +322,7 @@ const ModalContent1 = () => (
                 NLH - LUXON INVITATIONAL Day 3
               </td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
