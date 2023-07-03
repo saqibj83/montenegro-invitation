@@ -35,23 +35,19 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           </TabPane>
           <TabPane tab="Accommodation" key="2">
             <ul>
-              <li>Arrival: 26<sup>th</sup> of July 2023</li>
-              <li>Departure: 11<sup>th</sup> of August 2023</li>
-              <li>ACCOMMODATION: INTERCONTINENTAL LONDON PARK LANE</li>
-              {/* <li>
-                During Triton Series CYPRUS complimentary accommodation is
-                offered to players who will qualify for the USD 300K combined
-                spend in tournament buy-ins. We are pleased to offer
-                complimentary accommodations at the Merit Royal Diamond Hotel
-              </li> */}
               <li>
-                <Link
-                  href="https://triton-series.com/london-accommodation-tc/"
-                  
-                >
+                Arrival: 26<sup>th</sup> of July 2023
+              </li>
+              <li>
+                Departure: 11<sup>th</sup> of August 2023
+              </li>
+              <li>ACCOMMODATION: INTERCONTINENTAL LONDON PARK LANE</li>
+
+              <li>
+                <Link href="https://triton-series.com/london-accommodation-tc/">
                   <a>Click here for accommodation terms and conditions</a>
                 </Link>
-              </li> 
+              </li>
             </ul>
           </TabPane>
           <TabPane tab="Travel Information" key="3">
