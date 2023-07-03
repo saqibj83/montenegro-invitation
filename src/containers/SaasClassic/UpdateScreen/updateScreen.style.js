@@ -27,7 +27,7 @@ const SectionWrapper = styled.section`
   }
   .rc-tabs-tabpane p {
     color: #212121;
-    padding: 0 40px;
+    padding: 00 40px;
     line-height: 20px;
     font-size: 18px;
     text-transform: none;
