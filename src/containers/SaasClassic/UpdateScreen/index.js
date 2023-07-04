@@ -67,8 +67,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 <Link href="https://www.gov.uk/check-uk-visa/y " legacyBehavior>
                   <a target="_blank">https://www.gov.uk/check-uk-visa/y</a>
                 </Link>{" "}
-                &nbsp; Once you know your visa requirement, you may apply for a
-                UK at &nbsp;
+                . &nbsp; Once you know your visa requirement, you may apply for
+                a UK visa at &nbsp;
                 <Link
                   href="https://visas-immigration.service.gov.uk/product/uk-visit-visa "
                   legacyBehavior
@@ -77,8 +77,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                     https://visas-immigration.service.gov.uk/product/uk-visit-visa
                   </a>
                 </Link>{" "}
-                &nbsp; The online visa application will guide you through the
-                payment options and will email you a receipt once your complete
+                . &nbsp; The online visa application will guide you through the
+                payment options and will email you a receipt once you complete
                 the payment. For further information on Visa Application
                 Procedure, please visit &nbsp;
                 <Link href="https://www.gov.uk/check-uk-visa " legacyBehavior>
