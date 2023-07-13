@@ -776,33 +776,35 @@ const Testimonials = () => {
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
-                {/* <img
+                <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
                   alt="player"
-                /> */}
-                <div className="main_card__image pd-6">
+                />
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Paul Phua"
+                    src={image29}
+                    alt="PHIL NAGY "
                   />
                 </div>
-                {/* <h4 className="main_card__name">Paul Phua</h4> */}
+                <h4 className="main_card__name">PHIL NAGY </h4>
               </div>
+
               <div className=" cell small main_card__invites">INVITES</div>
+
               <div className="cell small main__card__bottom">
-                {/* <h4 className="main_card__name"> Aleksejs Ponakovs </h4> */}
-                <div className="main_card__image pd-6">
-                  {/* <img
+                <h4 className="main_card__name">TOM DWAN</h4>
+                <div className="main_card__image">
+                  <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/lv.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
                     alt="player"
-                  /> */}
+                  />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt=" Aleks Ponakovs "
+                    src={image30}
+                    alt="TOM DWAN  "
                   />
                 </div>
               </div>
