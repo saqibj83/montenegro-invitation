@@ -1104,7 +1104,7 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={image45}
+                    src={imageDef}
                     alt="Kirk Steele"
                   />
                 </div>
