@@ -1092,7 +1092,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* <div className="main_card cell auto">
+          <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
@@ -1104,7 +1104,7 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image45}
                     alt="Kirk Steele"
                   />
                 </div>
@@ -1130,7 +1130,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
             </div>
-          </div> */}
+          </div>
 
           <div className="main_card cell auto">
             <div className="grid-x">
