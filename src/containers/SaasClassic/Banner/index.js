@@ -80,7 +80,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               src="https://www.youtube.com/embed/lb--zQ8tXHs"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; controls; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
               style={{
                 marginTop: "30px",
@@ -103,21 +103,21 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             >
               AUGUST 3<sup>rd</sup> - 5<sup>th</sup>, 2023
             </p>
-            <div className="prime-cta">
+            {/* <div className="prime-cta">
               <div className="primary-cta" style={{ marginTop: "5px" }}>
                 VIEW FULL STRUCTURE
               </div>
               <span class="tooltiptext">Coming Soon</span>
-            </div>
-            {/* <Link href="#">
-              <a>
+            </div> */}
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/21180807/Luxon-Invitational.pdf">
+              <a target="_blank">
                 <Button
                   title="VIEW FULL STRUCTURE"
                   className="primary-cta"
                   style={{ marginTop: "20px" }}
                 />
               </a>
-            </Link> */}
+            </Link>
           </Box>
         </Box>
       </Container>

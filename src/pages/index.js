@@ -70,11 +70,10 @@ const SaasClassic = () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
+
           <ServiceSection />
           <Testimonials />
-          {/* <div className="hidden md:block">
-            <PartnerSection />
-          </div> */}
+
           <CountDown />
           <UpdateScreen />
           <Footer />
