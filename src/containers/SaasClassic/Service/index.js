@@ -18,11 +18,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           />
 
           <p>
-            <strong>$250,000 NLH</strong> <br />3<sup>RD</sup> - 5<sup>TH</sup>{" "}
+            <strong>$262,500 NLH</strong> <br />3<sup>RD</sup> - 5<sup>TH</sup>{" "}
             AUGUST 2023{" "}
           </p>
           <p>
-            The Luxon Invitational is a unique $250,000 NLH buy-in that features
+            The Luxon Invitational is a unique $262,500 NLH buy-in that features
             affluent VIPs and poker professionals battling for prize money and
             the coveted title & trophy. Powered by Triton Poker Series, the
             invitational was inspired by the record breaking Triton Million that
