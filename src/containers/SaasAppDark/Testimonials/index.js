@@ -1257,33 +1257,35 @@ const Testimonials = () => {
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
-                {/* <img
+                <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/az.svg"
                   alt="player"
-                /> */}
-                <div className="main_card__image pd-6">
+                />
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Paul Phua"
+                    src={image55}
+                    alt="Ramin Hajiyev"
                   />
                 </div>
-                {/* <h4 className="main_card__name">Paul Phua</h4> */}
+                <h4 className="main_card__name">Ramin Hajiyev</h4>
               </div>
+
               <div className=" cell small main_card__invites">INVITES</div>
+
               <div className="cell small main__card__bottom">
-                {/* <h4 className="main_card__name">Ben Tollerene</h4> */}
-                <div className="main_card__image pd-6">
-                  {/* <img
+                <h4 className="main_card__name"> Mikita Badziakouski</h4>
+                <div className="main_card__image">
+                  <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/by.svg"
                     alt="player"
-                  /> */}
+                  />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Ben Tollerene"
+                    src={image56}
+                    alt=" Mikita Badziakouski  "
                   />
                 </div>
               </div>
@@ -1295,33 +1297,35 @@ const Testimonials = () => {
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
-                {/* <img
+                <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
                   alt="player"
-                /> */}
-                <div className="main_card__image pd-6">
+                />
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Paul Phua"
+                    src={image57}
+                    alt="Talal Shakerchi "
                   />
                 </div>
-                {/* <h4 className="main_card__name">Paul Phua</h4> */}
+                <h4 className="main_card__name">Talal Shakerchi </h4>
               </div>
+
               <div className=" cell small main_card__invites">INVITES</div>
+
               <div className="cell small main__card__bottom">
-                {/* <h4 className="main_card__name">Luuk Gieles</h4> */}
-                <div className="main_card__image pd-6">
-                  {/* <img
+                <h4 className="main_card__name"> Ben Heath</h4>
+                <div className="main_card__image">
+                  <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/nl.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
                     alt="player"
-                  /> */}
+                  />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Luuk Gieles"
+                    src={image58}
+                    alt=" Ben Heath  "
                   />
                 </div>
               </div>
