@@ -1417,33 +1417,35 @@ const Testimonials = () => {
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
-                {/* <img
+                <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/my.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/au.svg"
                   alt="player"
-                /> */}
-                <div className="main_card__image pd-6">
+                />
+                <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Paul Phua"
+                    src={image65}
+                    alt="EDDIE TRAN "
                   />
                 </div>
-                {/* <h4 className="main_card__name">Paul Phua</h4> */}
+                <h4 className="main_card__name">EDDIE TRAN </h4>
               </div>
+
               <div className=" cell small main_card__invites">INVITES</div>
+
               <div className="cell small main__card__bottom">
-                {/* <h4 className="main_card__name">Viktor Kudinov </h4> */}
-                <div className="main_card__image pd-6">
-                  {/* <img
+                <h4 className="main_card__name"> NACHO BARBERO</h4>
+                <div className="main_card__image">
+                  <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ru.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ar.svg"
                     alt="player"
-                  /> */}
+                  />
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
-                    alt="Viktor Kudinov "
+                    src={image66}
+                    alt=" NACHO BARBERO  "
                   />
                 </div>
               </div>
