@@ -755,17 +755,17 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">TOM DWAN</h4>
+                <h4 className="main_card__name"> NACHO BARBERO</h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ar.svg"
                     alt="player"
                   />
                   <NextImage
                     className="cyprus-img"
-                    src={image30}
-                    alt="TOM DWAN  "
+                    src={image66}
+                    alt=" NACHO BARBERO  "
                   />
                 </div>
               </div>
@@ -1413,7 +1413,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="main_card cell auto">
+          {/* <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">VIP</div>
               <div className="cell small gold-card-header">
@@ -1451,7 +1451,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
             </div>
-          </div>
+          </div> */}
 
           <div className="main_card cell auto">
             <div className="grid-x">
