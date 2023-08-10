@@ -26,7 +26,7 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src="https://www.youtube.com/embed/jjR_xwUZedI"
+      src="https://www.youtube.com/embed/7gLRLOdto_Q"
       frameBorder="0"
     />
   </VideoWrapper>
@@ -77,7 +77,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
 
             <iframe
               className="ifram-wd"
-              src="https://www.youtube.com/embed/lb--zQ8tXHs"
+              src="https://www.youtube.com/embed/7gLRLOdto_Q"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; controls; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
