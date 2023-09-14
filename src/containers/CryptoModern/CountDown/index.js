@@ -47,7 +47,7 @@ const ModalContent = () => (
           <li>
             {" "}
             Registration Fees are not included in the buy-in. Total buy-in USD
-            200,000 .
+            210,000 .
           </li>
           <li>
             Players are required to play from the very beginning of the
@@ -382,12 +382,18 @@ const CountDownSection = () => {
                 <div className="w-full text-center ">
                   <NextImage src={Schedule} alt="Schedule" />
                   <h1>SCHEDULE</h1>
-                  <button
+                  {/* <button
                     className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
                     onClick={handleVideoModal1}
                   >
                     VIEW SCHEDULE
-                  </button>
+                  </button> */}
+                  <div className="prime-cta">
+                    <div className="primary-cta" style={{ marginTop: "5px" }}>
+                      VIEW SCHEDULE
+                    </div>
+                    <span class="tooltiptext">Coming Soon</span>
+                  </div>
                 </div>
               </div>
             </div>
