@@ -137,20 +137,20 @@ const ModalContent = () => (
           </li>
           <li>
             In case of attending Triton Super High Roller Series for the first
-            time, Luxon Invitational players will be asked to provide a high
-            quality portrait with the rights for publishing.
+            time, Invitational players will be asked to provide a high quality
+            portrait with the rights for publishing.
           </li>
           <li>
             Players may be asked to be professionally photographed during the
             event.
           </li>
           <li>
-            Prior to the Luxon Invitational event all players are required to
-            fill in a mandatory media/TV questionnaire for content (commentary)
+            Prior to the Invitational event all players are required to fill in
+            a mandatory media/TV questionnaire for content (commentary)
             purposes.
           </li>
           <li>
-            All Luxon Invitational players will be required to provide their
+            All Invitational players will be required to provide their
             availability for interviews.
           </li>
         </ul>
