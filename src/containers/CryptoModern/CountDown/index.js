@@ -37,7 +37,7 @@ const ModalContent = () => (
     <div className="relative bg-white rounded-lg shadow  ">
       <div className="flex justify-between items-start p-4 rounded-t border-b ">
         <h3 className="text-xl font-semibold text-black">
-          Tournament Rules - Luxon Invitational
+          Tournament Rules - Invitational
         </h3>
       </div>
 
