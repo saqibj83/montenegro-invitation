@@ -8,7 +8,7 @@ import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
-import Coin from "common/assets/image/saasClassic/luxon.png";
+import Coin from "common/assets/image/saasClassic/logo3.png";
 import placeholder from "common/assets/image/saasClassic/video.jpeg";
 import { play } from "react-icons-kit/entypo/play";
 
@@ -62,7 +62,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               <NextImage
                 className="cyprus-img"
                 src={Coin}
-                alt="Coin Rivet"
+                alt="Triton logo"
                 style={{ width: "200px" }}
               />
             </Fade>
