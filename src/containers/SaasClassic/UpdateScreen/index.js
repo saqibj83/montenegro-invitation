@@ -16,15 +16,15 @@ import { SCREENSHOTS } from "common/data/SaasClassic";
 
 const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
   return (
-    <SectionWrapper id="hotel_section">
+    <SectionWrapper id="venue">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="EVENT VENUE AND ACCOMMODATION" />
+          <Heading {...secHeading} content="Event Venue and Accommodation" />
         </Box>
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.772239254875!2d-0.1552706!3d51.509674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760533d54bc165%3A0xbd82f4f5c122c765!2sJW%20Marriott%20Grosvenor%20House%20London!5e0!3m2!1sen!2s!4v1685068324584!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.2273527023285!2d7.43519157669217!3d43.74737537109779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdc28787641953%3A0x86d104ab1fa681b!2sMonte-Carlo%20Sporting%20%2F%20Salle%20Des%20%C3%89toiles!5e0!3m2!1sen!2s!4v1694424977740!5m2!1sen!2s"
               width="100%"
               height="450"
               style={{ border: "0" }}
@@ -36,16 +36,26 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Accommodation" key="2">
             <ul>
               <li>
-                Arrival: 26<sup>th</sup> of July 2023
+                Arrival: 23<sup>rd</sup> of October 2023
               </li>
               <li>
-                Departure: 11<sup>th</sup> of August 2023
+                Departure: 5<sup>th</sup> of November 2023
               </li>
-              <li>ACCOMMODATION: INTERCONTINENTAL LONDON PARK LANE</li>
-
+              <li>Accommodation: Monte-Carlo Bay Hotel & Resort</li>
+              {/* <li>
+                During Triton Series CYPRUS complimentary accommodation is
+                offered to players who will qualify for the USD 300K combined
+                spend in tournament buy-ins. We are pleased to offer
+                complimentary accommodations at the Merit Royal Diamond Hotel
+              </li> */}
               <li>
-                <Link href="https://triton-series.com/london-accommodation-tc/">
-                  <a>Click here for accommodation terms and conditions</a>
+                <Link
+                  href="https://triton-series.com/triton-poker-monte-carlo-2023-accommodation-tc/"
+                  legacyBehavior
+                >
+                  <a target="_blank">
+                    Click here for accommodation terms and conditions
+                  </a>
                 </Link>
               </li>
             </ul>
@@ -53,13 +63,12 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Travel Information" key="3">
             <h3 className="mb-3"> Arrival & Transfers</h3>
             <p className="mb-3">
-              The hotel is easily accessible to several international airports.
-              Heathrow Airport is located 45 minutes by car, 55 minutes via the
-              Piccadilly line underground or 30 minutes by Heathrow Express
-              train. Gatwick Airport is located 90 minutes by car or 45 minutes
-              by train.
+              The hotel is 20 km from Nice’s International Airport, with
+              transfers by helicopter (7 mins) or taxi/limousine (30 mins), by
+              bus line 110 “Aéroport-Monaco” (40 minutes).
             </p>
-            <ul style={{ paddingLeft: "20px" }}>
+            <p>Visa: TBC</p>
+            {/* <ul style={{ paddingLeft: "20px" }}>
               <li>
                 VISA INFORMATION: Passport holders of most countries require a
                 visa to enter the United Kingdom. To check your if you require a
@@ -85,7 +94,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                   <a target="_blank">https://www.gov.uk/check-uk-visa</a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
+            <br />
             <p></p>
           </TabPane>
         </Tabs>

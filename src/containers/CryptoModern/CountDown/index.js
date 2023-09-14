@@ -47,7 +47,7 @@ const ModalContent = () => (
           <li>
             {" "}
             Registration Fees are not included in the buy-in. Total buy-in USD
-            262,500 .
+            200,000 .
           </li>
           <li>
             Players are required to play from the very beginning of the
@@ -178,7 +178,7 @@ const ModalContent1 = () => (
         <h3 className=" text-black">
           Schedule <br />{" "}
           <span>
-            3<sup>rd</sup> - 5<sup>th</sup> August
+            24<sup>th</sup> - 26<sup>th</sup> OCTOBER
           </span>
         </h3>
 
@@ -195,7 +195,7 @@ const ModalContent1 = () => (
 
       <div className=" p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0">
         <h4 className="text-black pl-3 pt-4 sm:pt-0 ">
-          THURSDAY 3<sup>rd</sup> August
+          Tuesday 24<sup>TH</sup> October
         </h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0 shadow">
           <thead>
@@ -225,14 +225,14 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white">
             <tr>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">1 PM</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">2 PM</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
-                NLH - LUXON INVITATIONAL Day 1
+                NLH - INVITATIONAL Day 1
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
-              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
+              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">250K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
           </tbody>
@@ -241,7 +241,7 @@ const ModalContent1 = () => (
 
       <div className="p-0 mb-3 space-y-6 rounded sm:p-3 sm:mb-0 ">
         <h4 className="text-black pl-3 ">
-          Friday 4<sup>th</sup> August
+          Wednesday 25<sup>th</sup> October
         </h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
@@ -274,11 +274,11 @@ const ModalContent1 = () => (
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">1 PM</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
-                NLH - LUXON INVITATIONAL Day 2
+                NLH - INVITATIONAL Day 2
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
-              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
+              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">250K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
           </tbody>
@@ -286,7 +286,7 @@ const ModalContent1 = () => (
       </div>
       <div className="p-0 mb-3  space-y-6 rounded sm:p-3 sm:mb-0 ">
         <h4 className="text-black pl-3">
-          Satuday 5<sup>th</sup> August
+          Thursday 26<sup>th</sup> October
         </h4>
         <table class="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
           <thead>
@@ -316,14 +316,14 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white ">
             <tr>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">1PM</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">2PM</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
-                NLH - LUXON INVITATIONAL Day 3
+                NLH - INVITATIONAL Day 3
               </td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$250K</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
-              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">300K</td>
+              <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">250K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
           </tbody>

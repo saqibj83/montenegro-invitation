@@ -11,27 +11,27 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
     <SectionWrapper id="general_section">
       <Container>
         <Box {...secTitleWrapper} style={{ textAlign: "center" }}>
-          <img
+          {/* <img
             src="https://cdn.triton-series.com/wp-content/uploads/2019/12/14182030/last-frame00.png"
             alt=""
             style={{ width: "400px", textAlign: "center", display: "inline" }}
-          />
+          /> */}
 
           <p>
-            <strong>$262,500 NLH</strong> <br />3<sup>RD</sup> - 5<sup>TH</sup>{" "}
-            AUGUST 2023{" "}
+            <strong>$200,000 NLH</strong> <br />
+            24<sup>TH</sup> - 26<sup>TH</sup> OCTOBER 2023{" "}
           </p>
           <p>
-            The Luxon Invitational is a unique $262,500 NLH buy-in that features
-            affluent VIPs and poker professionals battling for prize money and
-            the coveted title & trophy. Powered by Triton Poker Series, the
-            invitational was inspired by the record breaking Triton Million that
-            took place in London in 2019 where prominent VIPs and poker pros
-            will play first 8 levels separately, then converge to battle against
-            each other to a winner. This exclusive event will start on August 3
-            <sup>rd</sup>, 2023 at the JW Marriott Grosvenor House London and
-            conclude August 5<sup>th</sup>, 2023 during the exclusive Triton
-            Poker SHRS London tournament.
+            The Special Triton Invitational is a unique $200,000 NLH buy-in that
+            features high-net-worth individuals and poker professionals battling
+            for prize money and the coveted title & trophy. This unique format
+            was inspired by the record breaking Triton Million that took place
+            in London in 2019 where affluent individuals and poker pros play the
+            first 8 levels separately, then converge to battle against each
+            other to a winner. This exclusive event will start on kick-off at
+            the Triton Poker SHRS in Monte-Carlo on the 24<sup>th</sup> of
+            October, 2023 at the luxurious Monte-Carlo Sporting - Salle Des
+            Étoiles and conclude October 26<sup>th</sup>, 2023.
           </p>
         </Box>
       </Container>
