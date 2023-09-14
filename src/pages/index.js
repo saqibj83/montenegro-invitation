@@ -33,7 +33,7 @@ const SaasClassic = () => {
     <ThemeProvider theme={saasClassicTheme}>
       <Fragment>
         <Head>
-          <title>{translate("title")} </title>
+          <title>Triton Poker Series | Monte-Carlo Invitational 2023</title>
           <meta
             name="description"
             content="The event's unique format, which was inspired by the record breaking 2019 Triton Million in London, pairs professional players with recreational players, with a buy-in of $200,000 for each..
