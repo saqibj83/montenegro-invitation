@@ -9,7 +9,7 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
 import Coin from "common/assets/image/saasClassic/logo3.png";
-import placeholder from "common/assets/image/saasClassic/video.jpeg";
+import placeholder from "common/assets/image/saasClassic/video.jpg";
 import { play } from "react-icons-kit/entypo/play";
 
 // close button for modal
@@ -68,14 +68,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             </Fade>
           </Box>
           <Box>
-            {/* <NextImage
+            <NextImage
               className="cyprus-img"
               src={placeholder}
               alt="Coin Rivet"
               style={{ border: "4px solid rgb(235, 168, 0)" }}
-            /> */}
+            />
 
-            <iframe
+            {/* <iframe
               className="ifram-wd"
               src="https://www.youtube.com/embed/lb--zQ8tXHs"
               title="YouTube video player"
@@ -86,7 +86,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
                 textAlign: "center",
               }}
-            ></iframe>
+            ></iframe> */}
           </Box>
           <Box
             {...contentWrapper}
