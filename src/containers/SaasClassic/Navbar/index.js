@@ -13,8 +13,8 @@ import { DrawerContext } from "common/contexts/DrawerContext";
 import { MENU_ITEMS } from "common/data/SaasClassic";
 import ScrollSpyMenu from "common/components/ScrollSpyMenu";
 
-import LogoImage from "common/assets/image/saasClassic/logo-white.png";
-import LogoImageAlt from "common/assets/image/saasClassic/logo.png";
+import LogoImage from "common/assets/image/saasClassic/triton-logo.png";
+import LogoImageAlt from "common/assets/image/saasClassic/triton-logo.png";
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
