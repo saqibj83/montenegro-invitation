@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components";
-import BgIMage from "common/assets/image/main-bg.jpeg";
+import BgIMage from "common/assets/image/main-bg.png";
+import MbIMage from "common/assets/image/mobile-bg.png";
 
 const Bubble = keyframes`
   0% {
@@ -26,6 +27,11 @@ export const BannerWrapper = styled.section`
   justify-content: center;
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
+  }
+  .title-img {
+    display: inline !important;
+    width: 500px !important;
+    margin-top: 20px !important;
   }
   .prime-cta {
     text-align: center;
@@ -92,6 +98,7 @@ export const BannerWrapper = styled.section`
       width: 300px;
       height: 180px;
     }
+    background-image: url(${MbIMage?.src});
   }
   img {
     max-width: 100%;

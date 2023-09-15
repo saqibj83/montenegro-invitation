@@ -10,6 +10,7 @@ import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
 import Coin from "common/assets/image/saasClassic/logo3.png";
 import placeholder from "common/assets/image/saasClassic/video.jpg";
+import nTitle from "common/assets/image/saasClassic/title.png";
 import { play } from "react-icons-kit/entypo/play";
 
 // close button for modal
@@ -92,6 +93,11 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             {...contentWrapper}
             style={{ width: "100%", textAlign: "center" }}
           >
+            <img
+              className="title-img"
+              src="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/title_70004969ce.png?updated_at=2023-09-15T06:57:39.487Z"
+              alt=""
+            />
             <p
               style={{
                 textAlign: "center",
