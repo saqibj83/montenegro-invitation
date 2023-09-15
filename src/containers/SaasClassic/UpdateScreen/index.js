@@ -63,9 +63,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Travel Information" key="3">
             <h3 className="mb-3"> Arrival & Transfers</h3>
             <p className="mb-3">
-              The hotel is 20 km from Nice’s International Airport, with
-              transfers by helicopter (7 mins) or taxi/limousine (30 mins), by
-              bus line 110 “Aéroport-Monaco” (40 minutes).
+              The hotel is 20 km from Nice’s International Airport. We are
+              pleased to offer airport transfers with preferential rates. Please
+              get in touch with our VIP services for information on rates and
+              booking.
             </p>
             <p>Visa: TBC</p>
             {/* <ul style={{ paddingLeft: "20px" }}>
