@@ -26,7 +26,7 @@ export const MENU_ITEMS = [
   },
   {
     label: "VENUE",
-    path: "#hotel_section",
+    path: "#venue",
     offset: "0",
   },
 ];

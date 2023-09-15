@@ -17,7 +17,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             style={{ width: "400px", textAlign: "center", display: "inline" }}
           /> */}
 
-          <p>
+          <p style={{ paddingTop: "20px" }}>
             <strong>$200,000 NLH</strong> <br />
             24<sup>TH</sup> - 26<sup>TH</sup> OCTOBER 2023{" "}
           </p>

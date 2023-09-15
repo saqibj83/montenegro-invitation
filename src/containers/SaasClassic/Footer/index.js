@@ -54,7 +54,7 @@ const Footer = ({
                     </Link>
                   </li>
                   <li>
-                    <Link href="#hotel_section">
+                    <Link href="#venue">
                       <a>
                         <i className="icon-arrow-sm"></i>Venue
                       </a>
