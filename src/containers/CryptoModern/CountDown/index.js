@@ -403,12 +403,18 @@ const CountDownSection = () => {
                   <NextImage src={Rules} alt="Tournament Rules" />
                   <h1>TOURNAMENT RULES</h1>
 
-                  <button
+                  {/* <button
                     className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
                     onClick={handleVideoModal}
                   >
                     READ THE RULES
-                  </button>
+                  </button> */}
+                  <div className="prime-cta">
+                    <div className="primary-cta" style={{ marginTop: "5px" }}>
+                      READ THE RULES
+                    </div>
+                    <span class="tooltiptext">Coming Soon</span>
+                  </div>
                 </div>
               </div>
             </div>

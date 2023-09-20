@@ -95,7 +95,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           >
             <img
               className="title-img"
-              src="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/title_70004969ce.png?updated_at=2023-09-15T06:57:39.487Z"
+              src="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/title_70004969ce.png"
               alt=""
             />
             <p
