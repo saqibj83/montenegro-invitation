@@ -109,13 +109,13 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             >
               OCTOBER 24<sup>th</sup> - 26<sup>th</sup>, 2023
             </p>
-            <div className="prime-cta">
+            {/* <div className="prime-cta">
               <div className="primary-cta" style={{ marginTop: "5px" }}>
                 VIEW FULL STRUCTURE
               </div>
               <span class="tooltiptext">Coming Soon</span>
-            </div>
-            {/* <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/21180807/Luxon-Invitational.pdf">
+            </div> */}
+            <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/invi_2ab8ed1163.pdf?updated_at=2023-09-22T10:42:58.187Z">
               <a target="_blank">
                 <Button
                   title="VIEW FULL STRUCTURE"
@@ -123,7 +123,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                   style={{ marginTop: "20px" }}
                 />
               </a>
-            </Link> */}
+            </Link>
           </Box>
         </Box>
       </Container>

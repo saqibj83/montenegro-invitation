@@ -231,7 +231,7 @@ const ModalContent1 = () => (
                 NLH - INVITATIONAL Day 1
               </td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10k</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">250K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -277,7 +277,7 @@ const ModalContent1 = () => (
                 NLH - INVITATIONAL Day 2
               </td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10k</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">250K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -322,7 +322,7 @@ const ModalContent1 = () => (
                 NLH - INVITATIONAL Day 3
               </td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">$200K</td>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$12.5k</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">$10k</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">250K</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">50</td>
             </tr>
@@ -382,18 +382,18 @@ const CountDownSection = () => {
                 <div className="w-full text-center ">
                   <NextImage src={Schedule} alt="Schedule" />
                   <h1>SCHEDULE</h1>
-                  {/* <button
+                  <button
                     className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
                     onClick={handleVideoModal1}
                   >
                     VIEW SCHEDULE
-                  </button> */}
-                  <div className="prime-cta">
+                  </button>
+                  {/* <div className="prime-cta">
                     <div className="primary-cta" style={{ marginTop: "5px" }}>
                       VIEW SCHEDULE
                     </div>
                     <span class="tooltiptext">Coming Soon</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
