@@ -316,7 +316,7 @@ const ModalContent1 = () => (
           </thead>
           <tbody class="bg-white ">
             <tr>
-              <td class="border-b  p-1 sm:p-4  text-slate-500 ">2PM</td>
+              <td class="border-b  p-1 sm:p-4  text-slate-500 ">1PM</td>
               <td class="border-b  p-1 sm:p-4  text-slate-500 ">-</td>
               <td class="border-b  p-1 sm:p-4  pr-8 text-slate-500 ">
                 NLH - INVITATIONAL Day 3
