@@ -47,21 +47,21 @@ const ModalContent = () => (
           <li>
             {" "}
             Registration Fees are not included in the buy-in. Total buy-in USD
-            210,000 .
+            210,000.
           </li>
           <li>
             Players are required to play from the very beginning of the
-            tournament.
+            tournament (stacks in play)
           </li>
           <li>
-            It is the VIP players obligation to confirm their attendance as soon
-            as possible to secure their seat and to guarantee this tournament’s
-            success. VIP players are encouraged to advise on their choice of PRO
-            pairing up with at earliest convenience and required to do so at 48h
-            prior to the event the latest.
+            It is the Invitee players’ obligation to confirm their attendance as
+            soon as possible to secure their seat and to guarantee this
+            tournament’s success. Invitee players are encouraged to advise on
+            their choice of PRO pairing up with at earliest convenience and
+            required to do so at 48h prior to the event the latest.
           </li>
           <li>
-            Tournament will play 8-handed – the final table will be 9-handed.
+            Tournament will play 8-handed – the final table will be 9-handed
           </li>
           <li>Single (1) Re-Entry available during the Registration Period.</li>
           <li>
@@ -69,9 +69,9 @@ const ModalContent = () => (
             after getting eliminated.
           </li>
           <li>
-            Players eliminated before the start of the Dinner Break wishing to
-            re-enter will need to notify the tournament staff about it. Their
-            stacks will be included in the complete 50/50 redraw.
+            Players eliminated before the start of the Day2 wishing to re-enter
+            will need to notify the tournament staff about it. Their stacks will
+            be included in the complete 50/50 redraw.
           </li>
           <li>
             {" "}
@@ -110,28 +110,31 @@ const ModalContent = () => (
         </ul>
         <h2 className="text-xl font-bold">SEAT DRAW</h2>
         <ul className="px-3">
-          <li>VIPs and PROs will play separately for the first 8 levels.</li>
           <li>
-            At the end of level 8 there will be a complete random redraw with
-            the rules explained in the point below.
+            Invitees and PROs will play separately for the first 10 levels (Full
+            Day1)
           </li>
           <li>
-            During levels 9, 10, 11 and 12 players will play on tables with a
-            balanced numbers of PROs and VIPs as much as possible (i.e. 4 VIPs
-            and 4 PROs).
+            At the end of level 10 there will be a “50/50” random redraw with
+            the rules explained in the point below
+          </li>
+          <li>
+            During levels 11 and 12 players will play on tables with a balanced
+            numbers of PROs and Invitees as much as possible (i.e. 4 VIPs and 4
+            PROs)
           </li>
           <li>
             At the end of level 12 there will be a complete random redraw.
           </li>
           <li>
-            VIPs/Pros pair will play at different tables up until at least the
-            last two tables remaining (16 players).
+            Invitees/Pro pair will play at different tables up until at least
+            the last two tables remaining (16 players)
           </li>
         </ul>
         <h2 className="text-xl font-bold">TV & Media Coverage</h2>
         <ul className="px-3">
           <li>This event will be televised.</li>
-          <li>
+          {/* <li>
             Players images and their full names will be published on social
             media channels prior to the event.
           </li>
@@ -152,7 +155,7 @@ const ModalContent = () => (
           <li>
             All Invitational players will be required to provide their
             availability for interviews.
-          </li>
+          </li> */}
         </ul>
         <p>
           <strong>
@@ -403,18 +406,18 @@ const CountDownSection = () => {
                   <NextImage src={Rules} alt="Tournament Rules" />
                   <h1>TOURNAMENT RULES</h1>
 
-                  {/* <button
+                  <button
                     className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
                     onClick={handleVideoModal}
                   >
                     READ THE RULES
-                  </button> */}
-                  <div className="prime-cta">
+                  </button>
+                  {/* <div className="prime-cta">
                     <div className="primary-cta" style={{ marginTop: "5px" }}>
                       READ THE RULES
                     </div>
                     <span class="tooltiptext">Coming Soon</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
