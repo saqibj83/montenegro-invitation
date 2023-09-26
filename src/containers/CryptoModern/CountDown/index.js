@@ -134,7 +134,7 @@ const ModalContent = () => (
         <h2 className="text-xl font-bold">TV & Media Coverage</h2>
         <ul className="px-3">
           <li>This event will be televised.</li>
-          {/* <li>
+          <li>
             Players images and their full names will be published on social
             media channels prior to the event.
           </li>
@@ -155,7 +155,7 @@ const ModalContent = () => (
           <li>
             All Invitational players will be required to provide their
             availability for interviews.
-          </li> */}
+          </li>
         </ul>
         <p>
           <strong>
