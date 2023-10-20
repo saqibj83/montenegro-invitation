@@ -1213,7 +1213,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* <div className="main_card cell auto">
+          <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">INVITEE</div>
               <div className="cell small gold-card-header">
@@ -1251,7 +1251,7 @@ const Testimonials = () => {
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
             </div>
-          </div> */}
+          </div>
           {/*
           <div className="main_card cell auto">
             <div className="grid-x">
