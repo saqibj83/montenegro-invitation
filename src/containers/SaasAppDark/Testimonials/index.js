@@ -539,17 +539,17 @@ const Testimonials = () => {
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/in.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/au.svg"
                   alt="player"
                 />
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
                     src={image17}
-                    alt="SANTHOSH SUVARNA"
+                    alt="Eddie Tran "
                   />
                 </div>
-                <h4 className="main_card__name">SANTHOSH SUVARNA</h4>
+                <h4 className="main_card__name">Eddie Tran </h4>
               </div>
 
               <div className=" cell small main_card__invites">INVITES</div>
