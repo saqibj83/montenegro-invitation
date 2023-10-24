@@ -13,7 +13,7 @@ import image1 from "common/assets/image/player1.jpeg";
 import image2 from "common/assets/image/player2.jpeg";
 
 import image3 from "common/assets/image/player3.jpeg";
-import image4 from "common/assets/image/player4.jpeg";
+import image4 from "common/assets/image/IMG_2344.png";
 
 import image5 from "common/assets/image/player5.jpeg";
 import image6 from "common/assets/image/player6.jpeg";
@@ -275,17 +275,17 @@ const Testimonials = () => {
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name">Wiktor Malinowski </h4>
+                <h4 className="main_card__name"> Igor Yaroshevskyy</h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/pl.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ua.svg"k
                     alt="player"
                   />
                   <NextImage
                     className="cyprus-img"
                     src={image4}
-                    alt="Wiktor Malinowski "
+                    alt=" Igor Yaroshevskyy"
                   />
                 </div>
               </div>
