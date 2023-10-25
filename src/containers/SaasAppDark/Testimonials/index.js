@@ -279,7 +279,8 @@ const Testimonials = () => {
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ua.svg"k
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/ua.svg"
+                    k
                     alt="player"
                   />
                   <NextImage
@@ -1333,39 +1334,39 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* <div className="main_card cell auto">
+          <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">INVITEE</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/fr.svg"
                   alt="player"
                 />
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
                     src={image57}
-                    alt="Talal Shakerchi "
+                    alt="TIMOTHE BUSSO "
                   />
                 </div>
-                <h4 className="main_card__name">Talal Shakerchi </h4>
+                <h4 className="main_card__name">TIMOTHE BUSSO </h4>
               </div>
 
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name"> Ben Heath</h4>
+                <h4 className="main_card__name"> DAVID YAN</h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/gb.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/nz.svg"
                     alt="player"
                   />
                   <NextImage
                     className="cyprus-img"
                     src={image58}
-                    alt=" Ben Heath  "
+                    alt=" DAVID YAN  "
                   />
                 </div>
               </div>
@@ -1379,40 +1380,40 @@ const Testimonials = () => {
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/th.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/fr.svg"
                   alt="player"
                 />
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
                     src={image61}
-                    alt="KANNAPONG THANARATTRAKUL "
+                    alt="IMAD DERWICHE "
                   />
                 </div>
-                <h4 className="main_card__name">KANNAPONG THANARATTRAKUL </h4>
+                <h4 className="main_card__name">IMAD DERWICHE </h4>
               </div>
 
               <div className=" cell small main_card__invites">INVITES</div>
 
               <div className="cell small main__card__bottom">
-                <h4 className="main_card__name"> PUNNAT PUNSRI</h4>
+                <h4 className="main_card__name"> FEDOR HOLZ</h4>
                 <div className="main_card__image">
                   <img
                     className="flag-PlayerPhoto"
-                    src="https://prod-assets.tritonpoker.plus/flags/1x1/th.svg"
+                    src="https://prod-assets.tritonpoker.plus/flags/1x1/de.svg"
                     alt="player"
                   />
                   <NextImage
                     className="cyprus-img"
                     src={image62}
-                    alt=" PUNNAT PUNSRI  "
+                    alt=" FEDOR HOLZ  "
                   />
                 </div>
               </div>
               <div className=" cell small main_card__invites">PRO PLAYER</div>
             </div>
           </div>
-
+          {/* 
           <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">INVITEE</div>
