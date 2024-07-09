@@ -5,6 +5,21 @@ import Box from "common/components/Box";
 import Heading from "common/components/Heading";
 import Container from "common/components/UI/Container";
 import SectionWrapper from "./service.style";
+import { FAQ_DATA } from "common/data/SassMinimal";
+
+import { FaqWrapper } from "../Faq/faq.style";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTitle,
+  AccordionBody,
+  IconWrapper,
+  OpenIcon,
+  CloseIcon,
+} from "common/components/Accordion";
+import { Icon } from "react-icons-kit";
+import { plus } from "react-icons-kit/entypo/plus";
+import { minus } from "react-icons-kit/entypo/minus";
 
 const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
@@ -34,6 +49,177 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             Étoiles and conclude October 26<sup>th</sup>, 2023.
           </p>
         </Box>
+      </Container>
+      <Container className="mt-12">
+        <h2 className=" text-center mt-5 mb-8">New Section Placeholder</h2>
+        <div className="container m-auto grid grid-cols-2">
+          <div>
+            <FaqWrapper id="faq_section">
+              <Accordion>
+                <AccordionItem
+                  className="accordion_item"
+                  key="1"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="What are the visa requirements to enter Montenegro?" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <ul>
+                      <li>
+                        Information on visa requirements can be found on the
+                        official website: &nbsp;
+                        <a
+                          href="https://www.gov.me/en/article/visas-and-visa-regime"
+                          target="_blank"
+                        >
+                          https://www.gov.me/en/article/visas-and-visa-regime
+                        </a>
+                      </li>
+                      <li>
+                        Kindly consult your respective embassy for specific
+                        requirements.
+                      </li>
+                      <li>
+                        Triton Poker Series is pleased to provide personalized
+                        invitations for visa purposes upon request.
+                      </li>
+                    </ul>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="2"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="Where is the nearest airport to Maestral Resort & Casino?" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <ul>
+                      <li>
+                        {" "}
+                        <strong>Tivat Airport</strong> is approximately 27 km
+                        away from Maestral Resort & Casino, which is about a 30
+                        – 40 minutes drive depending on traffic conditions.
+                      </li>
+                      <li>
+                        {" "}
+                        <strong>Podgorica Airport</strong> is approximately 67
+                        km away from Maestral Resort & Casino, which is about an
+                        hour and 15 minutes drive depending on traffic
+                        conditions.
+                      </li>
+                    </ul>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="3"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="How do I get to Maestral Resort & Casino from the airport?" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <ul>
+                      <li>
+                        {" "}
+                        <strong>Private Transfer</strong> – we offer private
+                        airport transfer services. Please get in touch with our
+                        Event Concierge Team at{" "}
+                        <a href="mailto:vip@triton-series.com">
+                          vip@triton-series.com
+                        </a>
+                        .
+                      </li>
+                      <li>
+                        {" "}
+                        <strong>Taxi</strong> – There are plenty of taxis at
+                        Podgorica Airport and Tivat Airport at any given time.
+                        There’s also a counter in both airports where guests can
+                        request or ask for assistance in getting a taxi outside
+                        the airport to their destination. It is recommended for
+                        guests to check and agree on a price with the taxi
+                        driver prior to getting on.
+                      </li>
+                    </ul>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="4"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="How do I book accommodation at the Maestral Resort & Casino?" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <ul>
+                      <li>
+                        We offer preferential rates and complimentary
+                        accommodation packages for players that confirmed their
+                        participation. Please get in touch with our Event
+                        Concierge Team at&nbsp;
+                        <a href="mailto:vip@triton-series.com">
+                          vip@triton-series.com
+                        </a>
+                        &nbsp; for further assistance.
+                      </li>
+                    </ul>
+                  </AccordionBody>
+                </AccordionItem>
+              </Accordion>
+            </FaqWrapper>
+          </div>
+          <div className="text-center mt-8">
+            <img
+              className="inline"
+              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/17170431/img-p.png"
+              alt=""
+            />
+          </div>
+        </div>
       </Container>
     </SectionWrapper>
   );

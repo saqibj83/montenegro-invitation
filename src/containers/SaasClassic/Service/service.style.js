@@ -8,6 +8,13 @@ const SectionWrapper = styled.section`
     font-size: 36px;
     font-weight: bold;
 }
+     h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: #eba800 !important;
+  }
   p {
     color: #fff;
     font-size: 18px;
