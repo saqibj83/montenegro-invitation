@@ -68,14 +68,18 @@ export const FaqWrapper = styled.section`
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    padding-top: 27px;
+    padding-top: 10px;
     padding-bottom: 10px;
     letter-spacing: -0.01em;
     color: #fff;
     &::before {
       margin-right: 15px;
       content: counters(faqCounter, ".", decimal-leading-zero) ".";
+      display: none;
     }
+  }
+  .bg-table {
+    background: #eba800;
   }
   .accordion_body ul li {
     list-style: disc !important;
@@ -93,20 +97,22 @@ export const FaqWrapper = styled.section`
   .reusecore__accordion {
     counter-reset: faqCounter;
   }
+  .accordion_title {
+    padding: 0px 30px;
+    background: #333;
+  }
   .accordion__item {
     counter-increment: faqCounter;
-    padding-left: 30px;
-    padding-right: 30px;
+    border: 1px solid #333;
   }
   .accordion__item + .accordion__item {
-    border-top: 1px solid #eae9f2;
+    border-top: 1px solid #5f5d5d;
   }
   .accordion__item:last-child {
-    border-bottom: 1px solid #eae9f2;
+    border-bottom: 1px solid #5f5d5d;
   }
   .accordion_body {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 10px;
     p {
       font-style: normal;
       font-weight: normal;

@@ -7,6 +7,16 @@ import Box from "common/components/Box";
 import Text from "common/components/Text";
 import Heading from "common/components/Heading";
 import NextImage from "common/components/NextImage";
+
+import Container from "common/components/UI/Container";
+
+import Button from "common/components/Button";
+
+import SectionWrapper from "./updateScreen.style";
+import { SCREENSHOTS } from "common/data/SaasClassic";
+import { FAQ_DATA } from "common/data/SassMinimal";
+
+import { FaqWrapper } from "../Faq/faq.style";
 import {
   Accordion,
   AccordionItem,
@@ -16,15 +26,9 @@ import {
   OpenIcon,
   CloseIcon,
 } from "common/components/Accordion";
-import Container from "common/components/UI/Container";
 import { Icon } from "react-icons-kit";
 import { plus } from "react-icons-kit/entypo/plus";
 import { minus } from "react-icons-kit/entypo/minus";
-
-import Button from "common/components/Button";
-
-import SectionWrapper from "./updateScreen.style";
-import { SCREENSHOTS } from "common/data/SaasClassic";
 
 const UpdateScreen = ({
   secTitleWrapper,
@@ -38,156 +42,81 @@ const UpdateScreen = ({
     <SectionWrapper id="venue">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="Event Venue and Accommodation" />
+          <Heading {...secHeading} content="FAQ" />
         </Box>
-        <Tabs className="update-screen-tab">
-          <TabPane tab="Venue" key="1">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.488926801349!2d18.89106747610459!3d42.26808547120148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd419b115fb9f%3A0xb1d9ed78edc4bcdc!2sMaestral%20Resort%20%26%20Casino!5e0!3m2!1sen!2smy!4v1711422732038!5m2!1sen!2smy"
-              width="100%"
-              height="450"
-              style={{ border: "0" }}
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </TabPane>
-          <TabPane tab="Accommodation" key="2">
-            <ul>
-              <li>
+        <FaqWrapper id="faq_section">
+          <Accordion>
+            <AccordionItem className="accordion_item" key="2" expanded="expend">
+              <AccordionTitle className="accordion_title">
+                <>
+                  <Heading content="Suspendisse vitae porttitor ligula, nec rhoncus mauris." />
+                  <IconWrapper>
+                    <OpenIcon className="openIcon">
+                      <Icon icon={minus} size={18} />
+                    </OpenIcon>
+                    <CloseIcon className="closeIcon">
+                      <Icon icon={plus} size={18} />
+                    </CloseIcon>
+                  </IconWrapper>
+                </>
+              </AccordionTitle>
+              <AccordionBody className="accordion_body">
                 <p>
-                  Arrival: 06<sup>th</sup> of August 2024 <br />
-                  Departure: 11<sup>th</sup> of August 2024
-                  <br />
-                  Accommodation: Maestral Resort & Casino
-                  <br />
-                  <Link
-                    href="https://cdn.triton-series.com/wp-content/uploads/2019/12/08125724/SHRS-2024-Montenegro_Accommodation-and-Transfer-Promo_20240402.pdf"
-                    legacyBehavior
-                  >
-                    <a target="_blank">EN Brochure</a>
-                  </Link>{" "}
-                  -
-                  <Link
-                    href="https://triton-series.com/triton-poker-montenegro-2024-accommodation-en/"
-                    legacyBehavior
-                  >
-                    <a target="_blank">Hotel Promo T&C</a>
-                  </Link>
-                  <br />
-                  <Link
-                    href="https://cdn.triton-series.com/wp-content/uploads/2019/12/08125730/SHRS-2024-Montenegro_Accommodation-and-Transfer-Promo-SC_20240402.pdf"
-                    legacyBehavior
-                  >
-                    <a target="_blank">CN Brochure</a>
-                  </Link>
-                  -
-                  <Link
-                    href="https://triton-series.com/triton-poker-montenegro-2024-accommodation-cn/"
-                    legacyBehavior
-                  >
-                    <a target="_blank">Hotel Promo T&C</a>
-                  </Link>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dapibus ligula aliquet malesuada tristique. Ut dictum ac ex
+                  sed ullamcorper. Aenean vitae sapien aliquam, commodo neque
+                  in, ullamcorper urna.
                 </p>
-              </li>
-
-              <li>
-                <h2>
-                  <strong>Accommodation Offer</strong>
-                </h2>
-                <br />
-                <h3>
-                  <strong>Premium Rooms</strong>
-                </h3>
-                <p>Rate Single Occupancy: €320 / $352</p>
+              </AccordionBody>
+            </AccordionItem>
+            <AccordionItem className="accordion_item" key="3" expanded="expend">
+              <AccordionTitle className="accordion_title">
+                <>
+                  <Heading content="Suspendisse vitae porttitor ligula, nec rhoncus mauris." />
+                  <IconWrapper>
+                    <OpenIcon className="openIcon">
+                      <Icon icon={minus} size={18} />
+                    </OpenIcon>
+                    <CloseIcon className="closeIcon">
+                      <Icon icon={plus} size={18} />
+                    </CloseIcon>
+                  </IconWrapper>
+                </>
+              </AccordionTitle>
+              <AccordionBody className="accordion_body">
                 <p>
-                  Fully equipped and affluently decorated 25 m² space featuring
-                  a private balcony for guests to relax and enjoy their stay
-                  overlooking the gardens or the Adriatic Sea.{" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dapibus ligula aliquet malesuada tristique. Ut dictum ac ex
+                  sed ullamcorper. Aenean vitae sapien aliquam, commodo neque
+                  in, ullamcorper urna.
                 </p>
+              </AccordionBody>
+            </AccordionItem>
+            <AccordionItem className="accordion_item" key="4" expanded="expend">
+              <AccordionTitle className="accordion_title">
+                <>
+                  <Heading content="Suspendisse vitae porttitor ligula, nec rhoncus mauris." />
+                  <IconWrapper>
+                    <OpenIcon className="openIcon">
+                      <Icon icon={minus} size={18} />
+                    </OpenIcon>
+                    <CloseIcon className="closeIcon">
+                      <Icon icon={plus} size={18} />
+                    </CloseIcon>
+                  </IconWrapper>
+                </>
+              </AccordionTitle>
+              <AccordionBody className="accordion_body">
                 <p>
-                  <Link
-                    href="https://maestral.me/rooms/premium-sea-view-room/"
-                    legacyBehavior
-                  >
-                    <a target="_blank">
-                      https://maestral.me/rooms/premium-sea-view-room/
-                    </a>
-                  </Link>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  dapibus ligula aliquet malesuada tristique. Ut dictum ac ex
+                  sed ullamcorper. Aenean vitae sapien aliquam, commodo neque
+                  in, ullamcorper urna.
                 </p>
-              </li>
-
-              <li>
-                <h3>
-                  <strong>Superior Rooms</strong>
-                </h3>
-                <p>Rate Single Occupancy: €420 / $462</p>
-                <p>
-                  Featuring 33 m² of space, Superior rooms are decorated in
-                  contemporary minimal and luxurious yet functional materials.
-                </p>
-                <p>
-                  <Link
-                    href="https://maestral.me/rooms/superior-sea-view-room/"
-                    legacyBehavior
-                  >
-                    <a target="_blank">
-                      https://maestral.me/rooms/superior-sea-view-room/
-                    </a>
-                  </Link>
-                </p>
-              </li>
-            </ul>
-          </TabPane>
-          <TabPane tab="Travel Information" key="3">
-            <ul>
-              <li>
-                <h3 className="mb-3"> Arrival & Transfers</h3>
-                <p className="mb-3">
-                  We are pleased to offer complimentary airport transfers for
-                  players who confirmed their participation. The transfer
-                  service can be redeemed between August 06<sup>st</sup> to 11
-                  <sup>th</sup>, 2024. 24-Hour advance notice is required.
-                  Please get in touch with our Event Concierge Team at{" "}
-                  <a href="mailto:vip@triton-series.com">
-                    vip@triton-series.com
-                  </a>{" "}
-                  .
-                </p>
-              </li>
-            </ul>
-
-            {/* <ul style={{ paddingLeft: "20px" }}>
-              <li>
-                VISA INFORMATION: Passport holders of most countries require a
-                visa to enter the United Kingdom. To check your if you require a
-                UK visa, please visit &nbsp;
-                <Link href="https://www.gov.uk/check-uk-visa/y " legacyBehavior>
-                  <a target="_blank">https://www.gov.uk/check-uk-visa/y</a>
-                </Link>{" "}
-                . &nbsp; Once you know your visa requirement, you may apply for
-                a UK visa at &nbsp;
-                <Link
-                  href="https://visas-immigration.service.gov.uk/product/uk-visit-visa "
-                  legacyBehavior
-                >
-                  <a target="_blank">
-                    https://visas-immigration.service.gov.uk/product/uk-visit-visa
-                  </a>
-                </Link>{" "}
-                . &nbsp; The online visa application will guide you through the
-                payment options and will email you a receipt once you complete
-                the payment. For further information on Visa Application
-                Procedure, please visit &nbsp;
-                <Link href="https://www.gov.uk/check-uk-visa " legacyBehavior>
-                  <a target="_blank">https://www.gov.uk/check-uk-visa</a>
-                </Link>
-              </li>
-            </ul> */}
-            <br />
-            <p></p>
-          </TabPane>
-        </Tabs>
+              </AccordionBody>
+            </AccordionItem>
+          </Accordion>
+        </FaqWrapper>
       </Container>
     </SectionWrapper>
   );
