@@ -93,11 +93,18 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             {...contentWrapper}
             style={{ width: "100%", textAlign: "center" }}
           >
-            <img
-              className="title-img"
-              src="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/title_70004969ce.png"
-              alt=""
-            />
+            <p
+              style={{
+                textAlign: "center",
+                color: "#EBA800",
+                fontSize: "28px",
+                lineHeight: "30px",
+                marginTop: "30px",
+                fontWeight: "bold",
+              }}
+            >
+              Cash Game Invitational 1
+            </p>
             <p
               style={{
                 textAlign: "center",
@@ -107,7 +114,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
-              AUGUST 01<sup>st</sup> - 07<sup>th</sup>, 2024
+              AUGUST 07<sup>th</sup> - 10<sup>th</sup>, 2024
             </p>
             {/* <div className="prime-cta">
               <div className="primary-cta" style={{ marginTop: "5px" }}>
@@ -115,15 +122,6 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               </div>
               <span class="tooltiptext">Coming Soon</span>
             </div> */}
-            <Link href="https://triton-aws-s3-images-bucket.s3.ap-southeast-1.amazonaws.com/invi_2ab8ed1163.pdf?updated_at=2023-09-22T10:42:58.187Z">
-              <a target="_blank">
-                <Button
-                  title="VIEW FULL STRUCTURE"
-                  className="primary-cta"
-                  style={{ marginTop: "20px" }}
-                />
-              </a>
-            </Link>
           </Box>
         </Box>
       </Container>

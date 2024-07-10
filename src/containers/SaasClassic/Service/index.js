@@ -51,7 +51,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
       </Container>
       <Container className="mt-12">
-        <h2 className=" text-center mt-5 mb-8">New Section Placeholder</h2>
+        <h2 className=" text-center mt-5 mb-12">New Section Placeholder</h2>
         <div className="container m-auto grid grid-cols-2">
           <div>
             <FaqWrapper id="faq_section">

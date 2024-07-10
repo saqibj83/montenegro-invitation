@@ -56,8 +56,8 @@ const UpdateScreen = ({
             <ul>
               <li>
                 <p>
-                  Arrival: 31<sup>st</sup> of July 2024 <br />
-                  Departure: 8<sup>th</sup> of August 2024
+                  Arrival: 06<sup>th</sup> of August 2024 <br />
+                  Departure: 11<sup>th</sup> of August 2024
                   <br />
                   Accommodation: Maestral Resort & Casino
                   <br />
@@ -146,7 +146,7 @@ const UpdateScreen = ({
                 <p className="mb-3">
                   We are pleased to offer complimentary airport transfers for
                   players who confirmed their participation. The transfer
-                  service can be redeemed between July 31<sup>st</sup> to 08
+                  service can be redeemed between August 06<sup>st</sup> to 11
                   <sup>th</sup>, 2024. 24-Hour advance notice is required.
                   Please get in touch with our Event Concierge Team at{" "}
                   <a href="mailto:vip@triton-series.com">
