@@ -114,6 +114,26 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
+              The Special Triton Invitational is a unique $200,000 NLH buy-in
+              that features high-net-worth individuals and poker professionals
+              battling for prize money and the coveted title & trophy. This
+              unique format was inspired by the record breaking Triton Million
+              that took place in London in 2019 where affluent individuals and
+              poker pros play the first 8 levels separately, then converge to
+              battle against each other to a winner. This exclusive event will
+              start on kick-off at the Triton Poker SHRS in Monte-Carlo on the
+              24th of October, 2023 at the luxurious Monte-Carlo Sporting -
+              Salle Des Étoiles and conclude October 26th, 2023.
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                color: "#fff",
+                fontSize: "18px",
+                lineHeight: "30px",
+                marginTop: "30px",
+              }}
+            >
               Maestral Resort & Casino <br />
               AUGUST 07<sup>th</sup> - 10<sup>th</sup>, 2024
             </p>

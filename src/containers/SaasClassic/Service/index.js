@@ -24,34 +24,8 @@ import { minus } from "react-icons-kit/entypo/minus";
 const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="general_section">
-      <Container>
-        <Box {...secTitleWrapper} style={{ textAlign: "center" }}>
-          {/* <img
-            src="https://cdn.triton-series.com/wp-content/uploads/2019/12/14182030/last-frame00.png"
-            alt=""
-            style={{ width: "400px", textAlign: "center", display: "inline" }}
-          /> */}
-
-          <p style={{ paddingTop: "20px" }}>
-            <strong>$200,000 NLH</strong> <br />
-            24<sup>TH</sup> - 26<sup>TH</sup> OCTOBER 2023{" "}
-          </p>
-          <p>
-            The Special Triton Invitational is a unique $200,000 NLH buy-in that
-            features high-net-worth individuals and poker professionals battling
-            for prize money and the coveted title & trophy. This unique format
-            was inspired by the record breaking Triton Million that took place
-            in London in 2019 where affluent individuals and poker pros play the
-            first 8 levels separately, then converge to battle against each
-            other to a winner. This exclusive event will start on kick-off at
-            the Triton Poker SHRS in Monte-Carlo on the 24<sup>th</sup> of
-            October, 2023 at the luxurious Monte-Carlo Sporting - Salle Des
-            Étoiles and conclude October 26<sup>th</sup>, 2023.
-          </p>
-        </Box>
-      </Container>
       <Container className="mt-12">
-        <h2 className=" text-center mt-5 mb-12">New Section Placeholder</h2>
+        <h2 className=" text-center mt-5 mb-12">Schedule</h2>
         <div className="container m-auto grid grid-cols-2">
           <div>
             <FaqWrapper id="faq_section">
