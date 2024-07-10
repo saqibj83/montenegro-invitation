@@ -113,6 +113,7 @@ export const FaqWrapper = styled.section`
   }
   .accordion_body {
     padding: 10px;
+    background: #fff;
     p {
       font-style: normal;
       font-weight: normal;

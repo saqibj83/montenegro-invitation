@@ -26,7 +26,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
     <SectionWrapper id="general_section">
       <Container className="mt-12">
         <h2 className=" text-center mt-5 mb-12">Schedule</h2>
-        <div className="container m-auto grid grid-cols-2">
+        <div className="container m-auto grid grid-cols-1">
           <div>
             <FaqWrapper id="faq_section">
               <Accordion>
@@ -263,13 +263,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </AccordionItem>
               </Accordion>
             </FaqWrapper>
-          </div>
-          <div className="text-center mt-8">
-            <img
-              className="inline"
-              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/17170431/img-p.png"
-              alt=""
-            />
           </div>
         </div>
       </Container>
