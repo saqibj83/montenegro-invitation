@@ -109,9 +109,10 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               style={{
                 textAlign: "center",
                 color: "#fff",
-                fontSize: "18px",
+                fontSize: "16px",
                 lineHeight: "30px",
                 marginTop: "30px",
+                textTransform: "none",
               }}
             >
               The Special Triton Invitational is a unique $200,000 NLH buy-in
