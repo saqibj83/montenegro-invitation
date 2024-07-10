@@ -114,6 +114,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 marginTop: "30px",
               }}
             >
+              Maestral Resort & Casino <br />
               AUGUST 07<sup>th</sup> - 10<sup>th</sup>, 2024
             </p>
             {/* <div className="prime-cta">
