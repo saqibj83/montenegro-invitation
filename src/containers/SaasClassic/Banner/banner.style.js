@@ -80,7 +80,7 @@ export const BannerWrapper = styled.section`
     position: absolute;
     margin-top: -45px;
     padding: 4px;
-    border: 1px solid #eba800;
+    border: 1px solid #dfa95a;
     z-index: 90;
     width: 150px;
   }
@@ -91,7 +91,7 @@ export const BannerWrapper = styled.section`
   .ifram-wd {
     width: 800px;
     height: 400px;
-    // border: 4px solid #eba800;
+    // border: 4px solid #DFA95A;
   }
   @media only screen and (max-width: 667px) {
     .ifram-wd {

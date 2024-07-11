@@ -634,7 +634,7 @@ ServiceSection.defaultProps = {
     fontSize: "14px",
     letterSpacing: "0.15em",
     fontWeight: "700",
-    color: "#EBA800",
+    color: "#DFA95A",
     mb: "12px",
   },
   secHeading: {

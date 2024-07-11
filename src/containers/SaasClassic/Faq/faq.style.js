@@ -79,7 +79,7 @@ export const FaqWrapper = styled.section`
     }
   }
   .bg-table {
-    background: #eba800;
+    background: #dfa95a;
   }
   .accordion_body ul li {
     list-style: disc !important;

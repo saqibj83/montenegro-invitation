@@ -13,7 +13,7 @@ const SectionWrapper = styled.section`
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
-    color: #eba800 !important;
+    color: #DFA95A !important;
   }
   p {
     color: #fff;

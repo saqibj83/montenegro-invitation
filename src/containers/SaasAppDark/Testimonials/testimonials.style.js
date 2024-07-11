@@ -112,7 +112,7 @@ export const ReactSlick = styled(Slider)`
     z-index: 9999;
     position: absolute;
     margin: 5px;
-    border: 2px solid #eba800;
+    border: 2px solid #dfa95a;
   }
   .main_card__image {
     width: 100%;

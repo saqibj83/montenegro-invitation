@@ -32,7 +32,7 @@
   }
   .icon-info:before {
     content: "\e923";
-    color: #EBA800;
+    color: #DFA95A;
   }
   .icon-star:before {
     content: "\e91f";
@@ -62,7 +62,7 @@
   }
   .icon-reply:before {
     content: "\e91d";
-    color: #EBA800;
+    color: #DFA95A#EBA800;
   }
   .icon-user2:before {
     content: "\e91e";
@@ -70,11 +70,11 @@
   }
   .icon-arrow-md:before {
     content: "\e919";
-    color: #EBA800;
+    color: #DFA95A#EBA800;
   }
   .icon-arrow-sm:before {
     content: "\e918";
-    color: #EBA800;
+    color: #DFA95A#EBA800;
   }
   .icon-arrow:before {
     content: "\e902";
@@ -115,11 +115,11 @@
   }
   .icon-mail:before {
     content: "\e90b";
-    color: #EBA800;
+    color: #DFA95A#EBA800;
   }
   .icon-map-pin:before {
     content: "\e90c";
-    color: #EBA800;
+    color: #DFA95A#EBA800;
   }
   .icon-map-pin-big:before {
     content: "\e90d";
@@ -147,7 +147,7 @@
   }
   .icon-smartphone:before {
     content: "\e914";
-    color: #EBA800;
+    color: #DFA95A#EBA800;
   }
   .icon-twitter:before {
     content: "\e915";

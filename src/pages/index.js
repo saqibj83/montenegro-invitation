@@ -40,7 +40,7 @@ const SaasClassic = () => {
 "
           />
           <meta name="keywords" content="coin rivet, Triton Poker, Poker" />
-          <meta name="theme-color" content="#eba800" />
+          <meta name="theme-color" content="#DFA95A" />
           <meta
             name="google-site-verification"
             content="OUn2prDdnV-MyCWAa56nnZAV-dqzTiN7b3zaOyhPAUA"

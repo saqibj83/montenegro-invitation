@@ -97,7 +97,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             <p
               style={{
                 textAlign: "center",
-                color: "#EBA800",
+                color: "#DFA95A",
                 fontSize: "28px",
                 lineHeight: "30px",
                 marginTop: "30px",
@@ -131,7 +131,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             <p
               style={{
                 textAlign: "center",
-                color: "#EBA800",
+                color: "#DFA95A",
                 fontSize: "18px",
                 lineHeight: "30px",
                 marginTop: "30px",

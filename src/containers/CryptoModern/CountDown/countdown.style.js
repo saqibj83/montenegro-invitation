@@ -57,7 +57,7 @@ const SectionWrapper = styled.div`
     position: absolute;
     margin-top: -45px;
     padding: 4px;
-    border: 1px solid #eba800;
+    border: 1px solid #DFA95A;
     z-index: 90;
     width: 150px;
   }
@@ -172,7 +172,7 @@ export const ContentWrapper = styled.div`
       }
       &:hover {
         box-shadow: none;
-        background-color: #eba800;
+        background-color: #DFA95A;
         top: 0;
       }
     }
@@ -185,7 +185,7 @@ export const ContentWrapper = styled.div`
       }
       &:hover {
         box-shadow: none;
-        background-color: #eba800;
+        background-color: #DFA95A;
         top: 0;
       }
     }
@@ -197,7 +197,7 @@ export const ContentWrapper = styled.div`
       }
       &:hover {
         box-shadow: none;
-        background-color: #eba800;
+        background-color: #DFA95A;
         top: 0;
       }
     }
@@ -219,7 +219,7 @@ export const ContentWrapper = styled.div`
         width: 110px;
         height: 100px;
         border-radius: 5px;
-        background-color: #eba800;
+        background-color: #DFA95A;
         @media (max-width: 480px) {
           width: 70px;
           height: 70px;

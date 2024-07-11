@@ -17,7 +17,7 @@ a {
   color:#fff ;
 }
 a:hover {
-  color:#EBA800;
+  color:#DFA95A;
 }
 .flag-PlayerPhoto {
   width: 30px;
@@ -33,7 +33,7 @@ a:hover {
   font-size: 18px;
   line-height: 100%;
   text-transform: capitalize;
-  color: #EBA800;
+  color: #DFA95A;
   margin-bottom: 8px;
   letter-spacing: 1px;
 }
@@ -57,7 +57,7 @@ a:hover {
   height: 50px;
   line-height: 35px;
   outline: none;
-  background: #EBA800;
+  background: #DFA95A;
   padding: 0 30px;
   font-weight: 700;
   font-size: 17px;
@@ -105,7 +105,7 @@ a:hover {
   align-content: center;
 }
 a.linkFooter {
-    color: #EBA800;
+    color: #DFA95A;
     padding: 0 15px;
     float:left;
 }
@@ -232,7 +232,7 @@ ul.social {
       width: 180px;
     }
     a.linkFooter {
-      color: #EBA800;
+      color: #DFA95A;
       padding: 0 5px;
     }
     .footer-copy {
@@ -256,7 +256,7 @@ ul.social {
 .btn-footer{
   position: relative;
   top: -21px;
-  background: linear-gradient(to right, #EBA8000%, #ffe8b9 34%, #f7a500 94%, #d89127 100%);
+  background: linear-gradient(to right, #DFA95A0%, #ffe8b9 34%, #f7a500 94%, #d89127 100%);
   color: #000;
 }
   .email_input {

@@ -6,7 +6,7 @@ const SectionWrapper = styled.section`
   .rc-tabs-content-holder {
     background: #ffff;
     border-radius: 0px 0px 10px 10px;
-    border: 3px solid #eba800;
+    border: 3px solid #dfa95a;
   }
   @media (max-width: 990px) {
     padding: 80px 0 40px 0;
@@ -83,7 +83,7 @@ const SectionWrapper = styled.section`
     line-height: 20px;
   }
   li a {
-    color: #eba800 !important;
+    color: #dfa95a !important;
     text-decoration: underline;
   }
   .update-screen-tab {
@@ -137,7 +137,7 @@ const SectionWrapper = styled.section`
       }
       .rc-tabs-tab {
         font-size: 18px;
-        color: #eba800;
+        color: #dfa95a;
         font-weight: 400;
         min-width: 230px;
         padding: 10px 0 10px 0;
@@ -145,7 +145,7 @@ const SectionWrapper = styled.section`
         background: transparent !important;
         transition: 0.25s ease-in-out;
         display: inline-block;
-        border: 1px solid #eba800;
+        border: 1px solid #dfa95a;
         float: none;
         &:hover {
           color: #fff;
@@ -162,7 +162,7 @@ const SectionWrapper = styled.section`
           }
         }
         &:after {
-          background: #eba800;
+          background: #dfa95a;
           transform: scaleX(0);
           transform-origin: right center 0;
           transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
