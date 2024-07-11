@@ -105,7 +105,7 @@ export const FaqWrapper = styled.section`
     counter-increment: faqCounter;
     border: 1px solid #333;
     margin-bottom: 10px;
-    box-shadow: 0 2px 4px #dfa95a;
+    box-shadow: 2px 2px 0px #dfa95a;
   }
   .accordion__item + .accordion__item {
     border-top: 1px solid #5f5d5d;
