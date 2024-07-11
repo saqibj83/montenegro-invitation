@@ -16,6 +16,7 @@ import {
 
 import BannerSection from "containers/SaasClassic/Banner";
 import CountDown from "containers/CryptoModern/CountDown";
+import CountDown1 from "containers/SaasClassic/CountDown";
 import Testimonials from "containers/SaasAppDark/Testimonials";
 import Navbar from "containers/SaasClassic/Navbar";
 import ServiceSection from "containers/SaasClassic/Service";
@@ -75,6 +76,7 @@ const SaasClassic = () => {
           <Testimonials />
 
           <CountDown />
+          <CountDown1 />
           <UpdateScreen />
           <Footer />
         </ContentWrapper>
