@@ -55,7 +55,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
@@ -101,7 +101,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             8:30PM - 1AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 1
+                            Table 2
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
                             1K-2K-2K
@@ -170,6 +170,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
                           >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -178,7 +183,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             8:30PM - 1AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 1
+                            Table 2
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
                             1K-2K-2K
@@ -245,8 +250,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
                           <td
                             colspan="4"
-                            className="border p-1 sm:p-4  text-black text-center  bg-table "
+                            className="border p-1 sm:p-4  text-black text-center   bg-table "
                           >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -255,7 +265,335 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             8:30PM - 1AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 2
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="4"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="DAY 4" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
+                      <thead>
+                        <tr>
+                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                            Time
+                          </th>
+                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Featured Table
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Blind Level
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Buy-in
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white ">
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            4PM - 8:30PM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td
+                            colspan="4"
+                            className="border p-1 sm:p-4  text-black text-center   bg-table "
+                          >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
+                            TV Table Change & Hot Seat Redraw
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            8:30PM - 1AM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 2
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="4"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="DAY 5" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
+                      <thead>
+                        <tr>
+                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                            Time
+                          </th>
+                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Featured Table
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Blind Level
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Buy-in
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white ">
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            4PM - 8:30PM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 1
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td
+                            colspan="4"
+                            className="border p-1 sm:p-4  text-black text-center   bg-table "
+                          >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
+                            TV Table Change & Hot Seat Redraw
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            8:30PM - 1AM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 2
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="4"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="DAY 6" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
+                      <thead>
+                        <tr>
+                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                            Time
+                          </th>
+                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Featured Table
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Blind Level
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Buy-in
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white ">
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            4PM - 8:30PM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 1
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td
+                            colspan="4"
+                            className="border p-1 sm:p-4  text-black text-center   bg-table "
+                          >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
+                            TV Table Change & Hot Seat Redraw
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            8:30PM - 1AM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 2
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </AccordionBody>
+                </AccordionItem>
+                <AccordionItem
+                  className="accordion_item"
+                  key="4"
+                  expanded="expend"
+                >
+                  <AccordionTitle className="accordion_title">
+                    <>
+                      <Heading content="DAY 7" />
+                      <IconWrapper>
+                        <OpenIcon className="openIcon">
+                          <Icon icon={minus} size={18} />
+                        </OpenIcon>
+                        <CloseIcon className="closeIcon">
+                          <Icon icon={plus} size={18} />
+                        </CloseIcon>
+                      </IconWrapper>
+                    </>
+                  </AccordionTitle>
+                  <AccordionBody className="accordion_body">
+                    <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
+                      <thead>
+                        <tr>
+                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                            Time
+                          </th>
+                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Featured Table
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Blind Level
+                          </th>
+                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                            Buy-in
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white ">
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            4PM - 8:30PM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 1
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            1K-2K-2K
+                          </td>
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            $200K Min
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td
+                            colspan="4"
+                            className="border p-1 sm:p-4  text-black text-center   bg-table "
+                          >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
+                            TV Table Change & Hot Seat Redraw
+                          </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            8:30PM - 1AM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 2
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
                             1K-2K-2K

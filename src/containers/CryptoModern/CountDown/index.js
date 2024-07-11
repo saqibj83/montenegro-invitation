@@ -37,138 +37,63 @@ const ModalContent = () => (
     <div className="relative bg-white rounded-lg shadow  ">
       <div className="flex justify-between items-start p-4 rounded-t border-b ">
         <h3 className="text-xl font-semibold text-black">
-          Tournament Rules - Invitational
+          Triton Poker Series: Cash Game Invitational I: Terms & Conditions
         </h3>
       </div>
 
       <div className="p-6 space-y-6">
-        <h2 className="text-xl text-black font-bold">GENERAL</h2>
+        <h2 className="text-xl text-black font-bold">Event Details:</h2>
         <ul className="px-3">
           <li>
             {" "}
-            Registration Fees are not included in the buy-in. Total buy-in USD
-            210,000.
+            <strong>Location:</strong> Maestral Resort & Casino, Montenegro
           </li>
           <li>
-            Players are required to play from the very beginning of the
-            tournament (stacks in play)
+            <strong>Dates:</strong> 1st - 7th August 2024
           </li>
           <li>
-            It is the Invitee players’ obligation to confirm their attendance as
-            soon as possible to secure their seat and to guarantee this
-            tournament’s success. Invitee players are encouraged to advise on
-            their choice of PRO pairing up with at earliest convenience and
-            required to do so at 48h prior to the event the latest.
-          </li>
-          <li>
-            Tournament will play 8-handed – the final table will be 9-handed
-          </li>
-          <li>Single (1) Re-Entry available during the Registration Period.</li>
-          <li>
-            If a player wishes to Re-Enter he/she will have 30 Mins to do so
-            after getting eliminated.
-          </li>
-          <li>
-            Players eliminated before the start of the Day2 wishing to re-enter
-            will need to notify the tournament staff about it. Their stacks will
-            be included in the complete 50/50 redraw.
-          </li>
-          <li>
-            {" "}
-            Registration for re-entries only will end at the start of Level 11
-            (Start of Day 2 – 1:00PM).
-          </li>
-          <li>Day 2 will play down to the Final Table.</li>
-          <li>
-            This is a restricted Buy-In event and it will not grant any POY
-            points.
+            <strong>Scheduled Play Time:</strong> 3:00PM to 00:00AM. After-hours
+            play is permitted, but players must return by 3:00PM the following
+            day.
           </li>
         </ul>
-        <h2 className="text-xl font-bold">TIME</h2>
+        <h2 className="text-xl font-bold">Attendance & Participation:</h2>
         <ul className="px-3">
           <li>
-            Each player will have the following seconds to act on the Shot
-            Clock: 20 seconds pre-flop, 25 on the flop and 30 on the turn and
-            river unless otherwise advertised.
+            Players must confirm their attendance to the proposed lineups by
+            June 27th.
           </li>
           <li>
-            Each player will receive 12 Time Bank tokens at the start of the
-            tournament.
+            Seat assignments will be drawn randomly at the start of play and may
+            occur mid-session if announced beforehand.
           </li>
           <li>
-            {" "}
-            A regressive time bank system will apply, please see “Tournament
-            Rules”.
+            A "Hot Seat" redraw will occur for all "Hot Seat" players, including
+            reserves, halfway through play (4.5 hours in).
           </li>
           <li>
-            When the re-entry period will end and upon reaching the Final Table
-            all players will receive 5 extra Time Bank Cards.
+            A player on both "Hot Seat" and Reserve cannot draw a Reserve Seat
+            twice consecutively.
           </li>
           <li>
-            All Shot Clock rules listed in the "Tournament Rules" will apply.
+            From Day 5, some tables will feature higher stakes, with increased
+            minimum buy-ins, blinds, and/or big blind antes.
+          </li>
+          <li>Day 7 lineup and stakes are to be determined.</li>
+          <li>
+            We reserve the right to change the lineup, stakes, and minimum
+            buy-ins.
+          </li>
+          <li>
+            The seat draw for all tables is subject to change. We do not
+            guarantee a number of players per table - tables may not play
+            8-handed as in the proposed schedule
+          </li>
+          <li>
+             Reserve lists will be announced daily and each of the 3 tables may
+            have their own reserve list.
           </li>
         </ul>
-        <h2 className="text-xl font-bold">SEAT DRAW</h2>
-        <ul className="px-3">
-          <li>
-            Invitees and PROs will play separately for the first 10 levels (Full
-            Day1)
-          </li>
-          <li>
-            At the end of level 10 there will be a “50/50” random redraw with
-            the rules explained in the point below
-          </li>
-          <li>
-            During levels 11 and 12 players will play on tables with a balanced
-            numbers of PROs and Invitees as much as possible (i.e. 4 VIPs and 4
-            PROs)
-          </li>
-          <li>
-            At the end of level 12 there will be a complete random redraw.
-          </li>
-          <li>
-            Invitees/Pro pair will play at different tables up until at least
-            the last two tables remaining (16 players)
-          </li>
-        </ul>
-        <h2 className="text-xl font-bold">TV & Media Coverage</h2>
-        <ul className="px-3">
-          <li>This event will be televised.</li>
-          <li>
-            Players images and their full names will be published on social
-            media channels prior to the event.
-          </li>
-          <li>
-            In case of attending Triton Super High Roller Series for the first
-            time, Invitational players will be asked to provide a high quality
-            portrait with the rights for publishing.
-          </li>
-          <li>
-            Players may be asked to be professionally photographed during the
-            event.
-          </li>
-          <li>
-            Prior to the Invitational event all players are required to fill in
-            a mandatory media/TV questionnaire for content (commentary)
-            purposes.
-          </li>
-          <li>
-            All Invitational players will be required to provide their
-            availability for interviews.
-          </li>
-        </ul>
-        <p>
-          <strong>
-            **All other Triton Poker SHRS tournament rules apply. &nbsp;
-            <a
-              style={{ color: "#eba800" }}
-              target="_blank"
-              href="https://triton-series.com/tournament-rules/"
-            >
-              Click here
-            </a>
-          </strong>
-        </p>
       </div>
     </div>
   </>
