@@ -20,7 +20,7 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: " INFO",
+    label: " LINEUPS & RULES",
     path: "#tournament_info",
     offset: "0",
   },

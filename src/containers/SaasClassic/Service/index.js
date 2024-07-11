@@ -138,7 +138,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
@@ -221,7 +221,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
@@ -304,7 +304,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
@@ -387,7 +387,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
@@ -470,7 +470,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
@@ -553,7 +553,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <thead>
                         <tr>
                           <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
-                            Time
+                            Local Time
                           </th>
                           <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table

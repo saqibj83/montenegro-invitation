@@ -302,19 +302,19 @@ const CountDownSection = () => {
   return (
     <SectionWrapper className="bg-event" id="tournament_info">
       <Container>
-        <Heading content=" INFO " />
+        <Heading content=" LINEUPS & RULES " />
         <Fade up>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
               <div className="bg-b py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
                 <div className="w-full text-center ">
                   <NextImage src={Schedule} alt="Schedule" />
-                  <h1>SCHEDULE</h1>
+                  <h1>LINEUPS</h1>
                   <button
                     className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
                     onClick={handleVideoModal1}
                   >
-                    VIEW SCHEDULE
+                    VIEW LINEUPS
                   </button>
                   {/* <div className="prime-cta">
                     <div className="primary-cta" style={{ marginTop: "5px" }}>
