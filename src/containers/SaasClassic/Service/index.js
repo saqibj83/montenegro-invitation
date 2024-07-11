@@ -39,7 +39,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 1 - Saturday, August 4, 2024" />
+                      <Heading content="DAY 1 - Sunday, August 4, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -69,7 +69,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -83,7 +83,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -93,10 +93,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
-                            TV Table Change & Hot Seat Redraw
+                            <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             8:30PM - 1AM
                           </td>
@@ -121,7 +121,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 2" />
+                      <Heading content="DAY 2 - Monday, August 5, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -151,7 +151,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -165,7 +165,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -178,7 +178,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             8:30PM - 1AM
                           </td>
@@ -203,7 +203,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 3" />
+                      <Heading content="DAY 3 - Tuesday, August 6, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -233,7 +233,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -247,7 +247,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -260,7 +260,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             8:30PM - 1AM
                           </td>
@@ -285,7 +285,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 4" />
+                      <Heading content="DAY 4 - Wednesday, August 7, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -315,7 +315,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -329,7 +329,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -342,7 +342,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             8:30PM - 1AM
                           </td>
@@ -367,7 +367,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 5" />
+                      <Heading content="DAY 5 - Thursday, August 8, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -397,7 +397,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -405,13 +405,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             Table 1
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
+                            1K-2K-3K
                           </td>
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
+                            300K Min
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -424,7 +424,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             8:30PM - 1AM
                           </td>
@@ -432,10 +432,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             Table 2
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
+                            1K-2K-3K
                           </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            300K Min
                           </td>
                         </tr>
                       </tbody>
@@ -449,7 +449,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 6" />
+                      <Heading content="DAY 6 - Friday, August 9, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -479,7 +479,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -487,13 +487,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             Table 1
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
+                            1K-2K-5K
                           </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            $500K Min
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -506,7 +506,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             8:30PM - 1AM
                           </td>
@@ -514,10 +514,10 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             Table 2
                           </td>
                           <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
+                            1K-2K-5K
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
+                            $500K Min
                           </td>
                         </tr>
                       </tbody>
@@ -531,7 +531,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 7" />
+                      <Heading content="DAY 7 - Saturday, August 10, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -561,21 +561,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 1
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
+                        <tr class="hover:bg-gray-100">
+                          <td
+                            colspan="4"
+                            className="border text-center p-1 sm:p-4  text-slate-500 "
+                          >
+                            To Be Determined
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
+                        <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
@@ -588,18 +582,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
-                        <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
+                        <tr class="hover:bg-gray-100">
+                          <td
+                            colspan="4"
+                            className="border text-center p-1 sm:p-4  text-slate-500 "
+                          >
+                            To Be Determined
                           </td>
                         </tr>
                       </tbody>
