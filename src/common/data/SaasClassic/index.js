@@ -9,7 +9,7 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "SCHEDULE",
+    label: "LIVESTREAM SCHEDULE",
     path: "#general_section",
     offset: "0",
   },
@@ -20,7 +20,7 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "TOURNAMENT INFO",
+    label: " INFO",
     path: "#tournament_info",
     offset: "0",
   },

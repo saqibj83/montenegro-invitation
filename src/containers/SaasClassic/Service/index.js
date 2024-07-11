@@ -25,7 +25,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="general_section">
       <Container className="mt-12">
-        <h2 className=" text-center mt-5 mb-12">Schedule</h2>
+        <h2 className=" text-center mt-5 mb-12">Livestream Schedule</h2>
         <div className="container m-auto grid grid-cols-1">
           <div>
             <FaqWrapper id="faq_section">

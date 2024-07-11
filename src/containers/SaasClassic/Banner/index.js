@@ -12,6 +12,7 @@ import Coin from "common/assets/image/saasClassic/logo3.png";
 import placeholder from "common/assets/image/saasClassic/video.jpg";
 import nTitle from "common/assets/image/saasClassic/title.png";
 import { play } from "react-icons-kit/entypo/play";
+import { padding } from "styled-system";
 
 // close button for modal
 const CloseModalButton = () => (
@@ -64,7 +65,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 className="cyprus-img"
                 src={Coin}
                 alt="Triton logo"
-                style={{ width: "200px" }}
+                style={{ width: "200px", padding: "15px 0" }}
               />
             </Fade>
           </Box>

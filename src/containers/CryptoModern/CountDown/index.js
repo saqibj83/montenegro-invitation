@@ -377,7 +377,7 @@ const CountDownSection = () => {
   return (
     <SectionWrapper className="bg-event" id="tournament_info">
       <Container>
-        <Heading content="CASH GAME INFO " />
+        <Heading content=" INFO " />
         <Fade up>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
