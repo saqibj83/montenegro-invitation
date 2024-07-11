@@ -93,6 +93,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
@@ -175,6 +176,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -257,6 +259,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -339,6 +342,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -421,6 +425,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -503,6 +508,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
@@ -562,10 +568,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       </thead>
                       <tbody className="bg-white ">
                         <tr class="hover:bg-gray-100">
-                          <td
-                            colspan="4"
-                            className="border text-center p-1 sm:p-4  text-slate-500 "
-                          >
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            4PM - 8:30PM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 1
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            To Be Determined
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             To Be Determined
                           </td>
                         </tr>
@@ -579,14 +591,21 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               src={arrow}
                               alt="Next Arrow"
                             />{" "}
+                            <br />
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                          <td
-                            colspan="4"
-                            className="border text-center p-1 sm:p-4  text-slate-500 "
-                          >
+                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
+                            8:30PM - 1AM
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
+                            Table 2
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
+                            To Be Determined
+                          </td>
+                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             To Be Determined
                           </td>
                         </tr>
