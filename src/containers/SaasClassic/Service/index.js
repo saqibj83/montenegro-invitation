@@ -6,6 +6,7 @@ import Heading from "common/components/Heading";
 import Container from "common/components/UI/Container";
 import SectionWrapper from "./service.style";
 import { FAQ_DATA } from "common/data/SassMinimal";
+import NextImage from "common/components/NextImage";
 
 import { FaqWrapper } from "../Faq/faq.style";
 import {
@@ -20,6 +21,7 @@ import {
 import { Icon } from "react-icons-kit";
 import { plus } from "react-icons-kit/entypo/plus";
 import { minus } from "react-icons-kit/entypo/minus";
+import arrow from "common/assets/image/arrow.png";
 
 const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
@@ -37,7 +39,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 >
                   <AccordionTitle className="accordion_title">
                     <>
-                      <Heading content="DAY 1" />
+                      <Heading content="DAY 1 - Saturday, August 4, 2024" />
                       <IconWrapper>
                         <OpenIcon className="openIcon">
                           <Icon icon={minus} size={18} />
@@ -86,6 +88,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             colspan="4"
                             className="border p-1 sm:p-4  text-black text-center   bg-table "
                           >
+                            <NextImage
+                              className="cyprus-img"
+                              src={arrow}
+                              alt="Next Arrow"
+                            />{" "}
                             TV Table Change & Hot Seat Redraw
                           </td>
                         </tr>
