@@ -534,7 +534,7 @@ const Testimonials = () => {
         <ReactSlick {...settings}>
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -555,7 +555,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -576,7 +576,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -597,7 +597,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -618,7 +618,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -639,7 +639,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -660,7 +660,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -681,7 +681,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -702,7 +702,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -723,7 +723,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -744,7 +744,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -765,7 +765,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -786,7 +786,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -807,7 +807,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
@@ -828,7 +828,7 @@ const Testimonials = () => {
 
           <div className="main_card cell auto">
             <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PALYER</div>
+              <div className=" cell small main_card__invites">PRO PLAYER</div>
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"

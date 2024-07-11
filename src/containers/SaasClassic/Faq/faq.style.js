@@ -104,6 +104,7 @@ export const FaqWrapper = styled.section`
   .accordion__item {
     counter-increment: faqCounter;
     border: 1px solid #333;
+    margin-bottom: 10px;
   }
   .accordion__item + .accordion__item {
     border-top: 1px solid #5f5d5d;
