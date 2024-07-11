@@ -115,27 +115,27 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 textTransform: "none",
               }}
             >
-              The Special Triton Invitational is a unique $200,000 NLH buy-in
-              that features high-net-worth individuals and poker professionals
-              battling for prize money and the coveted title & trophy. This
-              unique format was inspired by the record breaking Triton Million
-              that took place in London in 2019 where affluent individuals and
-              poker pros play the first 8 levels separately, then converge to
-              battle against each other to a winner. This exclusive event will
-              start on kick-off at the Triton Poker SHRS in Monte-Carlo on the
-              24th of October, 2023 at the luxurious Monte-Carlo Sporting -
-              Salle Des Étoiles and conclude October 26th, 2023.
+              Experience the pinnacle of high-stakes poker at Triton Poker
+              Series Invitational I, where the world's top poker strategists
+              converge to showcase their intellectual brilliance and strategic
+              expertise. This exclusive event, set in the luxurious Maestral
+              Hotel & Casino, highlights the sophisticated thinking and
+              meticulous planning that defines the game. Enjoy real-time expert
+              analysis, interactive live streaming, and exclusive masterclass
+              sessions. Join us for an unparalleled celebration of poker
+              excellence, where the finest minds compete, strategise, and
+              triumph. Don't miss this invitation-only event on our YouTube &
+              Twitch channels—mark your calendars now!
             </p>
             <p
               style={{
                 textAlign: "center",
-                color: "#fff",
+                color: "#EBA800",
                 fontSize: "18px",
                 lineHeight: "30px",
                 marginTop: "30px",
               }}
             >
-              Maestral Resort & Casino <br />
               AUGUST 04<sup>th</sup> - 10<sup>th</sup>, 2024
             </p>
             {/* <div className="prime-cta">

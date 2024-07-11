@@ -377,7 +377,7 @@ const CountDownSection = () => {
   return (
     <SectionWrapper className="bg-event" id="tournament_info">
       <Container>
-        <Heading content="Tournament Info " />
+        <Heading content="CASH GAME INFO " />
         <Fade up>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
@@ -404,7 +404,7 @@ const CountDownSection = () => {
               <div className="bg-b py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
                 <div className="w-full text-center ">
                   <NextImage src={Rules} alt="Tournament Rules" />
-                  <h1>TOURNAMENT RULES</h1>
+                  <h1>CASH GAME RULES</h1>
 
                   <button
                     className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
