@@ -65,7 +65,7 @@ a:hover {
   text-transform: uppercase;
   display: inline-block;
   transition: all .3s linear;
-  font-family: gill-sans-nova;
+  font-family: Cinzel;
   border-radius: 0;
   border: 1px solid #e3b55f;
 }

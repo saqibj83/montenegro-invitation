@@ -36,7 +36,6 @@ const SectionWrapper = styled.div`
     min-height: 46px;
     min-width: 48px;
     border-radius: 3px;
-    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -233,7 +232,6 @@ export const ContentWrapper = styled.div`
             font-size: 60px;
             letter-spacing: -1px;
             color: #ffffff;
-            font-family: "gill-sans-nova", sans-serif !important;
             font-weight: 300;
             text-align: center;
             @media (max-width: 480px) {
@@ -245,7 +243,6 @@ export const ContentWrapper = styled.div`
           font-size: 18px;
           letter-spacing: 3px;
           color: #fff;
-          font-family: "gill-sans-nova", sans-serif !important;
           font-weight: 500;
           text-align: center;
           margin-top: 12px;
@@ -258,7 +255,6 @@ export const ContentWrapper = styled.div`
         font-size: 36px;
         line-height: 48px;
         color: #fff;
-        font-family: "Roboto";
         font-weight: 700;
         text-align: center;
         @media (max-width: 480px) {

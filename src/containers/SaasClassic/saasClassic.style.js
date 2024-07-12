@@ -21,7 +21,7 @@ const FadeUp = keyframes`
 
 export const GlobalStyle = createGlobalStyle`
   body{
-    font-family: 'gill-sans-nova', sans-serif !important;
+    font-family: Cinzel', sans-serif !important;
   }
 
   h1,
@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'gill-sans-nova', sans-serif !important;
+    font-family: Cinzel', sans-serif !important;
     text-transform: uppercase;
   }
 
