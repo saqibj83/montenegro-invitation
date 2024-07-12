@@ -31,14 +31,7 @@ const Footer = ({
                       </a>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="#general_section">
-                      <a>
-                        <i className="icon-arrow-sm"></i>
-                        About
-                      </a>
-                    </Link>
-                  </li>
+
                   <li>
                     <Link href="#participants_section">
                       <a>
@@ -47,16 +40,23 @@ const Footer = ({
                     </Link>
                   </li>
                   <li>
-                    <Link href="#tournament_info">
+                    <Link href="#general_section">
                       <a>
-                        <i className="icon-arrow-sm"></i>Tournament Info
+                        <i className="icon-arrow-sm"></i> Schedule
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#venue">
+                    <Link href="#tournament_info">
                       <a>
-                        <i className="icon-arrow-sm"></i>Venue
+                        <i className="icon-arrow-sm"></i>Rules
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#watch_live">
+                      <a>
+                        <i className="icon-arrow-sm"></i> Live
                       </a>
                     </Link>
                   </li>
@@ -64,54 +64,6 @@ const Footer = ({
 
                 <div className="footer-nav_subscribe mt-8">
                   <span className="footer-nav__col-title">NEWSLETTER</span>
-
-                  {/* <div class="box-field__row">
-                    <div id="mc_embed_signup">
-                      <form
-                        action="https://triton-series.us18.list-manage.com/subscribe/post?u=3957510c4fa663fcbc59da452&amp;id=1e0fdfae29"
-                        method="post"
-                        id="mc-embedded-subscribe-form"
-                        name="mc-embedded-subscribe-form"
-                        class="validate"
-                        target="_blank"
-                        novalidate
-                      >
-                        <div id="mc_embed_signup_scroll">
-                          <div class="box-field">
-                            <input
-                              type="email"
-                              value=""
-                              name="EMAIL"
-                              class="email"
-                              id="mce-EMAIL"
-                              placeholder="email address"
-                              required
-                            />
-                          </div>
-                          <div
-                            style={{ position: "absolute", left: "-5000px;" }}
-                            aria-hidden="true"
-                          >
-                            <input
-                              type="text"
-                              name="b_3957510c4fa663fcbc59da452_1e0fdfae29"
-                              tabindex="-1"
-                              value=""
-                            />
-                          </div>
-                          <div class="clear">
-                            <input
-                              type="submit"
-                              value="SUBSCRIBE"
-                              name="subscribe"
-                              id="mc-embedded-subscribe"
-                              class=" btn"
-                            />
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div> */}
 
                   <div className="box-field__row">
                     <div className="box-field">
