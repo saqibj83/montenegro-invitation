@@ -24,11 +24,6 @@ import { minus } from "react-icons-kit/entypo/minus";
 import arrow from "common/assets/image/arrow.png";
 
 const ServiceSection = ({ secTitleWrapper, secHeading }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function toggle() {
-    setIsOpen((isOpen) => !isOpen);
-  }
   return (
     <SectionWrapper id="general_section">
       <Container className="mt-12">
@@ -74,10 +69,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr
-                          class="hover:bg-gray-100 cursor-pointer"
-                          onClick={toggle}
-                        >
+                        <tr class="hover:bg-gray-100 poiter">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             4PM - 8:30PM
                           </td>
@@ -91,17 +83,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
-                        {isOpen && (
-                          <tr className="text-center bg-black">
-                            <td colspan="4" className="text-center">
-                              <img
-                                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12153522/demo.png"
-                                alt=""
-                                className="inline"
-                              />
-                            </td>
-                          </tr>
-                        )}
+
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12153522/demo.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
 
                         <tr class="hover:bg-gray-100">
                           <td
