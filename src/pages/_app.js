@@ -6,6 +6,7 @@ import "common/assets/css/globals.css";
 import "common/assets/css/iconmoon.css";
 import "../containers/CryptoModern/CountDown/timer.css";
 import "common/assets/css/icon-example-page.css";
+
 // swiper bundle styles
 import "swiper/css/bundle";
 import "common/assets/css/react-slick.css";

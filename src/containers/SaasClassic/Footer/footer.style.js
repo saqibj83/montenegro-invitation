@@ -60,12 +60,12 @@ a:hover {
   background: #DFA95A;
   padding: 0 30px;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 14px;
   color: #222;
   text-transform: uppercase;
   display: inline-block;
   transition: all .3s linear;
-  font-family: Cinzel;
+  font-family: "Montserrat", sans-serif;
   border-radius: 0;
   border: 1px solid #e3b55f;
 }

@@ -45,7 +45,7 @@ const ResetCSS = createGlobalStyle`
   div {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family:"Cinzel" !important;
+    font-family:"Montserrat", sans-serif !important;
   }
 
   body {
