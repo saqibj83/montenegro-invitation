@@ -16,7 +16,14 @@ import { twitch } from "react-icons-kit/icomoon/twitch";
 
 const CountDownSection = () => {
   return (
-    <SectionWrapper className="bg-event" id="watch_live">
+    <SectionWrapper
+      className="bg-event"
+      id="watch_live"
+      style={{
+        background:
+          "url(https://cdn.triton-series.com/wp-content/uploads/2019/12/12113534/bg-event.jpg)",
+      }}
+    >
       <Container>
         <ContentWrapper>
           {/* <Heading content="COUNTDOWN To Event " />

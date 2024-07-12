@@ -22,6 +22,9 @@ export const ContentWrapper = styled.div`
     flex-wrap: nowrap;
     align-items: center;
   }
+  .bg-event {
+    background: url(https://cdn.triton-series.com/wp-content/uploads/2019/12/12113534/bg-event.jpg) !important;
+  }
 
   h2 {
     color: ${themeGet("colors.white", "#fff")};
@@ -86,7 +89,7 @@ export const ContentWrapper = styled.div`
       }
       &:hover {
         box-shadow: none;
-        background-color: #eba800;
+        background-color: #dfa95a;
         top: 0;
       }
     }
@@ -99,7 +102,7 @@ export const ContentWrapper = styled.div`
       }
       &:hover {
         box-shadow: none;
-        background-color: #eba800;
+        background-color: #dfa95a;
         top: 0;
       }
     }
@@ -111,7 +114,7 @@ export const ContentWrapper = styled.div`
       }
       &:hover {
         box-shadow: none;
-        background-color: #eba800;
+        background-color: #dfa95a;
         top: 0;
       }
     }
@@ -133,7 +136,7 @@ export const ContentWrapper = styled.div`
         width: 110px;
         height: 100px;
         border-radius: 5px;
-        background-color: #eba800;
+        background-color: #dfa95a;
         @media (max-width: 480px) {
           width: 70px;
           height: 70px;

@@ -302,48 +302,38 @@ const CountDownSection = () => {
   return (
     <SectionWrapper className="bg-event" id="tournament_info">
       <Container>
-        <Heading content=" LINEUPS & RULES " />
+        <Heading content="RULES " />
         <Fade up>
-          <div className="flex flex-wrap -mx-1 lg:-mx-4">
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
-              <div className="bg-b py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
-                <div className="w-full text-center ">
-                  <NextImage src={Schedule} alt="Schedule" />
-                  <h1>LINEUPS</h1>
-                  <button
-                    className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
-                    onClick={handleVideoModal1}
-                  >
-                    VIEW LINEUPS
-                  </button>
-                  {/* <div className="prime-cta">
-                    <div className="primary-cta" style={{ marginTop: "5px" }}>
-                      VIEW SCHEDULE
-                    </div>
-                    <span class="tooltiptext">Coming Soon</span>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 ">
-              <div className="bg-b py-12 flex-1 flex items-center justify-center shadow-lg rounded-lg ">
-                <div className="w-full text-center ">
-                  <NextImage src={Rules} alt="Tournament Rules" />
-                  <h1>CASH GAME RULES</h1>
+          <div className="flex flex-wrap -mx-1 lg:-mx-4 mb-12">
+            <div className="bg-b py-12 flex-1 flex  shadow-lg rounded-lg ">
+              <div className="w-full px-5  ">
+                <NextImage src={Rules} alt="Tournament Rules" />
+                <h1>CASH GAME RULES</h1>
 
-                  <button
-                    className="shadow inline-flex items-center btn-bg  text-black  py-2 px-4 rounded-lg"
-                    onClick={handleVideoModal}
-                  >
-                    READ THE RULES
-                  </button>
-                  {/* <div className="prime-cta">
-                    <div className="primary-cta" style={{ marginTop: "5px" }}>
-                      READ THE RULES
-                    </div>
-                    <span class="tooltiptext">Coming Soon</span>
-                  </div> */}
-                </div>
+                <ul className="px-3 text-white">
+                  <li className="text-white">
+                    ⁠Seats will be assigned randomly before each session.
+                  </li>
+                  <li className="text-white">
+                    Televised table swaps may result in changes at the
+                    organization's discretion.
+                  </li>
+                  <li className="text-white">
+                    Minimum buy-ins for each table are predetermined, starting
+                    at 100BB, but players may buy in for any amount above this.
+                  </li>
+                  <li className="text-white">
+                    ⁠Straddles and unannounced side games are allowed if all
+                    participants agree, subject to organizational fairness
+                    oversight.
+                  </li>
+                  <li className="text-white">
+                    Players with a "Hot Seat" will draw for new seats during
+                    announced "Hot Seat Swaps." Any player, including reserves,
+                    can draw any hot seat, but a reserve hot seat cannot draw a
+                    reserve seat twice consecutively.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

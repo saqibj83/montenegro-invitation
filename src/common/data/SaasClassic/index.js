@@ -8,11 +8,6 @@ export const MENU_ITEMS = [
     path: "#banner_section",
     offset: "0",
   },
-  {
-    label: "LIVESTREAM SCHEDULE",
-    path: "#general_section",
-    offset: "0",
-  },
 
   {
     label: "PARTICIPANTS",
@@ -20,18 +15,18 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: " LINEUPS & RULES",
+    label: "LIVESTREAM SCHEDULE",
+    path: "#general_section",
+    offset: "0",
+  },
+  {
+    label: "  RULES",
     path: "#tournament_info",
     offset: "0",
   },
   {
     label: "WATCH LIVE",
     path: "#watch_live",
-    offset: "0",
-  },
-  {
-    label: "FAQ",
-    path: "#venue",
     offset: "0",
   },
 ];

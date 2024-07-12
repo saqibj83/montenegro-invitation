@@ -71,13 +71,11 @@ const SaasClassic = () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
-
-          <ServiceSection />
           <Testimonials />
+          <ServiceSection />
 
           <CountDown />
           <CountDown1 />
-          <UpdateScreen />
           <Footer />
         </ContentWrapper>
       </Fragment>
