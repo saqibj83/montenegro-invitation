@@ -87,7 +87,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
                             <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12153522/demo.png"
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
                               alt=""
                               className="inline"
                             />
@@ -120,6 +120,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             $200K Min
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
@@ -177,6 +186,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -203,6 +221,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             $200K Min
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
@@ -260,6 +287,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -286,6 +322,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             $200K Min
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
@@ -343,6 +388,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $200K Min
                           </td>
                         </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -369,6 +423,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             $200K Min
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
@@ -426,6 +489,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             300K Min
                           </td>
                         </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -452,6 +524,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
                             300K Min
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
@@ -509,6 +590,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             $500K Min
                           </td>
                         </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -535,6 +625,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             $500K Min
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
@@ -592,6 +691,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             To Be Determined
                           </td>
                         </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
+                          </td>
+                        </tr>
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -618,6 +726,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             To Be Determined
+                          </td>
+                        </tr>
+                        <tr className="text-center bg-black">
+                          <td colspan="4" className="text-center">
+                            <img
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              alt=""
+                              className="inline"
+                            />
                           </td>
                         </tr>
                       </tbody>
