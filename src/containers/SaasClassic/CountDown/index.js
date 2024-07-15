@@ -49,6 +49,38 @@ const CountDownSection = () => {
               </button>
             </a>
           </Link>
+          <Link href="https://facebook.com/tritonpoker" legacyBehavior>
+            <a target="_blank">
+              <button class="btn btn-facebook">
+                <Icon size={30} icon={facebook} />
+                <span>Twitch</span>
+              </button>
+            </a>
+          </Link>
+          <Link href="https://kick.com/tritonpoker" legacyBehavior>
+            <a target="_blank">
+              <button class="btn btn-kick">
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15153854/Kick_logo.svg"
+                  alt=""
+                  width="60px"
+                  className="inline"
+                />
+              </button>
+            </a>
+          </Link>
+          <Link href="https://pluto.tv/" legacyBehavior>
+            <a target="_blank">
+              <button class="btn btn-pluto">
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15155415/Pluto-TV1.svg"
+                  alt=""
+                  width="100px"
+                  className="inline"
+                />
+              </button>
+            </a>
+          </Link>
         </ContentWrapper>
       </Container>
     </SectionWrapper>

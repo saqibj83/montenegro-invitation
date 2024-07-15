@@ -118,6 +118,32 @@ export const ContentWrapper = styled.div`
         top: 0;
       }
     }
+
+    &.btn-kick {
+      background-color: #000;
+      color: #fff;
+      border: 1px solid;
+      &:active {
+        background-color: #8224e3;
+      }
+      &:hover {
+        box-shadow: none;
+        background-color: #dfa95a;
+        top: 0;
+      }
+    }
+    &.btn-pluto {
+      background-color: #fff200;
+      color: #fff;
+      &:active {
+        background-color: #8224e3;
+      }
+      &:hover {
+        box-shadow: none;
+        background-color: #dfa95a;
+        top: 0;
+      }
+    }
   }
 
   .timerCount {
