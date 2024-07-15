@@ -306,9 +306,17 @@ const CountDownSection = () => {
         <Fade up>
           <div className="flex flex-wrap -mx-1 lg:-mx-4 mb-12">
             <div className="bg-b py-12 flex-1 flex  shadow-lg rounded-lg ">
-              <div className="w-full px-5  ">
-                <NextImage src={Rules} alt="Tournament Rules" />
-                <h1>CASH GAME RULES</h1>
+              <div className="w-full px-5  xs:text-center  ">
+                <h1>
+                  {" "}
+                  <NextImage
+                    className="inline"
+                    src={Rules}
+                    alt="Tournament Rules"
+                  />{" "}
+                  <br />
+                  CASH GAME RULES
+                </h1>
 
                 <ul className="px-3 text-white">
                   <li className="text-white">

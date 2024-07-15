@@ -6,6 +6,7 @@ import styled from "styled-components";
 const Section = styled.section`
   padding-top: 100px;
   background: #000;
+  padding: 0 30px;
   .pd-6 {
     height: 275px !important;
     display: flex;

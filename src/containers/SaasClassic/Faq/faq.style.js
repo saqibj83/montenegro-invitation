@@ -4,10 +4,7 @@ export const FaqWrapper = styled.section`
   position: relative;
   padding-top: 0;
   padding-bottom: 0;
-  @media (max-width: 767px) {
-    padding-top: 70px;
-    padding-bottom: 80px;
-  }
+  padding-top: 30px;
 
   .container {
     max-width: 730px;
@@ -113,6 +110,27 @@ export const FaqWrapper = styled.section`
   .accordion__item:last-child {
     border-bottom: 1px solid #5f5d5d;
   }
+  @media (max-width: 767px) {
+    padding-bottom: 0px;
+    .accordion_title {
+      padding: 0px 15px;
+      h2 {
+        font-size: 14px !important;
+        font-weight: normal !important;
+      }
+    }
+    .accordion_body p {
+      line-height: 1.2 !important;
+      font-size: 12px !important;
+    }
+  }
+  td {
+    font-size: 13px;
+  }
+  th {
+    font-size: 12px;
+  }
+
   .accordion_body {
     padding: 10px;
     background: #fff;

@@ -2,13 +2,16 @@ import styled from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 
 const SectionWrapper = styled.div`
-  padding: 100px 0 0;
+  padding:60px 0 0;
   overflow: hidden;
   @media only screen and (max-width: 550px) {
     padding: 60px 0 0;
     .video-modal {
       max-width: 360px !important;
     }
+      h1 {
+      text-align:center
+      }
    
   }
   .prime-cta {

@@ -27,7 +27,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   return (
     <SectionWrapper id="general_section">
       <Container className="mt-12">
-        <h2 className=" text-center mt-5 mb-12">Livestream Schedule</h2>
+        <h2 className=" text-center mt-5 ">Livestream Schedule</h2>
         <div className="container m-auto grid grid-cols-1">
           <div>
             <FaqWrapper id="faq_section">
@@ -51,19 +51,19 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
-                    <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
+                    <table className="border-collapse table-auto w-full sm:text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -91,7 +91,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -135,7 +135,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -169,16 +169,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -205,7 +205,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -248,7 +248,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -282,16 +282,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -318,7 +318,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -361,7 +361,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -395,16 +395,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -431,7 +431,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -474,7 +474,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -508,16 +508,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -544,7 +544,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -587,7 +587,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -621,16 +621,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -657,7 +657,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -700,7 +700,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -734,16 +734,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
-                          <th className="border-b  text-center text-lg p-1 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
                             Local Time
                           </th>
-                          <th className="border-b text-center  text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Blind Level
                           </th>
-                          <th className="border-b  text-center text-lg p-1 sm:p-4 font-medium text-white text-left">
+                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Buy-in
                           </th>
                         </tr>
@@ -770,7 +770,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their
@@ -813,7 +813,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
-                            <p className="text-xs italic text-slate-300">
+                            <p className="text-xs italic text-slate-300 leading-3">
                               All information displayed is subject to change
                               without notice. The Triton Poker Series reserves
                               the right to modify any details at their

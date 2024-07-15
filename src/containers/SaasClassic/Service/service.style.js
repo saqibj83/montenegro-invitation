@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionWrapper = styled.section`
-  padding: 50px 0 20px 0;
+  padding: 10px 0 0 0;
   background: #000;
   h2 {
     color: #fff;
