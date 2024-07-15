@@ -329,7 +329,7 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image6}
                     alt="Rui Cao   "
                   />
                 </div>
@@ -371,7 +371,7 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image7}
                     alt="ST Wang  "
                   />
                 </div>
@@ -392,7 +392,7 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image8}
                     alt="Andy Ni "
                   />
                 </div>
@@ -434,11 +434,31 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image10}
                     alt="Joe Zou"
                   />
                 </div>
                 <h4 className="main_card__name">Joe Zou</h4>
+              </div>
+            </div>
+          </div>
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">VIP</div>
+              <div className="cell small gold-card-header">
+                <img
+                  className="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/cn.svg"
+                  alt="player"
+                />
+                <div className="main_card__image ">
+                  <NextImage
+                    className="cyprus-img"
+                    src={image11}
+                    alt="Aaron Zang "
+                  />
+                </div>
+                <h4 className="main_card__name">Aaron Zang </h4>
               </div>
             </div>
           </div>
@@ -501,7 +521,7 @@ const Testimonials = () => {
                 <div className="main_card__image ">
                   <NextImage
                     className="cyprus-img"
-                    src={imageDef}
+                    src={image12}
                     alt="Daniel Cates"
                   />
                 </div>
@@ -572,7 +592,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-
+          {/* 
           <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">PRO PLAYER</div>
@@ -592,7 +612,7 @@ const Testimonials = () => {
                 <h4 className="main_card__name">CHRIS BREWER </h4>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="main_card cell auto">
             <div className="grid-x">

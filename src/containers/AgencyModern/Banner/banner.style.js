@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { rgba } from 'polished';
-import { themeGet } from '@styled-system/theme-get';
+import styled from "styled-components";
+import { rgba } from "polished";
+import { themeGet } from "@styled-system/theme-get";
 
-import bannerBg from 'common/assets/image/agencyModern/banner2.png';
+import bannerBg from "common/assets/image/agencyModern/banner2.png";
 
 const BannerWrapper = styled.div`
   background-image: url(${bannerBg?.src});
@@ -52,7 +52,7 @@ export const BannerContent = styled.div`
     font-size: 54px;
     line-height: 1.6;
     font-weight: 700;
-    color: ${themeGet('colors.menu', '#02073e')};
+    color: ${themeGet("colors.menu", "#02073e")};
     margin-bottom: 24px;
     letter-spacing: -2px;
     @media only screen and (max-width: 1600px) {
@@ -85,7 +85,7 @@ export const BannerContent = styled.div`
     }
   }
   .banner-caption {
-    color: ${themeGet('colors.paragraph', '#02073E')};
+    color: ${themeGet("colors.paragraph", "#02073E")};
     font-size: 18px;
     line-height: 2.2;
     font-weight: 400;
@@ -99,13 +99,13 @@ export const BannerContent = styled.div`
       text-align: center;
       max-width: 550px;
       margin: 0 auto;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
     @media only screen and (max-width: 768px) {
       text-align: center;
       max-width: 550px;
       margin: 0 auto;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
     @media only screen and (max-width: 480px) {
       margin-bottom: 33px;
@@ -151,7 +151,7 @@ export const Subscribe = styled.div`
       min-height: 60px;
       padding: 0 24px;
       ::placeholder {
-        color: ${rgba('#02073E', 0.4)};
+        color: ${rgba("#02073E", 0.4)};
         opacity: 1; /* Firefox */
       }
       &:focus {
@@ -189,7 +189,7 @@ export const SponsoredBy = styled.div`
   }
 
   .sponsoredBy {
-    color: ${rgba('#566272', 0.6)};
+    color: ${rgba("#566272", 0.6)};
     font-size: 16px;
     margin-right: 21px;
     margin-bottom: 0;
