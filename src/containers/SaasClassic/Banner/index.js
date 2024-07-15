@@ -9,7 +9,7 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
 import Coin from "common/assets/image/saasClassic/logo3.png";
-import placeholder from "common/assets/image/saasClassic/video.jpg";
+import placeholder from "common/assets/image/saasClassic/banner-image.png";
 import nTitle from "common/assets/image/saasClassic/title.png";
 import { play } from "react-icons-kit/entypo/play";
 import { padding } from "styled-system";
@@ -59,7 +59,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
     <BannerWrapper id="banner_section">
       <Container>
         <Box {...row}>
-          <Box {...imageWrapper} style={{ width: "100%", textAlign: "center" }}>
+          {/* <Box {...imageWrapper} style={{ width: "100%", textAlign: "center" }}>
             <Fade bottom>
               <NextImage
                 className="cyprus-img"
@@ -68,8 +68,8 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 style={{ width: "200px", padding: "15px 0" }}
               />
             </Fade>
-          </Box>
-          <Box>
+          </Box> */}
+          <Box className="mt-10">
             <NextImage
               className="cyprus-img"
               src={placeholder}
