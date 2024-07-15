@@ -16,8 +16,6 @@ const SectionWrapper = styled.section`
     color: #DFA95A !important;
   }
   p {
-    color: #fff;
-    font-size: 18px;
     text-transform: none;
     margin: 0 0 30px;
   }

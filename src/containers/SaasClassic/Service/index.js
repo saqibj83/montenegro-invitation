@@ -87,10 +87,16 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
                             <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/12180241/basic-table.png"
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15144515/table1.png"
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
 
@@ -129,6 +135,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -193,6 +205,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
@@ -230,6 +248,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -294,6 +318,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
@@ -331,6 +361,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -395,6 +431,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
@@ -432,6 +474,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -496,6 +544,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
@@ -533,6 +587,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -597,6 +657,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
@@ -634,6 +700,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -698,6 +770,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
@@ -735,6 +813,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt=""
                               className="inline"
                             />
+                            <p className="text-xs italic text-slate-300">
+                              All information displayed is subject to change
+                              without notice. The Triton Poker Series reserves
+                              the right to modify any details at their
+                              discretion.
+                            </p>
                           </td>
                         </tr>
                       </tbody>

@@ -117,9 +117,7 @@ export const FaqWrapper = styled.section`
     padding: 10px;
     background: #fff;
     p {
-      font-style: normal;
       font-weight: normal;
-      font-size: 15px;
       line-height: 2;
       color: #fff;
     }
