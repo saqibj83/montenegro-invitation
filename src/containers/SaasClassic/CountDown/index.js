@@ -53,7 +53,7 @@ const CountDownSection = () => {
             <a target="_blank">
               <button class="btn btn-facebook">
                 <Icon size={30} icon={facebook} />
-                <span>Twitch</span>
+                <span>Facebook</span>
               </button>
             </a>
           </Link>
