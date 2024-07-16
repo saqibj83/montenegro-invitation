@@ -164,10 +164,10 @@ export const ReactSlick = styled(Slider)`
   }
   @media only screen and (max-width: 667px) {
     .main_card {
-      min-width: 190px;
+      min-width: 175px;
     }
     .main_card__image {
-      height: 150px;
+      height: 140px;
     }
   }
   .slick-dots {
