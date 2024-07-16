@@ -198,8 +198,9 @@ const settings = {
     {
       breakpoint: 650,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
+        arrows: false,
       },
     },
   ],
@@ -462,11 +463,6 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-        </ReactSlick>
-      </Container>
-
-      <Container width="1300px" className="mt-8">
-        <ReactSlick {...settings}>
           <div className="main_card cell auto">
             <div className="grid-x">
               <div className=" cell small main_card__invites">PRO PLAYER</div>
@@ -592,27 +588,6 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          {/* 
-          <div className="main_card cell auto">
-            <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PLAYER</div>
-              <div className="cell small gold-card-header">
-                <img
-                  className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
-                  alt="player"
-                />
-                <div className="main_card__image ">
-                  <NextImage
-                    className="cyprus-img"
-                    src={image50}
-                    alt=" CHRIS BREWER  "
-                  />
-                </div>
-                <h4 className="main_card__name">CHRIS BREWER </h4>
-              </div>
-            </div>
-          </div> */}
 
           <div className="main_card cell auto">
             <div className="grid-x">
@@ -636,6 +611,8 @@ const Testimonials = () => {
           </div>
         </ReactSlick>
       </Container>
+
+      <Container width="1300px" className="mt-8"></Container>
     </Section>
   );
 };

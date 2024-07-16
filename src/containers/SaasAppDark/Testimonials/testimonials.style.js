@@ -5,8 +5,9 @@ import styled from "styled-components";
 
 const Section = styled.section`
   padding-top: 100px;
+  padding-bottom: 10px;
+
   background: #000;
-  padding: 0 30px;
   .pd-6 {
     height: 275px !important;
     display: flex;
@@ -15,21 +16,6 @@ const Section = styled.section`
     justify-content: center;
   }
 
-  @media only screen and (max-width: 1536px) {
-    padding-top: 100px;
-  }
-  @media only screen and (max-width: 1440px) {
-    padding-top: 100px;
-  }
-  @media only screen and (max-width: 1366px) {
-    padding-top: 100px;
-  }
-  @media only screen and (max-width: 1280px) {
-    padding-top: 100px;
-  }
-  @media only screen and (max-width: 820px) {
-    padding-top: 80px;
-  }
   @media only screen and (max-width: 667px) {
     padding-top: 60px;
   }
@@ -87,6 +73,7 @@ export const ReactSlick = styled(Slider)`
     opacity: 1;
     float: left;
   }
+
   .grid-x {
     display: -webkit-box;
     display: -webkit-flex;
@@ -145,6 +132,7 @@ export const ReactSlick = styled(Slider)`
     margin-top: 10px;
   }
   .main_card__invites {
+    display: none;
     background-image: linear-gradient(
       90deg,
       rgba(180, 128, 44, 1) 0%,
@@ -174,7 +162,14 @@ export const ReactSlick = styled(Slider)`
       color: #fff;
     }
   }
-
+  @media only screen and (max-width: 667px) {
+    .main_card {
+      min-width: 190px;
+    }
+    .main_card__image {
+      height: 150px;
+    }
+  }
   .slick-dots {
     display: flex !important;
     justify-content: center;
