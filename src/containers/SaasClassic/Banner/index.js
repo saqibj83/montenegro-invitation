@@ -104,7 +104,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 fontWeight: "bold",
               }}
             >
-              Cash Game Invitational 1
+              CASH GAME INVITATIONAL I
             </p>
             <p
               style={{
