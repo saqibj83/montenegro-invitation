@@ -387,17 +387,13 @@ const Testimonials = () => {
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/ru.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/us.svg"
                   alt="player"
                 />
                 <div className="main_card__image ">
-                  <NextImage
-                    className="cyprus-img"
-                    src={image1}
-                    alt="Mikhail Petrov "
-                  />
+                  <NextImage className="cyprus-img" src={image1} alt="Handz " />
                 </div>
-                <h4 className="main_card__name">Mikhail Petrov </h4>
+                <h4 className="main_card__name">Handz </h4>
               </div>
             </div>
           </div>
@@ -543,27 +539,6 @@ const Testimonials = () => {
                   />
                 </div>
                 <h4 className="main_card__name">Linus Loeliger </h4>
-              </div>
-            </div>
-          </div>
-
-          <div className="main_card cell auto">
-            <div className="grid-x">
-              <div className=" cell small main_card__invites">PRO PLAYER</div>
-              <div className="cell small gold-card-header">
-                <img
-                  className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/pl.svg"
-                  alt="player"
-                />
-                <div className="main_card__image ">
-                  <NextImage
-                    className="cyprus-img"
-                    src={image5}
-                    alt="Wiktor Malinowski"
-                  />
-                </div>
-                <h4 className="main_card__name">Wiktor Malinowski</h4>
               </div>
             </div>
           </div>
