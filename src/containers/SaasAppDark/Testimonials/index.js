@@ -395,10 +395,10 @@ const Testimonials = () => {
                   <NextImage
                     className="cyprus-img"
                     src={image7}
-                    alt="EST Wang  "
+                    alt="Esti Wang  "
                   />
                 </div>
-                <h4 className="main_card__name">EST Wang </h4>
+                <h4 className="main_card__name">Esti Wang </h4>
               </div>
             </div>
           </div>
