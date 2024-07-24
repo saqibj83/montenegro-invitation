@@ -452,12 +452,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
                           </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-3K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            300K Min
-                          </td>
                         </tr>
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
@@ -494,12 +488,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-3K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            300K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -559,12 +547,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
                           </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-5K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $500K Min
-                          </td>
                         </tr>
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
@@ -601,12 +583,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-5K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $500K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -666,12 +642,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
                           </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            To Be Determined
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            To Be Determined
-                          </td>
                         </tr>
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
@@ -708,12 +678,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            To Be Determined
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            To Be Determined
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
