@@ -60,12 +60,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
-                          </th>
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
@@ -75,12 +69,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
 
@@ -120,12 +108,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -175,12 +157,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
-                          </th>
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
@@ -190,12 +166,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -233,12 +203,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -288,12 +252,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
-                          </th>
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
@@ -303,12 +261,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -346,12 +298,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -401,12 +347,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
-                          </th>
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
@@ -416,12 +356,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -459,12 +393,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 2
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  pr-8 text-slate-500 ">
-                            1K-2K-2K
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            $200K Min
                           </td>
                         </tr>
                         <tr className="text-center bg-black">
@@ -513,12 +441,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </th>
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
                           </th>
                         </tr>
                       </thead>
@@ -627,12 +549,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
                           </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
-                          </th>
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
@@ -739,12 +655,6 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                           </th>
                           <th className="border-b text-center  sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
                             Featured Table
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Blind Level
-                          </th>
-                          <th className="border-b  text-center sm:text-sm p-1 sm:p-4 font-medium text-white text-left">
-                            Buy-in
                           </th>
                         </tr>
                       </thead>
