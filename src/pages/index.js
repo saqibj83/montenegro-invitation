@@ -37,7 +37,7 @@ const SaasClassic = () => {
           <title>Triton Poker Series | Cash Game Invitational 2024</title>
           <meta
             name="description"
-            content="The event's unique format, which was inspired by the record breaking 2019 Triton Million in London, pairs professional players with recreational players, with a buy-in of $200,000 for each..
+            content="Experience the pinnacle of high-stakes poker at Triton Poker Series Invitational I, where the world's top poker strategists converge to showcase their intellectual brilliance and strategic expertise. This exclusive event, set in the luxurious Maestral Hotel & Casino, highlights the sophisticated thinking and meticulous planning that defines the game. Enjoy real-time expert analysis, interactive live streaming, and exclusive masterclass sessions. Join us for an unparalleled celebration of poker excellence, where the finest minds compete, strategise, and triumph.
 "
           />
           <meta name="keywords" content="coin rivet, Triton Poker, Poker" />
