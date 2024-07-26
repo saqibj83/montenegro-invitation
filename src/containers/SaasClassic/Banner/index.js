@@ -117,14 +117,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               }}
             >
               Experience the pinnacle of high-stakes poker at Triton Poker
-              Series Invitational I, where the world's top poker strategists
-              converge to showcase their intellectual brilliance and strategic
-              expertise. This exclusive event, set in the luxurious Maestral
-              Hotel & Casino, highlights the sophisticated thinking and
-              meticulous planning that defines the game. Enjoy real-time expert
-              analysis, interactive live streaming, and exclusive masterclass
-              sessions. Join us for an unparalleled celebration of poker
-              excellence, where the finest minds compete, strategise, and
+              Series Cash Game Invitational I, where the world's top poker
+              strategists converge to showcase their intellectual brilliance and
+              strategic expertise. This exclusive event, set in the luxurious
+              Maestral Resort & Casino, highlights the sophisticated thinking
+              and meticulous planning that defines the game. Enjoy real-time
+              expert analysis, interactive live streaming, and exclusive
+              masterclass sessions. Join us for an unparalleled celebration of
+              poker excellence, where the finest minds compete, strategise, and
               triumph. Don't miss this invitation-only event on our YouTube &
               Twitch channels—mark your calendars now!
             </p>
