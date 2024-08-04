@@ -510,7 +510,7 @@ const Testimonials = () => {
               <div className="cell small gold-card-header">
                 <img
                   className="flag-PlayerPhoto"
-                  src="https://prod-assets.tritonpoker.plus/flags/1x1/ru.svg"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/cy.svg"
                   alt="player"
                 />
                 <div className="main_card__image ">
