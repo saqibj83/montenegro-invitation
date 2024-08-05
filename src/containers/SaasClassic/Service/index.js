@@ -125,7 +125,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                     </>
                   </AccordionTitle>
                   <AccordionBody className="accordion_body">
-                    <table className="border-collapse table-auto w-full text-sm bg-black border mt-0  shadow">
+                    <table className="border-collapse table-auto w-full sm:text-sm bg-black border mt-0  shadow">
                       <thead>
                         <tr>
                           <th className="border-b  text-center sm:text-sm p-1 font-medium text-white text-left">
@@ -137,18 +137,19 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-white ">
-                        <tr class="hover:bg-gray-100">
+                        <tr class="hover:bg-gray-100 poiter">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
+                            6PM - 3AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
                           </td>
                         </tr>
+
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
                             <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/05214954/table-1-day-2.png"
                               alt=""
                               className="inline"
                             />
@@ -160,6 +161,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             </p>
                           </td>
                         </tr>
+
                         <tr class="hover:bg-gray-100">
                           <td
                             colspan="4"
@@ -171,30 +173,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            TV Table Change & Hot Seat Redraw
-                          </td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                        </tr>
-                        <tr className="text-center bg-black">
-                          <td colspan="4" className="text-center">
-                            <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
-                              alt=""
-                              className="inline"
-                            />
-                            <p className="text-xs italic text-slate-300 leading-3">
-                              All information displayed is subject to change
-                              without notice. The Triton Poker Series reserves
-                              the right to modify any details at their
-                              discretion.
-                            </p>
+                            <span></span>
                           </td>
                         </tr>
                       </tbody>
