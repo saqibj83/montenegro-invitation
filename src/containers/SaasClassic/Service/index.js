@@ -173,7 +173,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span></span>
+                            <span>PAUL PHUA > ROB YONG</span>
                           </td>
                         </tr>
                       </tbody>
