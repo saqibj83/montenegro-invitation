@@ -179,7 +179,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             <br />
                             <span>JOE ZOU > ELIZABETH CHEN</span>
                             <br />
-                            <span>TONY G, MIKHAIL PETROV > HANDZ</span>
+                            <span>TONY G > PAUL PHUA</span>
+                            <br />
+                            <span>MIKHAIL PETROV > HANDZ</span>
                           </td>
                         </tr>
                       </tbody>
@@ -219,7 +221,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <tbody className="bg-white ">
                         <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
+                            6PM - 3AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
@@ -251,30 +253,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            TV Table Change & Hot Seat Redraw
-                          </td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                        </tr>
-                        <tr className="text-center bg-black">
-                          <td colspan="4" className="text-center">
-                            <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
-                              alt=""
-                              className="inline"
-                            />
-                            <p className="text-xs italic text-slate-300 leading-3">
-                              All information displayed is subject to change
-                              without notice. The Triton Poker Series reserves
-                              the right to modify any details at their
-                              discretion.
-                            </p>
+                            <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
                       </tbody>
@@ -314,7 +293,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <tbody className="bg-white ">
                         <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
+                            6PM - 3AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
@@ -346,30 +325,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            TV Table Change & Hot Seat Redraw
-                          </td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                        </tr>
-                        <tr className="text-center bg-black">
-                          <td colspan="4" className="text-center">
-                            <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
-                              alt=""
-                              className="inline"
-                            />
-                            <p className="text-xs italic text-slate-300 leading-3">
-                              All information displayed is subject to change
-                              without notice. The Triton Poker Series reserves
-                              the right to modify any details at their
-                              discretion.
-                            </p>
+                            <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
                       </tbody>
@@ -409,7 +365,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <tbody className="bg-white ">
                         <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
+                            6PM - 3AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
@@ -441,30 +397,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            TV Table Change & Hot Seat Redraw
-                          </td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                        </tr>
-                        <tr className="text-center bg-black">
-                          <td colspan="4" className="text-center">
-                            <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
-                              alt=""
-                              className="inline"
-                            />
-                            <p className="text-xs italic text-slate-300 leading-3">
-                              All information displayed is subject to change
-                              without notice. The Triton Poker Series reserves
-                              the right to modify any details at their
-                              discretion.
-                            </p>
+                            <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
                       </tbody>
@@ -504,7 +437,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <tbody className="bg-white ">
                         <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
+                            6PM - 3AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
@@ -536,30 +469,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            TV Table Change & Hot Seat Redraw
-                          </td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                        </tr>
-                        <tr className="text-center bg-black">
-                          <td colspan="4" className="text-center">
-                            <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
-                              alt=""
-                              className="inline"
-                            />
-                            <p className="text-xs italic text-slate-300 leading-3">
-                              All information displayed is subject to change
-                              without notice. The Triton Poker Series reserves
-                              the right to modify any details at their
-                              discretion.
-                            </p>
+                            <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
                       </tbody>
@@ -599,7 +509,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                       <tbody className="bg-white ">
                         <tr class="hover:bg-gray-100">
                           <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            4PM - 8:30PM
+                            6PM - 3AM
                           </td>
                           <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
                             Table 1
@@ -631,30 +541,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            TV Table Change & Hot Seat Redraw
-                          </td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                          <td className="border text-center p-1 sm:p-4  text-slate-500 ">
-                            8:30PM - 1AM
-                          </td>
-                          <td className="border text-center  p-1 sm:p-4  text-slate-500 ">
-                            Table 2
-                          </td>
-                        </tr>
-                        <tr className="text-center bg-black">
-                          <td colspan="4" className="text-center">
-                            <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
-                              alt=""
-                              className="inline"
-                            />
-                            <p className="text-xs italic text-slate-300 leading-3">
-                              All information displayed is subject to change
-                              without notice. The Triton Poker Series reserves
-                              the right to modify any details at their
-                              discretion.
-                            </p>
+                            <span>TV Table Change & Hot Seat Redraw</span>
                           </td>
                         </tr>
                       </tbody>
