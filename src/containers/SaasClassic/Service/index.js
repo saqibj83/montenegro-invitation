@@ -178,6 +178,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                             <span>PHIL IVEY > DANIEL CATES</span>
                             <br />
                             <span>JOE ZOU > ELIZABETH CHEN</span>
+                            <br />
+                            <span>TONY G, MIKHAIL PETROV > HANDZ</span>
                           </td>
                         </tr>
                       </tbody>
