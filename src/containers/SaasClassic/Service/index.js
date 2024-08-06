@@ -230,7 +230,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
                             <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/06230323/table-1-day-3.png"
                               alt=""
                               className="inline"
                             />
@@ -253,7 +253,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span>TV Table Change & Hot Seat Redraw</span>
+                            <span></span>
                           </td>
                         </tr>
                       </tbody>
