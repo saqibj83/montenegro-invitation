@@ -587,6 +587,48 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
+
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">VIP</div>
+              <div className="cell small gold-card-header">
+                <img
+                  className="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/cn.svg"
+                  alt="player"
+                />
+                <div className="main_card__image ">
+                  <NextImage
+                    className="cyprus-img"
+                    src={image13}
+                    alt="Elizabeth Chen"
+                  />
+                </div>
+                <h4 className="main_card__name">Elizabeth Chen</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="main_card cell auto">
+            <div className="grid-x">
+              <div className=" cell small main_card__invites">VIP</div>
+              <div className="cell small gold-card-header">
+                <img
+                  className="flag-PlayerPhoto"
+                  src="https://prod-assets.tritonpoker.plus/flags/1x1/id.svg"
+                  alt="player"
+                />
+                <div className="main_card__image ">
+                  <NextImage
+                    className="cyprus-img"
+                    src={image15}
+                    alt="Ferdinand Putra"
+                  />
+                </div>
+                <h4 className="main_card__name">Ferdinand Putra</h4>
+              </div>
+            </div>
+          </div>
         </ReactSlick>
       </Container>
 
