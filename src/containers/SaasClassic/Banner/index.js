@@ -79,7 +79,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
 
             <iframe
               className="ifram-wd"
-              src="https://www.youtube.com/embed/HJxTVoJFJ8I"
+              src="https://www.youtube.com/embed/XLVJ9bnHgIA"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; controls; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
