@@ -327,7 +327,13 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span></span>
+                            <span>TONY G > ELIZABETH CHEN</span>
+                            <br />
+                            <span>ADRIAN MATEOS > PHIL IVEY, HANDZ</span>
+                            <br />
+                            <span>PAUL PHUA > FERDINAND PUTRA</span>
+                            <br />
+                            <span>ST WANG > TONY G</span>
                           </td>
                         </tr>
                       </tbody>
