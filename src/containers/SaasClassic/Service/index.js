@@ -405,7 +405,8 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span></span>
+                            <span>PATRIK ANTONIUS > BRIAN KIM</span> <br />
+                            <span>HANDZ > ELIZABETH CHEN</span>
                           </td>
                         </tr>
                       </tbody>
