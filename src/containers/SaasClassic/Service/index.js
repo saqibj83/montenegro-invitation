@@ -479,7 +479,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span></span>
+                            <span>PHIL IVEY > PATRIK ANTONIUS</span>
+                            <br />
+                            <span>DANIEL CATES > ADRIAN MATEOS</span>
+                            <br />
+                            <span>ST WANG > FERDINAND PUTRA</span>
                           </td>
                         </tr>
                       </tbody>
