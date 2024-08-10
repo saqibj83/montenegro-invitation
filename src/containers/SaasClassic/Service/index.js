@@ -532,7 +532,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                         <tr className="text-center bg-black">
                           <td colspan="4" className="text-center">
                             <img
-                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/15151511/new-team.png"
+                              src="https://cdn.triton-series.com/wp-content/uploads/2019/12/10231706/table-1-day-7.png"
                               alt=""
                               className="inline"
                             />
