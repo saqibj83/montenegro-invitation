@@ -555,7 +555,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span>TV Table Change & Hot Seat Redraw</span>
+                            <span></span>
                           </td>
                         </tr>
                       </tbody>
