@@ -555,7 +555,11 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                               alt="Next Arrow"
                             />{" "}
                             <br />
-                            <span></span>
+                            <span>PATRIK ANTONIUS > ADRIAN MATEOS</span>
+                            <br />
+                            <span>DANNY TANK > BRIAN KIM</span>
+                            <br />
+                            <span>PAUL PHUA > TONY G</span>
                           </td>
                         </tr>
                       </tbody>
